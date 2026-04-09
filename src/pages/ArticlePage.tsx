@@ -3,6 +3,7 @@ import { useParams, Link, useNavigate } from "react-router-dom";
 import { ChevronLeft, Calendar, Share2, Check, Clock } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import { sampleArticles } from "@/data/sampleNews";
+import eventManagementThumbnail from "@/assets/event-management-delhi-thumbnail.png";
 
 const categoryBadgeColors: Record<string, string> = {
   religion: "bg-green-100 text-green-800",
@@ -129,6 +130,7 @@ export default function ArticlePage() {
         <meta property="og:description" content={article.description} />
         <meta property="og:type" content="article" />
         <meta property="og:url" content={`https://indianewsai.com/article/${article.url}`} />
+        {isEventArticle && <meta property="og:image" content="https://indianewsai.com/og-event-management-delhi.png" />}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={article.title} />
         <meta name="twitter:description" content={article.description} />
@@ -167,6 +169,14 @@ export default function ArticlePage() {
             >
               {article.category}
             </span>
+            {isEventArticle && (
+              <img
+                src={eventManagementThumbnail}
+                alt="Your ultimate guide for top event management companies in Delhi 2026 — IndiaNewsAi"
+                className="w-full rounded-sm mb-6 border border-paper-dark"
+                loading="eager"
+              />
+            )}
             <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-black leading-tight text-ink mb-6">
               {article.title}
             </h1>
