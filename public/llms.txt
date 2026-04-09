@@ -1,0 +1,29 @@
+# India News AI
+
+## About
+India News AI is India's first AI-powered live news platform. We provide verified, real-time breaking news covering Delhi NCR, Politics, Religion, Culture, and Weather.
+
+## URL
+https://indianewsai.com
+
+## Categories
+- Breaking News
+- Delhi NCR
+- Religion & Spirituality
+- Politics
+- Culture
+- Weather
+- Health
+
+## Coverage Area
+Primary: Delhi NCR (Delhi, Noida, Gurugram, Faridabad, Ghaziabad)
+Secondary: Pan-India
+
+## Content Type
+Automated AI-curated and verified news articles with editorial oversight.
+
+## Contact
+Website: https://indianewsai.com
+
+## Sitemap
+https://indianewsai.com/sitemap.xml

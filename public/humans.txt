@@ -1,0 +1,15 @@
+/* TEAM */
+Site: India News AI
+URL: https://indianewsai.com
+Location: Delhi NCR, India
+
+/* TECHNOLOGY */
+Platform: React, TypeScript, Vite, Tailwind CSS
+AI: Automated news curation and verification
+Hosting: Lovable Cloud
+
+/* SITE */
+Last update: 2026-04-09
+Language: English
+Standards: HTML5, CSS3, ES6+
+Components: Semantic HTML, JSON-LD, Open Graph, ARIA
