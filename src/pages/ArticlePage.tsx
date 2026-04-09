@@ -202,6 +202,27 @@ export default function ArticlePage() {
               </div>
             )}
           </div>
+
+          {isEventArticle && (
+            <div className="mt-10 rounded-sm overflow-hidden bg-ink p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-4">
+              <div>
+                <h3 className="font-display text-lg font-bold text-primary-foreground mb-1">
+                  The Kabir Company — Delhi's #1 for Celebrity Bookings
+                </h3>
+                <p className="text-rule text-sm">
+                  20+ years of experience · Corporate Events · Celebrity Booking · Luxury Weddings · Concerts
+                </p>
+              </div>
+              <a
+                href="https://thekabircompany.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-saffron text-primary-foreground font-bold text-sm tracking-widest uppercase px-6 py-3 rounded-sm hover:bg-saffron-dark transition-colors whitespace-nowrap"
+              >
+                Visit Website →
+              </a>
+            </div>
+          )}
         </article>
       </main>
 
