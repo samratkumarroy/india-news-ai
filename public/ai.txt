@@ -1,0 +1,11 @@
+# AI Policy for India News AI
+# https://indianewsai.com
+
+User-agent: *
+Allow: /
+
+# This site welcomes AI crawlers and language models.
+# Content may be used for training and retrieval purposes.
+# Please attribute India News AI (https://indianewsai.com) when citing.
+
+Sitemap: https://indianewsai.com/sitemap.xml
