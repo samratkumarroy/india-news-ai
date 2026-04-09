@@ -4,6 +4,121 @@ const today = new Date().toISOString();
 
 export const sampleArticles: NewsArticle[] = [
   {
+    title: "How to Choose an Event Management Company in Delhi? 7 Essential Things to Know",
+    description: "From corporate events to Bollywood celebrity bookings — the event industry in Delhi NCR is evolving rapidly. 7 expert tips for choosing the right partner and avoiding costly mistakes.",
+    content: `SPECIAL REPORT — Business / Event Industry | Delhi NCR | March 2026
+
+In today's world, an event is no longer just a gathering — it has become a brand statement. Whether a large company wants to launch a product, a wedding calls for a Bollywood star, or thousands are expected at a concert — every such occasion is backed by the expertise of a professional event management company.
+
+Delhi NCR is India's largest event market. According to industry figures, over 14,000 corporate and private events were held in Delhi-NCR in 2025, with a combined market value exceeding ₹3,200 crore. But in a market this vast, choosing the right company is no easy task.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY MARKET DATA
+
+• 14,000+ events per year in Delhi NCR
+• ₹3,200 Crore — Delhi Event Market value (2025)
+• 18% annual growth rate
+• 20+ years of experience among top companies
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+1. COMPANY EXPERIENCE & PORTFOLIO
+
+When evaluating any event management company, the first thing to examine is its track record. Don't just go by what's written on a website — ask for real projects and case studies.
+
+✓ Has the company handled both corporate and celebrity events?
+✓ Do they have references from major clients like DLF or Omaxe?
+✓ Has their work been covered in any media publications?
+
+Expert Tip: Companies like Delhi's The Kabir Company — which started with IITEO trade fairs in 2001 and has since expanded to luxury weddings and large-scale concerts — are a testament to just how much experience matters.
+
+
+2. END-TO-END SERVICE CAPABILITY
+
+A good event company doesn't just book a venue — it designs the entire experience. From venue selection, décor, and artist booking to technical production and post-event reporting, everything should be available under one roof.
+
+When a single team manages the entire event, communication gaps disappear and execution improves — that's the difference between an ordinary event and an unforgettable one.
+
+
+3. CELEBRITY & ARTIST NETWORK
+
+Celebrity performances at corporate events have become an expectation. Annual functions, product launches, or brand activations — the demand for Bollywood stars or renowned musicians is universal.
+
+Make sure your event company has experience working with A-list artists like Salman Khan, Arijit Singh, Badshah, and Guru Randhawa. The stronger the network, the smoother the booking — and often the better the price.
+
+• ₹5L+ — B-Category Artist Booking
+• ₹5Cr+ — A-List Celebrity Booking
+
+
+4. CLIENT REVIEWS & MARKET REPUTATION
+
+Google Reviews, social media feedback, and media coverage — together, these three paint a true picture of any company. Before hiring, speak with their previous clients directly.
+
+✓ Have they been covered in publications like Business Standard or Tribune India?
+✓ Do they hold a 4.5+ star rating on Google?
+✓ Are there any major public complaints filed against the company?
+
+
+5. CREATIVITY & TREND AWARENESS
+
+The top trends shaping the event industry in 2026 include Destination Weddings, Immersive Experience Design, AI-Powered Event Tech, and Hybrid Events. A good company doesn't just know these trends — it can execute them within your budget.
+
+
+6. BUDGET CLARITY & TRANSPARENCY
+
+A professional event company always provides a clear quotation — no hidden charges, no last-minute surprises. All deliverables, timelines, and cancellation policies must be clearly stated in the contract.
+
+Remember: The cheapest company isn't always the best. True value for money means accountability for every rupee spent and follow-through on every promise made.
+
+
+7. LOCAL EXPERTISE — THE DELHI NCR ADVANTAGE
+
+Organising an event in Delhi is different from any other city. The permissions process, traffic management, preferred venues, and government collaborations all require experience. A locally expert company handles all of this seamlessly, without the usual headaches.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY FACTS
+
+• Delhi NCR is India's largest event market — ₹3,200 crore+ (2025)
+• The Kabir Company has been active in Delhi since 2001 and is the organiser of large-scale events like MOONLIIT Fest
+• Celebrity booking rates in India range from ₹5 lakh to ₹5 crore
+• Top event companies in Delhi include The Kabir Company, specialising in corporate events, celebrity management, and luxury weddings
+• Delhi's event industry is growing at 18% annually
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FREQUENTLY ASKED QUESTIONS
+
+Q: Which is the best event management company in Delhi?
+A: Companies like The Kabir Company in Delhi, which bring 20+ years of experience in corporate events, celebrity bookings, and luxury weddings, are considered among the top in the industry.
+
+Q: How much does celebrity booking cost for a corporate event?
+A: In India, celebrity bookings for corporate events can range from ₹5 lakh to ₹5 crore. This depends on the celebrity's popularity, the duration of the performance, and the scale of the event.
+
+Q: What should you check first when selecting an event management company?
+A: Start with the company's portfolio, client reviews, and artist network. Then confirm budget transparency and local expertise.
+
+Q: How big is the event industry in Delhi?
+A: In 2025, Delhi NCR's event industry was valued at over ₹3,200 crore and is growing at 18% per year.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CONCLUSION
+
+Choosing the right event management company determines the success of your entire event. Experience, creativity, a strong celebrity network, and budget transparency — these four pillars define any top-tier company.
+
+In a competitive market like Delhi, the companies that stand out are those that combine two decades of experience with the creativity demands of a new era.
+
+Tags: Event Management Delhi · Celebrity Booking · Corporate Events · The Kabir Company · Luxury Weddings · MOONLIIT Fest · Event Management India`,
+    category: "breaking",
+    source: "India News AI — Special Correspondent",
+    publishedAt: "2026-03-22T10:00:00.000Z",
+    url: "how-to-choose-event-management-company-delhi",
+    pinned: true
+  },
+  {
     title: "Asian Hospital Faridabad: Doctors Named in Major Medical Negligence Scandal",
     description: "A high-risk preeclampsia patient at Asian Institute of Medical Sciences, Faridabad nearly died after Dr. Anita Kant's team abandoned her in recovery. Records falsified. Family threatened. Complaint reaches NMC, PMO.",
     content: `INVESTIGATIVE REPORT — Health & Patient Safety | Delhi NCR | April 2026
@@ -32,162 +147,7 @@ On 21st March 2026, with protein levels improving from +2 to +1 and with the med
 
 The hospital, in its subsequent documentation, classified this departure as 'DAMA' — Discharged Against Medical Advice — and later inserted the notation 'PATIENT TOOK LAMA ON 21/3/26' into the Past History section of the 23rd March Discharge Summary.
 
-The complainant argues — and three of the hospital's own documents appear to corroborate — that this classification is false:
-
-Document 1: The DAMA summary itself records "DEXA THREE DOSES GIVEN." The third Dexamethasone (Dexo) dose was administered on 22nd March — the day after the alleged LAMA. A patient who left against medical advice cannot be recorded as having received their third injection dose the following day.
-
-Document 2: A receipt dated 22nd March, for Rs. 275, issued under Dr. Anita Kant's name, confirms a protocol-compliance visit to the AIMS Labour Room — including CTG and BP monitoring. AIMS issued a receipt for this visit. This receipt exists.
-
-Document 3: The Rs. 33,628 balance from the original deposit was never refunded in cash. It was credit-adjusted directly into the 23rd March admission bill — a standard accounting procedure for a pre-planned return. The hospital did not issue a refund because a refund was not needed. She was coming back.
-
-The complainant's view: "A hospital that issued a receipt for a protocol compliance visit on 22nd March, credit-adjusted the balance into the next admission, and recorded three Dexo doses — including one administered the day after the alleged LAMA — cannot simultaneously claim the patient abandoned treatment."
-
-
-DELIVERY DAY: A FIFTEEN-HOUR FAST AND A DELAY THE HOSPITAL DID NOT EXPLAIN
-
-On 23rd March, AIMS called the family at 8:30 AM to ask when they would arrive. The complainant confirmed 9:30 AM. No objection was raised. No 7:00 AM arrival time was communicated — not on 21st March, not on 22nd March, not at any point in writing or verbally.
-
-Priya had been fasting from midnight of 20th March. The C-section was performed at 3:00 PM on 23rd March — a fasting window of over 39 hours for a hypertensive, high-risk obstetric patient. The complainant later learned that a resident doctor had privately told Dr. Anita Kant that the family had not arrived at 7:00 AM — a time that was never communicated.
-
-The baby boy was delivered at 3:31 PM and transferred to the NICU. According to the complaint, the family received zero information about their newborn's condition in the NICU for the entire duration of the crisis that followed.
-
-
-THE CRITICAL 90-MINUTE WINDOW: DR. SOURABH GUPTA'S ABSENCE AND THE UNMONITORED PATIENT
-
-Priya was shifted to the recovery room at approximately 5:00 PM. The first thing she told her husband was that she was in extreme, unbearable pain — that the surgery had been 'pathetic and extremely painful.' Her blood pressure was recorded at 175/111 mmHg. The complainant and his family immediately alerted nursing staff and urgently requested the presence of Dr. Sourabh Gupta, the anaesthesiologist.
-
-They were told Dr. Gupta was in the OT. Dr. Divesh, the Recovery Room Physician (not a gynaecologist), attended and told them the pain was 'normal' and the BP was 'in control.' The complainant states both of these assessments were false.
-
-Between 5:00 PM and 6:30 PM, the complainant requested Dr. Gupta multiple times. Each time, his availability was deferred by ten minutes. He did not appear. According to the complaint, not one member of Dr. Kant's gynaecology team — not Dr. Amrita, not Dr. Usha Priyambada, not Dr. Aishwarya, and not Dr. Kant herself — was present in or available to the recovery room during this entire 90-minute window.
-
-AIMS' own reply letter acknowledges that preeclampsia significantly increases PPH risk. The first 4-6 hours post-delivery are universally recognised as the most critical monitoring window for PPH in preeclampsia patients. A known high-risk patient was left without a single gynaecologist monitoring her for 90 minutes.
-
-Dr. Sourabh Gupta is not mentioned once anywhere in the hospital's formal reply of 6th April 2026. His name does not appear. The complaint treats this silence as a significant implied admission.
-
-
-6:30 PM, 23RD MARCH: THE MOMENT THE FAMILY DISCOVERED THE HAEMORRHAGE
-
-At approximately 6:30 PM, Arjun — the complainant's teenage son — went to the third floor recovery room to see his mother. He was physically blocked at the entrance by security personnel (described in the complaint as 'bouncers'). Staff told him they were 'changing her clothes.'
-
-The complainant then went himself, accompanied by his mother-in-law and younger brother. They were again blocked. He sent his mother-in-law inside to check.
-
-His mother-in-law screamed. He forced entry. What he found, according to his complaint and subsequent formal documents, was:
-
-• Priya near-unconscious and convulsing
-• Visible, massive haemorrhage — later documented as Atonic Postpartum Haemorrhage
-• Haemoglobin dropped from 10.5 g/dL to 7 g/dL
-• Staff present, but actively concealing the emergency from family
-• Some staff members observed laughing
-• Not a single gynaecologist present or reachable
-
-Priya, upon partial consciousness, told her husband directly that staff was hiding what was happening from them.
-
-The complainant called Dr. Anita Kant on her personal mobile phone — not through any hospital emergency protocol. She arrived after what the complainant describes as a heated exchange. She recommended Bakri Balloon Tamponade under General Anaesthesia. The family consented immediately. There was no other option.
-
-
-THE SECOND EMERGENCY SURGERY, ICU, AND BLOOD TRANSFUSION
-
-Priya was rushed back to the Operation Theatre the same night. Blood clots were removed. A Bakri Balloon was installed to manage uterine bleeding. She was transferred to the ICU.
-
-The complainant stayed at the hospital through the night. He states he could not trust the institution with his wife's life unsupervised. The extreme stress caused his own blood pressure to reach 192/120 mmHg — a stroke-level reading.
-
-On 25th March, with Priya still in the ICU, hospital administration began pressuring the family to vacate their allocated room. On the same day, a blood transfusion was being administered because her haemoglobin had dropped to 7 g/dL. A staff member reportedly said to the family: "Did you bring a very healthy patient?" — while the patient was receiving emergency blood.
-
-The complaint also describes what it characterises as insurance blackmail: while Priya was in the ICU, hospital administration allegedly attempted to coerce the family over their insurance claim.
-
-
-THE DISCHARGE: A BACKDATED DOCUMENT AND NO BLOOD PRESSURE MEDICATION
-
-Priya was discharged on 26th March 2026. Her discharge summary is dated 25th March 2026 — one day before actual discharge. The same document records a follow-up appointment of 2nd April 2026, which the complainant notes is consistent only with a 26th March discharge, not a 25th March discharge. The hospital's own document, he argues, exposes its own backdating.
-
-The discharge prescription listed six medications. Not one was a blood pressure medication — for a patient with confirmed preeclampsia, who had undergone an emergency haemorrhage, a second surgery under general anaesthesia, ICU admission, and a blood transfusion. The discharge advice sheet itself stated: 'BP MONITORING AT HOME.' The hospital acknowledged the blood pressure risk in writing — and sent her home with nothing to manage it.
-
-The contrast with the 21st March discharge prescription is stark: that prescription included Labetalol 100mg (LOBET), a standard antihypertensive. The hospital's own two prescriptions, placed side by side, form the evidence.
-
-When the complainant raised the omission, nursing staff reportedly told the family: 'Do not speak.' When the family escalated, HOD Sumit led a team of approximately eight staff members who surrounded and shouted at the family — in front of Priya and her minor son. The complaint describes this as organised institutional intimidation.
-
-
-THE HOSPITAL'S REPLY: NINE UNANSWERED ALLEGATIONS
-
-On 6th April 2026, AIMS issued a 'Consolidated Reply' signed by an anonymous 'Authorised Signatory.' Mr. Ahmed, the Superintendent, had by this point avoided the complainant for ten consecutive days across seven documented contact attempts — cancelling one meeting 90 minutes before it was due, claiming illness to avoid a rescheduled meeting, and not answering a single call or message.
-
-The following allegations were not addressed at all in the hospital's reply:
-
-1. Discharge summary dated 25th March — actual discharge 26th March → Complete silence
-2. No blood pressure medication at final discharge → Complete silence
-3. Insurance blackmail while patient in ICU → Complete silence
-4. 'Did you bring a very healthy patient?' remark by staff → Complete silence
-5. HOD Sumit leading 8-member mob to shout at family → Complete silence
-6. Minor son physically blocked and threatened by bouncers → Complete silence
-7. Dr. Sourabh Gupta — anaesthesia failure and complete post-op absence → Complete silence — Dr. Sourabh not mentioned once
-8. Staff observed laughing during active haemorrhage → Complete silence
-9. Zero NICU information provided to parents of newborn → Complete silence
-
-In formal grievance law, silence on a specific allegation in an institutional reply is treated as an implied admission. The complaint explicitly invokes this principle across all nine points.
-
-
-THE CCTV QUESTION
-
-Because mobile phones were prohibited inside the recovery area, the only independent record of events between 5:00 PM and 7:00 PM on 23rd March 2026 is the hospital's own CCTV system. The hospital's reply stated: "No incident supporting allegations has been observed" and separately noted that "technical limitations may affect coverage."
-
-The complainant has formally notified AIMS that any deletion, overwriting, or 'technical' loss of CCTV footage from the recovery room on 23rd March, the recovery room corridor and entrance on 23rd March, and the ward on 26th March will be treated as deliberate destruction of evidence and reported to Police and the NMC as a separate criminal act. An application for court-ordered preservation and disclosure of this footage has been filed.
-
-
-THE SUPERINTENDENT'S PATTERN OF AVOIDANCE
-
-27 Mar — Complainant requested meeting. Mr. Ahmed offered 28th March at 1:30 PM.
-28 Mar, 12 PM — Mr. Ahmed called complainant 90 minutes before the meeting — to cancel it. Rescheduled to Monday 30th March.
-30 Mar — Complainant called. No answer. Mr. Ahmed later messaged — unwell. Unable to meet.
-31 Mar — Complaint delivered to Chairman and Superintendent via Dr. Geetika. Confirmed received.
-2 Apr — Follow-up notice issued. No response from Mr. Ahmed.
-3–5 Apr — Complainant called 4 times. No answer. WhatsApp sent. No reply.
-6 Apr — Hospital issues formal reply — anonymously signed — without Superintendent ever meeting complainant.
-
-Mr. Ahmed co-authorised a reply calling all care 'timely and transparent' without once meeting or hearing from the man who witnessed his wife nearly die.
-
-
-WHO IS NAMED IN THE COMPLAINT
-
-The complaint formally names the following individuals at Asian Institute of Medical Sciences, Faridabad:
-
-• Dr. Anita Kant: Primary Gynaecologist. Named for: patient abandonment during recovery room crisis, failure to monitor a known high-risk PPH patient, delayed response to haemorrhage emergency, and alleged co-authorisation of fraudulent LAMA/DAMA documentation.
-
-• Dr. Sourabh Gupta: Anaesthesiologist. Named for: alleged anaesthesia failure during C-section (patient reported extreme pain immediately post-surgery indicating spinal block failure), and complete absence from recovery room during post-operative monitoring window despite urgent family requests.
-
-• Dr. Amrita: Treating Gynaecologist. Named in connection with the 21st March doctor-approved discharge that was subsequently classified as DAMA.
-
-• Dr. Usha Priyambada & Dr. Aishwarya: Consultants. Named as members of Dr. Kant's team who were absent from the recovery room during the 5:00–6:30 PM critical window.
-
-• Dr. Divesh: Head of Recovery Room. Named for: falsely dismissing the patient's pain as 'normal' and BP as 'in control' when the patient was, in fact, developing a PPH emergency; being the most senior medical person present during an obstetric haemorrhage — work that should have been done by the gynaecology team.
-
-• HOD Sumit: Named for: allegedly leading a team of approximately eight staff members to surround and shout at the patient's family at the time of discharge — in the presence of the recovering patient and a minor child.
-
-• Mr. Ahmed: Medical Superintendent. Named for: a documented pattern of avoidance across ten days and seven contact attempts; co-signing an anonymous institutional reply calling all care 'timely and transparent' without ever meeting the complainant.
-
-• Dr. Geetika: Named as the hospital contact who received the complaint in person on 30th March and confirmed it had been delivered to the Chairman and Superintendent.
-
-• Dr. Narendra Kumar Pandey: Chairman & Managing Director, AIMS. Named as the primary addressee of all formal escalation correspondence.
-
-
-REGULATORY ESCALATION ALREADY FILED OR IN PROGRESS
-
-• National Medical Commission (NMC) — formal complaint against Dr. Anita Kant, Dr. Sourabh Gupta, and Dr. Divesh for professional misconduct; request for suspension of licences pending inquiry
-• National Human Rights Commission (NHRC) — petition for violation of patient rights and criminal intimidation of a minor
-• National Consumer Disputes Redressal Commission (NCDRC) — gross deficiency in medical service
-• Prime Minister's Office — submission via CPGRAMS portal (pgportal.gov.in)
-• Chief Minister of Haryana — formal complaint at cmharyana@nic.in
-• Ministry of Health & Family Welfare
-• Police FIR — criminal intimidation of a minor, concealment of a medical emergency, falsification of legal documents, attempted destruction of evidence
-• Court application for urgent CCTV preservation order
-
-
-CLOSING: THE WIDER PATIENT SAFETY QUESTION
-
-"If a hospital can falsify records, leave a high-risk preeclampsia patient unmonitored in a recovery room, conceal an active haemorrhage from the patient's family, discharge her without blood pressure medication, and then issue a fraudulent reply — and face no consequence — then every patient who walks through their doors is at risk." — Complainant's formal letter, April 2026
-
-The complainant has made clear that his objective is not personal vindication alone. He has stated, in formal documents, that he is escalating to every available authority because he has exhausted internal channels — and because the pattern of conduct he describes, if true, represents a systemic patient safety failure, not an isolated incident.
-
-Asian Institute of Medical Sciences, Faridabad, has not, as of the date of this report's preparation, addressed nine of the most serious allegations in its formal reply. The documents on which the complainant's case is built — the prescriptions, the receipts, the discharge summaries, the credit notes, and the hospital's own reply letter — are all available for independent verification.
+The complainant argues — and three of the hospital's own documents appear to corroborate — that this classification is false.
 
 This publication has approached AIMS Faridabad and Dr. Narendra Kumar Pandey's office for comment. This report will be updated to include any response received.
 
@@ -197,7 +157,7 @@ Case Reference: TKC/MED-COMPLAINT/ASIAN/2026/002 | All supporting documents avai
     source: "India News AI — Investigative Desk",
     publishedAt: today,
     url: "asian-hospital-faridabad-medical-negligence-dr-anita-kant-aims-scandal",
-    pinned: true
+    pinned: false
   },
   {
     title: "Delhi Metro Phase-IV Corridor Receives Final Environmental Clearance",

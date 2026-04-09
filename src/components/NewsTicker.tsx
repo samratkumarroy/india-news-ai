@@ -1,23 +1,23 @@
 export default function NewsTicker() {
   const keywords = [
     "Breaking News",
-    "Delhi NCR",
-    "Asian Hospital Faridabad Negligence",
-    "AIMS Faridabad Complaint",
-    "Dr. Anita Kant",
-    "Medical Negligence India",
-    "NMC Complaint Filed",
-    "Patient Safety Alert",
+    "Event Management Delhi",
+    "Celebrity Booking India",
+    "The Kabir Company",
+    "Corporate Events Delhi NCR",
+    "Luxury Wedding Planner",
+    "MOONLIIT Fest",
+    "Artist Management India",
+    "Delhi NCR Events",
+    "Bollywood Celebrity Booking",
     "India Politics",
     "Religion & Culture",
     "Live Updates",
-    "Noida",
-    "Gurugram",
-    "Weather Alert",
     "Health Investigation",
     "Ayodhya",
     "Parliament",
     "Digital India",
+    "Weather Alert",
   ];
 
   return (
