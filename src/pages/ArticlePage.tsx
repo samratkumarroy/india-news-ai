@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { ChevronLeft, Calendar, Share2, Check, Clock } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 import { sampleArticles } from "@/data/sampleNews";
 
 const categoryBadgeColors: Record<string, string> = {
@@ -60,8 +61,85 @@ export default function ArticlePage() {
   });
   const formattedTime = pubDate.toLocaleTimeString("en-IN", { hour: "2-digit", minute: "2-digit" });
 
+  const isEventArticle = slug === "how-to-choose-event-management-company-delhi";
+
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.title,
+    description: article.description,
+    datePublished: article.publishedAt,
+    dateModified: article.publishedAt,
+    inLanguage: "en",
+    publisher: {
+      "@type": "NewsMediaOrganization",
+      name: "IndiaNewsAi",
+      url: "https://indianewsai.com",
+    },
+    mainEntityOfPage: `https://indianewsai.com/article/${article.url}`,
+  };
+
+  const faqJsonLd = isEventArticle
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: "Which is the best event management company in Delhi?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Companies like The Kabir Company in Delhi, with 20+ years of experience specialising in corporate events, celebrity bookings, and luxury weddings, are considered among the best in the industry.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "What should you look for when choosing an event management company?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Experience, portfolio, artist network, client reviews, budget transparency, and local expertise — these 7 factors are the most important.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "How much does celebrity booking cost for a corporate event?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "In India, celebrity bookings for corporate events can range from ₹5 lakh to ₹5 crore — depending on the celebrity's popularity and the scale of the event.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "How big is the event industry in Delhi?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "In 2025, Delhi NCR's event industry was valued at over ₹3,200 crore and is growing at 18% per year.",
+            },
+          },
+        ],
+      }
+    : null;
+
   return (
     <div className="min-h-screen flex flex-col bg-background">
+      <Helmet>
+        <title>{article.title} | IndiaNewsAi</title>
+        <meta name="description" content={article.description} />
+        <meta property="og:title" content={article.title} />
+        <meta property="og:description" content={article.description} />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={`https://indianewsai.com/article/${article.url}`} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={article.title} />
+        <meta name="twitter:description" content={article.description} />
+        <link rel="canonical" href={`https://indianewsai.com/article/${article.url}`} />
+        {isEventArticle && (
+          <meta name="keywords" content="event management company Delhi, best event planner Delhi NCR, celebrity booking India, corporate events Delhi, luxury wedding planner, artist management India, The Kabir Company" />
+        )}
+        <script type="application/ld+json">{JSON.stringify(articleJsonLd)}</script>
+        {faqJsonLd && <script type="application/ld+json">{JSON.stringify(faqJsonLd)}</script>}
+      </Helmet>
+
       <header className="sticky top-0 z-50 bg-ink border-b-3 border-saffron pt-[env(safe-area-inset-top,0px)]" role="banner">
         <nav className="flex items-center justify-between px-6 py-3" aria-label="Article navigation">
           <button
