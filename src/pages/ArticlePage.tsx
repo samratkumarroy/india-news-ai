@@ -130,6 +130,7 @@ export default function ArticlePage() {
         <meta property="og:description" content={article.description} />
         <meta property="og:type" content="article" />
         <meta property="og:url" content={`https://indianewsai.com/article/${article.url}`} />
+        {isEventArticle && <meta property="og:image" content="https://indianewsai.com/og-event-management-delhi.png" />}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={article.title} />
         <meta name="twitter:description" content={article.description} />
