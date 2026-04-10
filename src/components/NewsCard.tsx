@@ -17,6 +17,11 @@ const categoryColors: Record<string, string> = {
   culture: "text-purple-700",
   weather: "text-blue-700",
   breaking: "text-saffron",
+  technology: "text-indigo-700",
+  fashion: "text-pink-700",
+  entertainment: "text-amber-700",
+  world: "text-red-700",
+  health: "text-red-700",
 };
 
 export default function NewsCard({ article, index, isHero, currentTime }: NewsCardProps) {
