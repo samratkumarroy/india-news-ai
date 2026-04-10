@@ -39,9 +39,9 @@ export default function Index() {
 
       <NewsTicker />
 
-      <main className="max-w-7xl mx-auto px-4 py-6 flex-1 w-full" role="main">
-        <div className="flex flex-wrap items-center justify-between bg-paper-dark border border-rule rounded-sm px-4 py-2 mb-5 gap-4" aria-label="News status">
-          <div className="flex gap-2 items-center text-[0.67rem] text-news-muted">
+      <main className="max-w-7xl mx-auto px-3 sm:px-4 py-4 sm:py-6 flex-1 w-full" role="main">
+        <div className="flex flex-wrap items-center justify-between bg-paper-dark border border-rule rounded-sm px-3 sm:px-4 py-2 mb-4 gap-2" aria-label="News status">
+          <div className="flex gap-2 items-center text-[0.62rem] sm:text-[0.67rem] text-news-muted">
             <span className="flex items-center gap-1">
               <Clock size={12} aria-hidden="true" /> Updated:{" "}
               <strong>
@@ -49,14 +49,14 @@ export default function Index() {
               </strong>
             </span>
           </div>
-          <span className="text-[0.66rem] text-green-700 font-semibold flex items-center gap-1">
+          <span className="text-[0.62rem] sm:text-[0.66rem] text-green-700 font-semibold flex items-center gap-1">
             <CheckCircle2 size={12} aria-hidden="true" /> {articles.length} verified live stories
           </span>
         </div>
 
-        <div className="flex items-center gap-4 my-5" role="separator">
+        <div className="flex items-center gap-3 sm:gap-4 my-4 sm:my-5" role="separator">
           <div className="flex-1 h-px bg-rule"></div>
-          <span className="font-display text-sm font-bold whitespace-nowrap">
+          <span className="font-display text-xs sm:text-sm font-bold whitespace-nowrap">
             Breaking News ·{" "}
             {currentTime.toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" })}
           </span>
@@ -83,7 +83,7 @@ export default function Index() {
               key="grid"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"
+              className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5"
               role="feed"
               aria-label="News articles"
             >

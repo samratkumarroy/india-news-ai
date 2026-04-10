@@ -44,9 +44,9 @@ export default function NewsCard({ article, index, isHero, currentTime }: NewsCa
 
   return (
     <motion.article
-      initial={{ opacity: 0, y: 20 }}
+      initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: index * 0.05 }}
+      transition={{ delay: index * 0.04 }}
       className={`news-card flex flex-col ${isHero ? "md:col-span-2 lg:col-span-3 md:flex-row" : ""}`}
     >
       {isHero && !article.image && (
@@ -71,16 +71,16 @@ export default function NewsCard({ article, index, isHero, currentTime }: NewsCa
           />
         </div>
       )}
-      <div className="p-5 flex flex-col flex-1">
+      <div className="p-4 sm:p-5 flex flex-col flex-1">
         <div className="flex items-center justify-between mb-2">
           <span className={`text-[0.58rem] tracking-[0.18em] uppercase font-bold ${categoryColors[article.category] || "text-saffron"}`}>
             {article.category}
           </span>
         </div>
-        <h2 className={`font-display font-bold leading-tight mb-3 text-ink ${isHero ? "text-xl lg:text-2xl" : "text-base lg:text-lg"}`}>
+        <h2 className={`font-display font-bold leading-snug mb-2 sm:mb-3 text-ink ${isHero ? "text-lg sm:text-xl lg:text-2xl" : "text-[0.95rem] sm:text-base lg:text-lg"}`}>
           {article.title}
         </h2>
-        <p className="text-sm text-news-muted leading-relaxed mb-4 flex-1">
+        <p className="text-[0.82rem] sm:text-sm text-news-muted leading-relaxed mb-3 sm:mb-4 flex-1">
           {article.description}
         </p>
         <div className="flex items-center justify-between pt-3 border-t border-secondary">
@@ -88,14 +88,14 @@ export default function NewsCard({ article, index, isHero, currentTime }: NewsCa
           <div className="flex items-center gap-3">
             <button
               onClick={handleShare}
-              className="text-news-muted hover:text-saffron transition-colors p-1"
+              className="text-news-muted hover:text-saffron transition-colors p-2 -m-1 min-w-[36px] min-h-[36px] flex items-center justify-center"
               aria-label="Share article"
             >
-              {copied ? <Check size={14} className="text-green-600" /> : <Share2 size={14} />}
+              {copied ? <Check size={16} className="text-green-600" /> : <Share2 size={16} />}
             </button>
             <Link
               to={`/article/${article.url}`}
-              className="text-saffron text-[0.67rem] tracking-widest uppercase font-bold flex items-center gap-1 hover:text-saffron-dark transition-colors"
+              className="text-saffron text-[0.67rem] tracking-widest uppercase font-bold flex items-center gap-1 hover:text-saffron-dark transition-colors min-h-[36px] px-1"
             >
               Read <ChevronRight size={12} />
             </Link>

@@ -19,16 +19,18 @@ const categories = [
 
 export default function CategoryNav({ filter, onFilterChange }: CategoryNavProps) {
   return (
-    <nav className="flex justify-center gap-1 px-4 py-2 bg-primary-foreground/5 overflow-x-auto no-scrollbar">
-      {categories.map((cat) => (
-        <button
-          key={cat.id}
-          onClick={() => onFilterChange(cat.id)}
-          className={`nav-pill ${filter === cat.id ? "active" : ""}`}
-        >
-          {cat.label}
-        </button>
-      ))}
-    </nav>
+    <div className="overflow-x-auto no-scrollbar bg-primary-foreground/5">
+      <nav className="flex gap-1 px-3 py-2 min-w-max mx-auto w-fit">
+        {categories.map((cat) => (
+          <button
+            key={cat.id}
+            onClick={() => onFilterChange(cat.id)}
+            className={`nav-pill ${filter === cat.id ? "active" : ""}`}
+          >
+            {cat.label}
+          </button>
+        ))}
+      </nav>
+    </div>
   );
 }
