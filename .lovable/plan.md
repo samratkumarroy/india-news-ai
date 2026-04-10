@@ -1,56 +1,43 @@
 
-Issue identified:
-- The app code does not look like the reason the site fails to open.
-- Routing is already set up correctly:
-  - `src/App.tsx` uses `BrowserRouter`
-  - `/` and `/article/:slug` routes exist
-  - `public/.htaccess` has the right Apache SPA fallback for Hostinger
-- Based on the earlier browser error (`ERR_CERT_COMMON_NAME_INVALID` with a `*.netlify.app` certificate), the likely problem is DNS/SSL, not React code.
 
-Plan:
-1. Confirm the hosting target
-   - Decide whether `indianewsai.com` should point to Hostinger or to Lovable.
-   - Right now it appears the domain is still resolving to an old Netlify setup or conflicting DNS.
+## Problem
 
-2. Fix DNS records
-   - Remove old Netlify-related DNS records.
-   - If using Hostinger:
-     - point root `@` to the Hostinger server IP
-     - point `www` to the root domain or Hostinger’s recommended target
-   - If using Lovable instead:
-     - point `@` and `www` to `185.158.133.1`
-     - add the required `_lovable` TXT verification record
+The screenshot shows the live site at indianewsai.com rendering as **unstyled plain HTML**. This means the CSS and JavaScript bundles are not loading.
 
-3. Re-issue SSL
-   - In Hostinger: install/reinstall free SSL after DNS is correct
-   - In Lovable: SSL should auto-provision once the domain verifies
-   - Wait for propagation if records were just changed
+The most likely cause: the **source** `index.html` (which references `/src/main.tsx`) was uploaded to Hostinger instead of the **built** `index.html` that Vite generates in the `dist/` folder. The source file only works with Vite's dev server — on a static host like Hostinger, it produces an unstyled page because `/src/main.tsx` is not a valid path.
 
-4. Verify deployment files
-   - If staying on Hostinger, ensure `public_html` contains:
-     - `index.html`
-     - `assets/`
-     - `.htaccess`
-   - Do not keep the built app nested inside a `dist/` folder on the server
+## Root Cause
 
-5. Re-test the live domain
-   - Check homepage
-   - Check a direct deep link like `/article/...`
-   - Confirm the certificate now shows `indianewsai.com`, not Netlify
+The project's `index.html` contains:
+```html
+<script type="module" src="/src/main.tsx"></script>
+```
+This is the **development** entry point. After running `npm run build`, Vite produces a different `dist/index.html` with hashed asset references like:
+```html
+<script type="module" src="/assets/index-abc123.js"></script>
+<link rel="stylesheet" href="/assets/index-xyz789.css">
+```
 
-What I would implement/check once approved:
-- Review the current deployment choice and update any project-side config if needed
-- Help you switch cleanly to one hosting path only
-- If you want Lovable hosting, I’ll guide the exact publish + custom-domain setup
-- If you want Hostinger, I’ll guide the exact DNS cleanup and SSL reactivation flow
+If the source `index.html` was uploaded, the browser cannot find the compiled CSS/JS, resulting in the unstyled page you see.
 
-Technical notes:
-- There is no immediate sign of a broken route in the React app.
-- The `.htaccess` file is already correct for Apache SPA routing.
-- The strongest indicator is the certificate mismatch, which almost always means the domain is pointing to the wrong host or to multiple hosts at once.
+## Fix — Correct Deployment Steps
 
-Fastest path to resolution:
-- Use only one host
-- Remove old DNS records from the other host
-- Reinstall SSL on the chosen host
-- Retest after propagation
+1. **Build the project locally**
+   ```
+   npm run build
+   ```
+   This creates a `dist/` folder with the production-ready files.
+
+2. **Upload only the contents of `dist/`** to Hostinger's `public_html/`:
+   - `dist/index.html` → `public_html/index.html`
+   - `dist/assets/` → `public_html/assets/`
+   - All other files from `dist/`
+
+3. **Copy `.htaccess`** from `public/` into `public_html/` (Vite copies it into `dist/` automatically, so it should already be there).
+
+4. **Do NOT upload the source `index.html`** from the project root — only use the one generated inside `dist/`.
+
+## Verification
+
+After uploading, the site should load with full styling, the dark header, saffron ticker, and newspaper layout visible.
+
