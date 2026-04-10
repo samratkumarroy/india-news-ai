@@ -1,6 +1,7 @@
 import { useState, useMemo, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Clock, CheckCircle2 } from "lucide-react";
+import NewsCardSkeleton from "@/components/NewsCardSkeleton";
 import Header from "@/components/Header";
 import CategoryNav from "@/components/CategoryNav";
 import NewsTicker from "@/components/NewsTicker";
