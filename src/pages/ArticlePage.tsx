@@ -12,6 +12,10 @@ const categoryBadgeColors: Record<string, string> = {
   weather: "bg-blue-100 text-blue-800",
   breaking: "bg-orange-100 text-saffron-dark",
   health: "bg-red-100 text-red-800",
+  technology: "bg-indigo-100 text-indigo-800",
+  fashion: "bg-pink-100 text-pink-800",
+  entertainment: "bg-amber-100 text-amber-800",
+  world: "bg-red-100 text-red-800",
 };
 
 export default function ArticlePage() {
@@ -173,6 +177,14 @@ export default function ArticlePage() {
               <img
                 src={eventManagementThumbnail}
                 alt="Your ultimate guide for top event management companies in Delhi 2026 — IndiaNewsAi"
+                className="w-full rounded-sm mb-6 border border-paper-dark"
+                loading="eager"
+              />
+            )}
+            {!isEventArticle && article.image && (
+              <img
+                src={article.image}
+                alt={`${article.title} — IndiaNewsAi`}
                 className="w-full rounded-sm mb-6 border border-paper-dark"
                 loading="eager"
               />

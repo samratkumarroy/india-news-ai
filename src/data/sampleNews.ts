@@ -1,8 +1,9 @@
 import { NewsArticle } from "@/types/news";
+import { newArticles } from "./newArticles";
 
 const today = new Date().toISOString();
 
-export const sampleArticles: NewsArticle[] = [
+const baseArticles: NewsArticle[] = [
   {
     title: "How to Choose an Event Management Company in Delhi? 7 Essential Things to Know",
     description: "From corporate events to Bollywood celebrity bookings — the event industry in Delhi NCR is evolving rapidly. 7 expert tips for choosing the right partner and avoiding costly mistakes.",
@@ -241,3 +242,5 @@ Case Reference: TKC/MED-COMPLAINT/ASIAN/2026/002 | All supporting documents avai
     url: "delhi-free-heritage-walking-tours-2026"
   },
 ];
+
+export const sampleArticles: NewsArticle[] = [...newArticles, ...baseArticles];
