@@ -49,7 +49,7 @@ export default function NewsCard({ article, index, isHero, currentTime }: NewsCa
       transition={{ delay: index * 0.05 }}
       className={`news-card flex flex-col ${isHero ? "md:col-span-2 lg:col-span-3 md:flex-row" : ""}`}
     >
-      {isHero && (
+      {isHero && !article.image && (
         <div className="card-pattern md:w-2/5 min-h-[200px]">
           <div className="text-center p-4">
             <div className="font-display text-3xl lg:text-4xl text-primary-foreground font-black leading-none uppercase">
@@ -59,6 +59,16 @@ export default function NewsCard({ article, index, isHero, currentTime }: NewsCa
               Live · {currentTime.toLocaleDateString("en-IN", { day: "numeric", month: "long" })}
             </div>
           </div>
+        </div>
+      )}
+      {article.image && (
+        <div className={`overflow-hidden ${isHero ? "md:w-2/5 min-h-[200px]" : "h-48"}`}>
+          <img
+            src={article.image}
+            alt={`${article.title} — IndiaNewsAi`}
+            className="w-full h-full object-cover"
+            loading="lazy"
+          />
         </div>
       )}
       <div className="p-5 flex flex-col flex-1">
