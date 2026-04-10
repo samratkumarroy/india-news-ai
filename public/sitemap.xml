@@ -3,12 +3,87 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://indianewsai.com/</loc>
-    <changefreq>always</changefreq>
+    <changefreq>hourly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/how-to-choose-event-management-company-delhi</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://indianewsai.com/article/asian-hospital-faridabad-medical-negligence-dr-anita-kant-aims-scandal</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/delhi-metro-phase-4-environmental-clearance-2026</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/char-dham-yatra-2026-registrations-record</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/imd-yellow-alert-delhi-ncr-thunderstorm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/ram-navami-celebrations-north-india-2026</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/lok-sabha-dpdp-amendment-bill-2026</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/sufi-music-festival-nizamuddin-dargah-2026</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/vaishno-devi-ai-queue-management-2026</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/noida-elevated-road-jewar-airport-2026</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/delhi-free-heritage-walking-tours-2026</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/meta-coreweave-21-billion-ai-compute-deal-2026</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/fashion-spring-2026-trends-windbreakers-capris-layering</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/bollywood-actresses-power-packed-2026-alia-bhatt-alpha</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/anant-ambani-31st-birthday-shah-rukh-salman-khan-wishes</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/israeli-strikes-lebanon-escalate-tensions-us-iran-ceasefire-2026</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
