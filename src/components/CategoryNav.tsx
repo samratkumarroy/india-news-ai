@@ -6,6 +6,10 @@ interface CategoryNavProps {
 const categories = [
   { id: "all", label: "All" },
   { id: "breaking", label: "Breaking" },
+  { id: "technology", label: "Technology" },
+  { id: "entertainment", label: "Entertainment" },
+  { id: "fashion", label: "Fashion" },
+  { id: "world", label: "World" },
   { id: "health", label: "Health" },
   { id: "religion", label: "Religion" },
   { id: "weather", label: "Weather" },
