@@ -3,7 +3,7 @@ import { useParams, Link, useNavigate } from "react-router-dom";
 import { ChevronLeft, Calendar, Share2, Check, Clock } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import { sampleArticles } from "@/data/sampleNews";
-import eventManagementThumbnail from "@/assets/event-management-delhi-thumbnail.png";
+import eventManagementThumbnail from "@/assets/event-management-delhi-thumbnail.webp";
 
 const categoryBadgeColors: Record<string, string> = {
   religion: "bg-green-100 text-green-800",
