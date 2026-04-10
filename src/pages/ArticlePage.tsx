@@ -177,8 +177,8 @@ export default function ArticlePage() {
         </nav>
       </header>
 
-      <main className="max-w-3xl mx-auto px-4 py-8 md:py-12 flex-1 w-full" role="main">
-        <article className="bg-card p-6 md:p-10 rounded-sm shadow-[0_2px_12px_rgba(26,16,8,0.08)] border border-paper-dark">
+      <main className="max-w-3xl mx-auto px-3 sm:px-4 py-6 md:py-12 flex-1 w-full" role="main">
+        <article className="bg-card p-4 sm:p-6 md:p-10 rounded-sm shadow-[0_2px_12px_rgba(26,16,8,0.08)] border border-paper-dark">
           <div className="mb-6">
             <span
               className={`inline-block text-[0.65rem] tracking-[0.18em] uppercase font-bold mb-4 px-2 py-1 rounded-sm ${
@@ -204,12 +204,12 @@ export default function ArticlePage() {
                 loading="eager"
               />
             )}
-            <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-black leading-tight text-ink mb-6">
+            <h1 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black leading-tight text-ink mb-4 sm:mb-6">
               {article.title}
             </h1>
 
-            <div className="flex flex-wrap items-center justify-between gap-4 py-4 border-y border-rule/30 mb-8">
-              <div className="flex items-center gap-4 text-sm text-news-muted">
+            <div className="flex flex-col sm:flex-row sm:flex-wrap items-start sm:items-center justify-between gap-3 sm:gap-4 py-3 sm:py-4 border-y border-rule/30 mb-6 sm:mb-8">
+              <div className="flex flex-wrap items-center gap-2 sm:gap-4 text-xs sm:text-sm text-news-muted">
                 <span className="font-bold text-ink">{article.source}</span>
                 <time dateTime={article.publishedAt} className="flex items-center gap-1">
                   <Calendar size={14} aria-hidden="true" /> {formattedDate}
