@@ -71,13 +71,13 @@ export default function Index() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="flex flex-col items-center justify-center py-16 gap-4"
+              className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5"
               aria-label="Loading news"
             >
-              <div className="loader-spinner" role="status" aria-label="Loading"></div>
-              <p className="font-display text-sm text-news-muted italic">
-                Fetching latest Delhi NCR & religion updates...
-              </p>
+              <NewsCardSkeleton isHero />
+              {Array.from({ length: 5 }).map((_, i) => (
+                <NewsCardSkeleton key={i} />
+              ))}
             </motion.div>
           ) : (
             <motion.div
