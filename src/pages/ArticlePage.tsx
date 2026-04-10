@@ -70,18 +70,33 @@ export default function ArticlePage() {
 
   const articleJsonLd = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "NewsArticle",
     headline: article.title,
     description: article.description,
+    image: article.image ? `https://indianewsai.com${article.image}` : undefined,
     datePublished: article.publishedAt,
     dateModified: article.publishedAt,
     inLanguage: "en",
+    author: {
+      "@type": "Organization",
+      name: "IndiaNewsAi",
+      url: "https://indianewsai.com",
+    },
     publisher: {
       "@type": "NewsMediaOrganization",
       name: "IndiaNewsAi",
       url: "https://indianewsai.com",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://indianewsai.com/logo.png",
+      },
     },
-    mainEntityOfPage: `https://indianewsai.com/article/${article.url}`,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://indianewsai.com/article/${article.url}`,
+    },
+    articleSection: article.category,
+    keywords: article.category,
   };
 
   const faqJsonLd = isEventArticle
