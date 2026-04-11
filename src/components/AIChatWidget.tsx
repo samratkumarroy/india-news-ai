@@ -41,7 +41,7 @@ export default function AIChatWidget() {
             className="fixed bottom-4 right-4 z-50 w-14 h-14 rounded-full bg-ink text-paper flex items-center justify-center shadow-lg hover:bg-ink/90 transition-colors"
             aria-label="Open AI chat"
           >
-            <Bot size={24} />
+            <img src={aiChatIcon} alt="AI Chat" width={32} height={32} className="drop-shadow-[0_0_8px_rgba(100,150,255,0.7)]" />
           </motion.button>
         )}
       </AnimatePresence>
@@ -59,7 +59,7 @@ export default function AIChatWidget() {
             {/* Header */}
             <div className="flex items-center justify-between px-4 py-3 bg-ink text-paper border-b border-rule">
               <div className="flex items-center gap-2">
-                <Bot size={18} className="text-saffron" />
+                <img src={aiChatIcon} alt="AI" width={22} height={22} className="drop-shadow-[0_0_6px_rgba(100,150,255,0.7)]" />
                 <span className="font-display text-sm font-bold">Ask India News AI</span>
               </div>
               <div className="flex items-center gap-1">
@@ -85,7 +85,7 @@ export default function AIChatWidget() {
             <div className="flex-1 overflow-y-auto px-3 py-3 space-y-3">
               {messages.length === 0 && (
                 <div className="text-center text-news-muted text-xs mt-8 space-y-2">
-                  <Bot size={32} className="mx-auto text-saffron opacity-60" />
+                  <img src={aiChatIcon} alt="AI" width={40} height={40} className="mx-auto opacity-80 drop-shadow-[0_0_10px_rgba(100,150,255,0.6)]" />
                   <p className="font-display font-bold text-sm text-ink">Welcome!</p>
                   <p>Ask me anything about the latest news on India News AI.</p>
                   <div className="flex flex-wrap gap-1.5 justify-center mt-3">
