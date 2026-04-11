@@ -1,43 +1,44 @@
 
 
-## Problem
+# AI News Chatbot Widget
 
-The screenshot shows the live site at indianewsai.com rendering as **unstyled plain HTML**. This means the CSS and JavaScript bundles are not loading.
+## What We're Building
+A floating chat widget (bottom-right corner) where readers can ask questions about news articles and get AI-powered answers grounded in your site's content.
 
-The most likely cause: the **source** `index.html` (which references `/src/main.tsx`) was uploaded to Hostinger instead of the **built** `index.html` that Vite generates in the `dist/` folder. The source file only works with Vite's dev server — on a static host like Hostinger, it produces an unstyled page because `/src/main.tsx` is not a valid path.
+## How It Works
+1. User clicks a chat bubble icon to open a chat panel
+2. User types a question (e.g., "What happened with GPT-5?" or "Latest Delhi news")
+3. The app sends the question along with all article content to an AI model via a Supabase Edge Function
+4. AI responds with answers sourced from your articles, with streaming text display
 
-## Root Cause
+## Technical Plan
 
-The project's `index.html` contains:
-```html
-<script type="module" src="/src/main.tsx"></script>
-```
-This is the **development** entry point. After running `npm run build`, Vite produces a different `dist/index.html` with hashed asset references like:
-```html
-<script type="module" src="/assets/index-abc123.js"></script>
-<link rel="stylesheet" href="/assets/index-xyz789.css">
-```
+### 1. Create Supabase Edge Function (`supabase/functions/chat/index.ts`)
+- Receives user messages from the frontend
+- Injects all article content as system context so the AI answers only from your news
+- Calls Lovable AI Gateway (`google/gemini-3-flash-preview`) with streaming enabled
+- Returns SSE stream to the client
 
-If the source `index.html` was uploaded, the browser cannot find the compiled CSS/JS, resulting in the unstyled page you see.
+### 2. Create Chat Widget Component (`src/components/AIChatWidget.tsx`)
+- Floating button (bottom-right) with a chat icon
+- Expandable chat panel with message history
+- Input field for questions
+- Streaming response display with markdown rendering
+- Mobile-responsive design matching the site's newspaper theme
 
-## Fix — Correct Deployment Steps
+### 3. Create Chat Hook (`src/hooks/useChat.ts`)
+- Manages conversation state (messages array)
+- Handles SSE streaming from the edge function
+- Loading/error states
 
-1. **Build the project locally**
-   ```
-   npm run build
-   ```
-   This creates a `dist/` folder with the production-ready files.
+### 4. Add Widget to Index Page
+- Import and render `AIChatWidget` in `Index.tsx`
 
-2. **Upload only the contents of `dist/`** to Hostinger's `public_html/`:
-   - `dist/index.html` → `public_html/index.html`
-   - `dist/assets/` → `public_html/assets/`
-   - All other files from `dist/`
+### Dependencies
+- `react-markdown` for rendering AI responses with formatting
 
-3. **Copy `.htaccess`** from `public/` into `public_html/` (Vite copies it into `dist/` automatically, so it should already be there).
-
-4. **Do NOT upload the source `index.html`** from the project root — only use the one generated inside `dist/`.
-
-## Verification
-
-After uploading, the site should load with full styling, the dark header, saffron ticker, and newspaper layout visible.
+### Design
+- Dark themed to match the site's ink/saffron color scheme
+- Compact overlay that doesn't interfere with news reading
+- "Ask about the news" placeholder text
 
