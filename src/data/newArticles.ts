@@ -12,6 +12,9 @@ import g20DiplomacyImg from "@/assets/india-g20-diplomacy-2026.webp";
 import dacroitImg from "@/assets/dacoit-bhooth-bangla-box-office.jpg";
 import sabrinaCoachellaImg from "@/assets/sabrina-carpenter-coachella-2026.jpg";
 import springFashionUpdatedImg from "@/assets/spring-2026-fashion-trends-updated.jpg";
+import metGalaImg1 from "@/assets/met-gala-2026-1.jpg";
+import metGalaImg2 from "@/assets/met-gala-2026-2.jpg";
+import metGalaImg3 from "@/assets/met-gala-2026-3.jpg";
 import metGala2026Img from "@/assets/met-gala-2026-4.jpg";
 
 const today = new Date().toISOString();
@@ -442,6 +445,7 @@ Tags: Met Gala 2026 · Fashion Is Art · Beyoncé · Nicole Kidman · Venus Will
     publishedAt: "2026-04-10T14:20:00.000Z",
     url: "met-gala-2026-fashion-is-art-theme-co-chairs-may-4",
     image: metGala2026Img,
+    gallery: [metGalaImg1, metGalaImg2, metGalaImg3, metGala2026Img],
     pinned: true
   }
 ];

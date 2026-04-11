@@ -8,4 +8,5 @@ export interface NewsArticle {
   url: string;
   pinned?: boolean;
   image?: string;
+  gallery?: string[];
 }
