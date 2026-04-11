@@ -9,6 +9,10 @@ import parliamentBudgetImg from "@/assets/india-parliament-budget-2026.webp";
 import iplImg from "@/assets/ipl-2026-season-opener.webp";
 import appleVisionImg from "@/assets/apple-vision-pro-2-2026.webp";
 import g20DiplomacyImg from "@/assets/india-g20-diplomacy-2026.webp";
+import dacroitImg from "@/assets/dacoit-bhooth-bangla-box-office.jpg";
+import sabrinaCoachellaImg from "@/assets/sabrina-carpenter-coachella-2026.jpg";
+import springFashionUpdatedImg from "@/assets/spring-2026-fashion-trends-updated.jpg";
+import metGala2026Img from "@/assets/met-gala-2026-4.jpg";
 
 const today = new Date().toISOString();
 
