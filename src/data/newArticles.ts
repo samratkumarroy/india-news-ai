@@ -199,8 +199,7 @@ Tags: OpenAI · GPT-5 · Artificial Intelligence · AI Agents · Enterprise AI �
     source: "India News AI — Technology Desk",
     publishedAt: "2026-04-11T06:00:00.000Z",
     url: "openai-launches-gpt5-real-time-reasoning-autonomous-agents-2026",
-    image: openaiGpt5Img,
-    pinned: true
+    image: openaiGpt5Img
   },
   {
     title: "Parliament Passes Landmark Digital India Budget 2026 with ₹2.5 Lakh Crore Tech Allocation",
