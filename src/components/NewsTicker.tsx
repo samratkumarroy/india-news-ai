@@ -16,6 +16,11 @@ export default function NewsTicker() {
     "Delhi NCR Events",
     "India Politics",
     "Live Updates",
+    "OpenAI Launches GPT-5",
+    "Parliament Passes Digital India Budget",
+    "IPL 2026 Record 120M Viewers",
+    "Apple Vision Pro 2 in India",
+    "India Leads G20 Climate-Tech Alliance",
   ];
 
   return (
