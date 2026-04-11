@@ -104,6 +104,7 @@ export default function Index() {
       </main>
 
       <Footer />
+      <AIChatWidget />
     </div>
   );
 }
