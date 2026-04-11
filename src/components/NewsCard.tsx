@@ -26,6 +26,16 @@ const categoryColors: Record<string, string> = {
 
 export default function NewsCard({ article, index, isHero, currentTime }: NewsCardProps) {
   const [copied, setCopied] = useState(false);
+  const [galleryIndex, setGalleryIndex] = useState(0);
+  const gallery = article.gallery;
+
+  useEffect(() => {
+    if (!gallery || gallery.length <= 1) return;
+    const interval = setInterval(() => {
+      setGalleryIndex((prev) => (prev + 1) % gallery.length);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [gallery]);
 
   const handleShare = async (e: React.MouseEvent) => {
     e.preventDefault();
