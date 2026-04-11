@@ -49,8 +49,7 @@ Tags: Meta · CoreWeave · Artificial Intelligence · AI Infrastructure · GPU C
     source: "India News AI — Technology Desk",
     publishedAt: "2026-04-10T08:00:00.000Z",
     url: "meta-coreweave-21-billion-ai-compute-deal-2026",
-    image: metaCoreweaveImg,
-    pinned: true
+    image: metaCoreweaveImg
   },
   {
     title: "Fashion: Spring 2026 Trends Spotlight Sporty Windbreakers, Capris, and Playful Layering",
