@@ -4,6 +4,10 @@ import { ChevronLeft, Calendar, Share2, Check, Clock } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import { sampleArticles } from "@/data/sampleNews";
 import eventManagementThumbnail from "@/assets/event-management-delhi-thumbnail.webp";
+import metGalaImg1 from "@/assets/met-gala-2026-1.jpg";
+import metGalaImg2 from "@/assets/met-gala-2026-2.jpg";
+import metGalaImg3 from "@/assets/met-gala-2026-3.jpg";
+import metGalaImg4 from "@/assets/met-gala-2026-4.jpg";
 
 const categoryBadgeColors: Record<string, string> = {
   religion: "bg-green-100 text-green-800",
@@ -67,6 +71,7 @@ export default function ArticlePage() {
   const formattedTime = pubDate.toLocaleTimeString("en-IN", { hour: "2-digit", minute: "2-digit" });
 
   const isEventArticle = slug === "how-to-choose-event-management-company-delhi";
+  const isMetGalaArticle = slug === "met-gala-2026-fashion-is-art-theme-co-chairs-may-4";
 
   const articleJsonLd = {
     "@context": "https://schema.org",
@@ -139,6 +144,131 @@ export default function ArticlePage() {
         ],
       }
     : null;
+
+  // Met Gala special layout
+  if (isMetGalaArticle) {
+    return (
+      <div className="min-h-screen flex flex-col" style={{ background: "#0a0a0a", fontFamily: "'Playfair Display', 'Georgia', serif" }}>
+        <Helmet>
+          <title>{article.title} | IndiaNewsAi</title>
+          <meta name="description" content={article.description} />
+          <meta property="og:title" content={article.title} />
+          <meta property="og:description" content={article.description} />
+          <meta property="og:type" content="article" />
+          <meta property="og:url" content={`https://indianewsai.com/article/${article.url}`} />
+          <meta name="twitter:card" content="summary_large_image" />
+          <link rel="canonical" href={`https://indianewsai.com/article/${article.url}`} />
+          <script type="application/ld+json">{JSON.stringify(articleJsonLd)}</script>
+        </Helmet>
+
+        {/* Elegant black header */}
+        <header className="sticky top-0 z-50 border-b border-white/10 pt-[env(safe-area-inset-top,0px)]" style={{ background: "#000" }} role="banner">
+          <nav className="flex items-center justify-between px-6 py-4" aria-label="Article navigation">
+            <button
+              onClick={() => navigate(-1)}
+              className="text-white/70 hover:text-white transition-colors flex items-center gap-1 text-xs tracking-[0.25em] uppercase"
+              aria-label="Go back"
+            >
+              <ChevronLeft size={14} /> Back
+            </button>
+            <Link to="/" className="text-xl font-black text-white leading-none tracking-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
+              India<span className="text-neutral-400">News</span>Ai
+            </Link>
+            <div className="w-16"></div>
+          </nav>
+        </header>
+
+        <main className="flex-1 w-full">
+          {/* Hero image */}
+          <div className="relative w-full" style={{ maxHeight: "70vh", overflow: "hidden" }}>
+            <img
+              src={metGalaImg4}
+              alt="Met Gala 2026 — Fashion Is Art"
+              className="w-full object-cover"
+              style={{ maxHeight: "70vh" }}
+              loading="eager"
+            />
+            <div className="absolute inset-0" style={{ background: "linear-gradient(to top, #0a0a0a 0%, transparent 50%)" }} />
+            <div className="absolute bottom-0 left-0 right-0 px-6 pb-8 md:px-12 md:pb-12">
+              <span className="inline-block text-[0.6rem] tracking-[0.3em] uppercase font-bold px-3 py-1 mb-4 border border-white/30 text-white/80">
+                Fashion
+              </span>
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white leading-[1.1] max-w-4xl" style={{ fontFamily: "'Playfair Display', serif" }}>
+                Met Gala 2026: 'Fashion Is Art'
+              </h1>
+              <p className="text-white/50 text-sm mt-4 tracking-[0.15em] uppercase">
+                May 4, 2026 · The Metropolitan Museum of Art, New York
+              </p>
+            </div>
+          </div>
+
+          {/* Article body */}
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 py-10 md:py-16">
+            {/* Meta bar */}
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pb-8 mb-8 border-b border-white/10">
+              <div className="flex flex-wrap items-center gap-4 text-xs text-neutral-500 tracking-wide">
+                <span className="font-semibold text-white/80">{article.source}</span>
+                <time dateTime={article.publishedAt} className="flex items-center gap-1">
+                  <Calendar size={12} /> {formattedDate}
+                </time>
+                <span className="flex items-center gap-1">
+                  <Clock size={12} /> {formattedTime} IST
+                </span>
+              </div>
+              <button
+                onClick={handleShare}
+                className="flex items-center gap-2 text-xs tracking-[0.2em] uppercase text-neutral-400 hover:text-white transition-colors border border-white/20 px-4 py-2"
+                aria-label="Share this article"
+              >
+                {copied ? <Check size={12} className="text-green-400" /> : <Share2 size={12} />}
+                {copied ? "Copied" : "Share"}
+              </button>
+            </div>
+
+            {/* Lead */}
+            <p className="text-xl md:text-2xl text-neutral-300 leading-relaxed mb-10" style={{ fontFamily: "'Playfair Display', serif" }}>
+              {article.description}
+            </p>
+
+            {/* Content */}
+            <div className="text-neutral-400 leading-[1.9] text-base md:text-lg" style={{ fontFamily: "'Georgia', serif" }}>
+              {article.content ? (
+                <div className="whitespace-pre-wrap">{article.content}</div>
+              ) : (
+                <div className="p-8 border border-white/10 text-center italic text-neutral-600">
+                  Full article content is currently being generated.
+                </div>
+              )}
+            </div>
+
+            {/* Gallery */}
+            <div className="mt-16 mb-8">
+              <h2 className="text-2xl font-black text-white mb-8 tracking-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
+                Gallery
+              </h2>
+              <div className="grid grid-cols-2 gap-3 md:gap-4">
+                {[metGalaImg1, metGalaImg2, metGalaImg3, metGalaImg4].map((img, i) => (
+                  <div key={i} className="overflow-hidden group">
+                    <img
+                      src={img}
+                      alt={`Met Gala 2026 — Image ${i + 1}`}
+                      className="w-full h-48 sm:h-64 md:h-72 object-cover grayscale hover:grayscale-0 transition-all duration-700 group-hover:scale-105"
+                      loading="lazy"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </main>
+
+        {/* Minimal footer */}
+        <footer className="text-center py-8 border-t border-white/10 text-neutral-600 text-[0.65rem] tracking-[0.25em] uppercase" role="contentinfo">
+          <strong className="text-white/60">IndiaNewsAi</strong> — AI-Powered News Intelligence
+        </footer>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen flex flex-col bg-background">

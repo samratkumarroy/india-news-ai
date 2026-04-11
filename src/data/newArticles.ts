@@ -9,6 +9,10 @@ import parliamentBudgetImg from "@/assets/india-parliament-budget-2026.webp";
 import iplImg from "@/assets/ipl-2026-season-opener.webp";
 import appleVisionImg from "@/assets/apple-vision-pro-2-2026.webp";
 import g20DiplomacyImg from "@/assets/india-g20-diplomacy-2026.webp";
+import dacroitImg from "@/assets/dacoit-bhooth-bangla-box-office.jpg";
+import sabrinaCoachellaImg from "@/assets/sabrina-carpenter-coachella-2026.jpg";
+import springFashionUpdatedImg from "@/assets/spring-2026-fashion-trends-updated.jpg";
+import metGala2026Img from "@/assets/met-gala-2026-4.jpg";
 
 const today = new Date().toISOString();
 
@@ -315,5 +319,129 @@ Tags: G20 · Climate · Green Energy · India · Diplomacy · Renewable Energy �
     publishedAt: "2026-04-11T10:00:00.000Z",
     url: "india-leads-g20-climate-tech-alliance-green-energy-fund-2026",
     image: g20DiplomacyImg
+  },
+  {
+    title: "Dacoit Maintains Steady Box Office Run on Day 2 While Bhooth Bangla Faces Tough Competition",
+    description: "Dacoit earns ₹7 crore on day 2 amid clash with Bhooth Bangla, highlighting a competitive April 2026 for Bollywood releases.",
+    content: `ENTERTAINMENT — Bollywood Box Office | April 11, 2026
+
+Mumbai: The high-octane action-thriller Dacoit: A Love Story, starring Adivi Sesh and Mrunal Thakur, continued its steady performance on its second day, raking in approximately ₹7 crore nett. The film, which blends intense action with raw emotion, is holding well in urban centers and multiplexes despite the direct clash with Akshay Kumar's horror-comedy Bhooth Bangla.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• ₹7 Crore — Dacoit's Day 2 nett collection
+• Pan-India release in Hindi and Telugu simultaneously
+• Bhooth Bangla sees stronger single-screen footfalls
+• Upcoming releases: Ginny Weds Sunny 2 (April 24), The Wardrobe
+• April clash energizes industry box office predictions
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Trade experts note that Dacoit's pan-India appeal, shot simultaneously in Hindi and Telugu, is helping it attract younger audiences and family crowds looking for adrenaline. Meanwhile, Bhooth Bangla, directed by Priyadarshan and featuring Tabu and Paresh Rawal, is seeing mixed early trends with stronger single-screen footfalls thanks to its comedy-horror mix.
+
+This April 10 clash has energized the industry, with other upcoming releases like Ginny Weds Sunny 2 (April 24) and The Wardrobe adding to the month's excitement. Early predictions suggest the duel could reshape weekend collections across circuits.
+
+Tags: Dacoit · Bhooth Bangla · Bollywood Box Office · Adivi Sesh · Mrunal Thakur · Akshay Kumar · April 2026`,
+    category: "entertainment",
+    source: "India News AI — Entertainment Desk",
+    publishedAt: "2026-04-11T12:00:00.000Z",
+    url: "dacoit-bhooth-bangla-box-office-clash-april-2026",
+    image: dacroitImg
+  },
+  {
+    title: "Sabrina Carpenter Brings Major Hollywood Star Power to Coachella 2026 Performance",
+    description: "Sabrina Carpenter elevates her Coachella 2026 set with Hollywood celebrities and cinematic elements, creating a memorable festival moment.",
+    content: `ENTERTAINMENT — Music & Events | April 11, 2026
+
+Coachella Valley: Sabrina Carpenter delivered a show-stopping set at Coachella 2026 on Friday night, transforming her performance into a full Hollywood spectacle. The pop star brought out an impressive lineup of celebrity guests, including big names from film and entertainment, while incorporating a short cinematic segment that wowed the crowd.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• Show-stopping Coachella 2026 Friday night headline set
+• Celebrity guest appearances from film and entertainment
+• Cinematic visuals blurring concert and movie production
+• Reflects growing fusion of music festivals with cinema
+• Festival season buzz with surprise appearances expected
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Her high-energy performance featured hits from her latest projects and creative visuals that blurred the lines between concert and movie production. Insiders say the move reflects the growing fusion of music festivals with cinematic experiences in 2026.
+
+The appearance comes amid a busy festival season, keeping Coachella as one of the hottest events for cross-industry celebrity sightings and collaborations. Fans are already buzzing about potential surprise appearances in upcoming weekend sets.
+
+Tags: Sabrina Carpenter · Coachella 2026 · Music Festival · Hollywood · Entertainment · Live Performance`,
+    category: "entertainment",
+    source: "India News AI — Entertainment Desk",
+    publishedAt: "2026-04-11T08:00:00.000Z",
+    url: "sabrina-carpenter-coachella-2026-hollywood-star-power",
+    image: sabrinaCoachellaImg
+  },
+  {
+    title: "Spring 2026 Fashion Trends: Windbreakers, Electric Florals, and CBK-Inspired Minimalism Dominate",
+    description: "Windbreakers, electric florals, and minimalist CBK-inspired looks emerge as dominant spring 2026 fashion trends across global runways and streets.",
+    content: `FASHION — Spring 2026 Trends | April 10, 2026
+
+New York/Paris/Milan: As spring fully arrives, key 2026 trends are taking hold both on and off the runway. Sporty windbreakers with tech-inspired details, vibrant electric florals, and minimalist silhouettes inspired by Carolyn Bessette-Kennedy are leading the charge. Designers are mixing practical layering with bold statement pieces, creating versatile looks perfect for everyday wear and events.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY TRENDS
+
+• Sporty windbreakers with tech-inspired details
+• Electric florals in vibrant palettes
+• CBK-inspired minimalist silhouettes
+• Metropolitan prep aesthetics and primary colors
+• Fringe, polka dots, and texture-heavy elements
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Metropolitan prep aesthetics, grade-school primary colors, and texture-heavy elements like fringe and polka dots are also gaining traction. Celebrities and street-style influencers are quickly adopting these, signaling a shift toward joyful, movement-friendly fashion post-winter.
+
+With major events like the upcoming Met Gala on the horizon, these trends are expected to influence red carpets throughout the season. Fashion houses emphasize wearability alongside creativity for spring 2026.
+
+Tags: Spring Fashion 2026 · Windbreakers · Electric Florals · CBK Minimalism · Street Style · Runway · Met Gala`,
+    category: "fashion",
+    source: "India News AI — Fashion Desk",
+    publishedAt: "2026-04-10T15:30:00.000Z",
+    url: "spring-2026-windbreakers-electric-florals-cbk-minimalism",
+    image: springFashionUpdatedImg
+  },
+  {
+    title: "Met Gala 2026: 'Fashion Is Art' Theme and Star-Studded Co-Chairs Announced for May 4",
+    description: "Met Gala 2026 will feature the 'Fashion Is Art' theme with co-chairs Beyoncé, Nicole Kidman, Venus Williams, and Anna Wintour on May 4.",
+    content: `FASHION — Met Gala 2026 | April 10, 2026
+
+New York: The Metropolitan Museum of Art has revealed key details for the 2026 Met Gala, set for Monday, May 4. The theme "Fashion Is Art" aligns with the Costume Institute's spring exhibition Costume Art, which will inaugurate new permanent galleries showcasing garments alongside historical art pieces spanning 5,000 years.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY DETAILS
+
+• Theme: "Fashion Is Art"
+• Date: Monday, May 4, 2026
+• Co-Chairs: Beyoncé, Nicole Kidman, Venus Williams, Anna Wintour
+• Exhibition: Costume Art — new permanent galleries
+• Dress Code: Creative interpretations of fashion as living art
+• Venue: The Metropolitan Museum of Art, New York
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Co-chairs include Beyoncé, Nicole Kidman, Venus Williams, and Anna Wintour, promising a glamorous mix of music, film, sports, and fashion royalty. The dress code encourages creative interpretations of fashion as living art, likely inspiring bold, artistic red-carpet moments.
+
+This year's gala holds extra significance as it celebrates the new Condé M. Nast Galleries. The exhibition will feature garments alongside paintings, sculptures, and decorative art from across 5,000 years of history — bridging the gap between fashion and fine art like never before.
+
+Anticipation is already building for what promises to be one of the most visually striking events of 2026. Fashion insiders expect boundary-pushing interpretations of the theme, with designers reportedly working on one-of-a-kind pieces that blur the line between couture and contemporary art.
+
+Tags: Met Gala 2026 · Fashion Is Art · Beyoncé · Nicole Kidman · Venus Williams · Anna Wintour · Costume Institute · Metropolitan Museum`,
+    category: "fashion",
+    source: "India News AI — Fashion Desk",
+    publishedAt: "2026-04-10T14:20:00.000Z",
+    url: "met-gala-2026-fashion-is-art-theme-co-chairs-may-4",
+    image: metGala2026Img,
+    pinned: true
   }
 ];
