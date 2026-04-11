@@ -1,8 +1,9 @@
 import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { MessageCircle, X, Send, Trash2, Bot } from "lucide-react";
+import { X, Send, Trash2 } from "lucide-react";
 import ReactMarkdown from "react-markdown";
 import { useChat, ChatMessage } from "@/hooks/useChat";
+import aiChatIcon from "@/assets/ai-chat-icon.png";
 
 export default function AIChatWidget() {
   const [isOpen, setIsOpen] = useState(false);
