@@ -111,4 +111,24 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://indianewsai.com/article/dacoit-bhooth-bangla-box-office-day-2-bollywood-clash</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/sabrina-carpenter-coachella-2026-hollywood-star-power</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/spring-2026-windbreakers-electric-florals-cbk-minimalism</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/met-gala-2026-fashion-is-art-theme-co-chairs-may-4</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
