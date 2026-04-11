@@ -71,7 +71,28 @@ export default function NewsCard({ article, index, isHero, currentTime }: NewsCa
           </div>
         </div>
       )}
-      {article.image && (
+      {gallery && gallery.length > 1 ? (
+        <div className={`overflow-hidden relative ${isHero ? "md:w-2/5 min-h-[200px]" : "h-48"}`}>
+          <AnimatePresence mode="wait">
+            <motion.img
+              key={galleryIndex}
+              src={gallery[galleryIndex]}
+              alt={`${article.title} — Image ${galleryIndex + 1}`}
+              className="w-full h-full object-cover absolute inset-0"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.6 }}
+              loading="lazy"
+            />
+          </AnimatePresence>
+          <div className="absolute bottom-2 right-2 flex gap-1 z-10">
+            {gallery.map((_, i) => (
+              <span key={i} className={`w-1.5 h-1.5 rounded-full transition-colors ${i === galleryIndex ? "bg-saffron" : "bg-white/50"}`} />
+            ))}
+          </div>
+        </div>
+      ) : article.image ? (
         <div className={`overflow-hidden ${isHero ? "md:w-2/5 min-h-[200px]" : "h-48"}`}>
           <img
             src={article.image}
@@ -80,7 +101,7 @@ export default function NewsCard({ article, index, isHero, currentTime }: NewsCa
             loading="lazy"
           />
         </div>
-      )}
+      ) : null}
       <div className="p-4 sm:p-5 flex flex-col flex-1">
         <div className="flex items-center justify-between mb-2">
           <span className={`text-[0.58rem] tracking-[0.18em] uppercase font-bold ${categoryColors[article.category] || "text-saffron"}`}>
