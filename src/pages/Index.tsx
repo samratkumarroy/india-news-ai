@@ -7,6 +7,7 @@ import CategoryNav from "@/components/CategoryNav";
 import NewsTicker from "@/components/NewsTicker";
 import NewsCard from "@/components/NewsCard";
 import Footer from "@/components/Footer";
+import AIChatWidget from "@/components/AIChatWidget";
 import { sampleArticles } from "@/data/sampleNews";
 
 export default function Index() {
