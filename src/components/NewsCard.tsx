@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { ChevronRight, Share2, Check } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { NewsArticle } from "@/types/news";
 
 interface NewsCardProps {
