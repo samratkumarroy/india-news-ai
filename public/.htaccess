@@ -1,5 +1,17 @@
+# Correct MIME types
+AddType application/xml .xml
+AddType text/plain .txt
+
 RewriteEngine On
 RewriteBase /
+
+# Serve static files directly
+RewriteRule ^sitemap\.xml$ - [L]
+RewriteRule ^robots\.txt$ - [L]
+RewriteRule ^ai\.txt$ - [L]
+RewriteRule ^humans\.txt$ - [L]
+RewriteRule ^llms\.txt$ - [L]
+
 RewriteRule ^index\.html$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
