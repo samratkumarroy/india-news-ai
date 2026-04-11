@@ -445,6 +445,7 @@ Tags: Met Gala 2026 · Fashion Is Art · Beyoncé · Nicole Kidman · Venus Will
     publishedAt: "2026-04-10T14:20:00.000Z",
     url: "met-gala-2026-fashion-is-art-theme-co-chairs-may-4",
     image: metGala2026Img,
+    gallery: [metGalaImg1, metGalaImg2, metGalaImg3, metGala2026Img],
     pinned: true
   }
 ];
