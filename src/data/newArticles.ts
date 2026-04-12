@@ -558,6 +558,7 @@ Tags: Israel · Lebanon · US-Iran Ceasefire · Hezbollah · JD Vance · Middle 
     image: lebanonCeasefireImg
   },
   {
+    title: "Met Gala 2026: 'Fashion Is Art' Theme and Star-Studded Co-Chairs Announced for May 4",
     description: "Met Gala 2026 will feature the 'Fashion Is Art' theme with co-chairs Beyoncé, Nicole Kidman, Venus Williams, and Anna Wintour on May 4.",
     content: `FASHION — Met Gala 2026 | April 10, 2026
 
