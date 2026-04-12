@@ -16,7 +16,11 @@ import metGalaImg1 from "@/assets/met-gala-2026-1.jpg";
 import metGalaImg2 from "@/assets/met-gala-2026-2.jpg";
 import metGalaImg3 from "@/assets/met-gala-2026-3.jpg";
 import metGala2026Img from "@/assets/met-gala-2026-4.jpg";
-
+import anthropicMythosImg from "@/assets/anthropic-mythos-wall-street-2026.jpg";
+import shilpaKajolImg from "@/assets/bollywood-shilpa-kajol-2026.jpg";
+import streetStyleCaprisImg from "@/assets/april-2026-street-style-capris.jpg";
+import relianceGreenAiImg from "@/assets/reliance-green-energy-ai-2026.jpg";
+import lebanonCeasefireImg from "@/assets/lebanon-strikes-ceasefire-2026.jpg";
 const today = new Date().toISOString();
 
 export const newArticles: NewsArticle[] = [
@@ -410,6 +414,148 @@ Tags: Spring Fashion 2026 · Windbreakers · Electric Florals · CBK Minimalism 
     publishedAt: "2026-04-10T15:30:00.000Z",
     url: "spring-2026-windbreakers-electric-florals-cbk-minimalism",
     image: springFashionUpdatedImg
+  },
+  {
+    title: "Wall Street Banks Begin Testing Anthropic's Restricted Claude Mythos AI Model",
+    description: "Leading banks including JPMorgan and Goldman Sachs test Anthropic's withheld Claude Mythos model internally amid ongoing AI safety concerns.",
+    content: `TECHNOLOGY — AI & Finance | April 12, 2026
+
+Major U.S. financial institutions, including JPMorgan Chase, Goldman Sachs, Citigroup, Bank of America, and Morgan Stanley, have begun controlled internal testing of Anthropic's powerful but unreleased Claude Mythos AI model. The move follows Anthropic's decision to withhold public release due to its advanced autonomous vulnerability-chaining capabilities, which raised significant cybersecurity concerns.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• JPMorgan, Goldman Sachs, Citigroup among banks testing Claude Mythos
+• Model withheld from public due to cybersecurity risk capabilities
+• Testing encouraged by Treasury Secretary and Federal Reserve Chair
+• Focus on defensive applications: fraud detection, risk modeling
+• Raises questions about selective AI access and governance
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Sources indicate the testing is part of a broader industry push encouraged by Treasury Secretary Scott Bessent and Federal Reserve Chair Jay Powell, aiming to explore defensive applications while mitigating risks. Wall Street's involvement highlights growing institutional interest in frontier AI for risk modeling, fraud detection, and operational efficiency, even as safety debates intensify.
+
+This development comes amid parallel stories of progressive backlash against AI data center expansion and OpenAI's recent security patch for a third-party tool. Experts suggest such selective access could accelerate responsible enterprise adoption while underscoring the need for coordinated governance.
+
+Tags: Anthropic · Claude Mythos · Wall Street · AI Safety · JPMorgan · Goldman Sachs · Frontier AI`,
+    category: "technology",
+    source: "India News AI — Technology Desk",
+    publishedAt: "2026-04-12T06:00:00.000Z",
+    url: "anthropic-claude-mythos-wall-street-banks-testing-2026",
+    image: anthropicMythosImg
+  },
+  {
+    title: "Shilpa Shetty's On-Set Burn Story and Kajol's DDLJ Endorsement Highlight Bollywood Resilience",
+    description: "Shilpa Shetty shares injury comeback tale while Kajol champions DDLJ in Academy romance poll, celebrating actress strength and legacy.",
+    content: `ENTERTAINMENT — Bollywood | April 12, 2026
+
+Bollywood veteran Shilpa Shetty shared a candid behind-the-scenes story of professional grit, revealing she suffered a severe back burn during a film shoot but returned the next day despite pain and wardrobe challenges. Meanwhile, Kajol enthusiastically backed Dilwale Dulhania Le Jayenge (DDLJ) as fans' top choice in the Academy's ongoing favorite romance film poll, calling it an "obvious" pick that continues to resonate decades later.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• Shilpa Shetty reveals severe back burn on set, returned next day
+• Kajol backs DDLJ as Academy's favourite romance film
+• 2026 lineup: Alia Bhatt's Alpha, Kriti Sanon's new projects
+• Social media celebrates actress authenticity and resilience
+• Indian cinema's leading ladies continue to break barriers
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+These moments spotlight the enduring strength and legacy of leading ladies. As 2026 unfolds with powerhouse actresses like Alia Bhatt and Kriti Sanon gearing up for ambitious projects, such stories reinforce themes of resilience and timeless appeal in Indian cinema. Social media buzz around these updates reflects fan appreciation for authenticity amid high-stakes releases.
+
+Tags: Shilpa Shetty · Kajol · DDLJ · Bollywood · Academy Poll · Indian Cinema · Resilience`,
+    category: "entertainment",
+    source: "India News AI — Entertainment Desk",
+    publishedAt: "2026-04-12T07:00:00.000Z",
+    url: "bollywood-shilpa-shetty-kajol-resilience-ddlj-2026",
+    image: shilpaKajolImg
+  },
+  {
+    title: "April 2026 Street Style: Capris, Stripes, and Metropolitan Prep Define Spring Looks",
+    description: "Capri pants, bold stripes, and polished prep elements dominate April 2026 street style as spring fashion emphasizes versatility.",
+    content: `FASHION — Street Style | April 12, 2026
+
+As temperatures rise in key fashion cities like Milan, April 2026 street style showcases practical yet elevated trends: capri pants paired with lightweight layers, vibrant stripes, and metropolitan prep aesthetics. Influencers and passersby blend sporty windbreakers with tailored elements, creating versatile looks ideal for transitional weather.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY TRENDS
+
+• Capri pants with lightweight layers for transitional weather
+• Bold stripes in vibrant palettes
+• Metropolitan prep aesthetics with tailored blazers
+• "Texturemaxxing" — polka dots and electric florals
+• Borrowed-from-the-boys tailoring and icy blue tones
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Designers and forecasters highlight "texturemaxxing," polka dots, and electric florals as complementary details that add personality. Retail interest surges in these movement-friendly pieces, which balance comfort with contemporary flair. From icy blues to borrowed-from-the-boys tailoring, the season encourages confident, real-life dressing that transitions effortlessly from day to evening.
+
+Tags: Street Style · April 2026 · Capris · Stripes · Metropolitan Prep · Spring Fashion · Milan`,
+    category: "fashion",
+    source: "India News AI — Fashion Desk",
+    publishedAt: "2026-04-12T08:00:00.000Z",
+    url: "fashion-april-2026-street-style-capris-stripes-prep",
+    image: streetStyleCaprisImg
+  },
+  {
+    title: "Reliance Accelerates Battery Giga Factories and $110B AI Infrastructure Push",
+    description: "Reliance Industries pushes forward with green energy projects and massive AI investments to strengthen India's tech sovereignty.",
+    content: `TECHNOLOGY — Industry | April 12, 2026
+
+Reliance Industries continues aggressive progress on its multi-pronged growth strategy, with ongoing construction of battery giga factories and green energy complexes at Jamnagar alongside its landmark ₹10 lakh crore ($110 billion) commitment to AI infrastructure over seven years. The conglomerate aims to deliver gigawatt-scale data centers and edge computing capabilities, positioning India as a sovereign AI powerhouse.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• ₹10 lakh crore ($110B) AI infrastructure commitment over 7 years
+• Battery giga factories under construction at Jamnagar
+• Gigawatt-scale data centers and edge computing planned
+• Synergies with Jio's digital ecosystem
+• Positions India as a sovereign AI powerhouse
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+These moves build on Reliance's history of transformative investments, from affordable data to new energy solutions. Analysts note the back-loaded nature of the AI spend while highlighting synergies with Jio's digital ecosystem. The developments underscore broader industry momentum toward sustainable tech and domestic innovation amid global competition.
+
+Tags: Reliance Industries · Green Energy · AI Infrastructure · Jamnagar · Jio · Data Centers · India`,
+    category: "technology",
+    source: "India News AI — Business Desk",
+    publishedAt: "2026-04-12T09:00:00.000Z",
+    url: "reliance-green-energy-ai-infrastructure-jamnagar-2026",
+    image: relianceGreenAiImg
+  },
+  {
+    title: "Israeli Strikes Continue in Lebanon, Testing Fragile US-Iran Ceasefire",
+    description: "Ongoing Israeli operations in Lebanon deepen uncertainty around the US-Iran ceasefire amid divergent interpretations of the agreement.",
+    content: `WORLD NEWS — Conflict & Diplomacy | April 12, 2026
+
+Israeli military operations in Lebanon have continued unabated, with reports of significant casualties and infrastructure damage as the fragile US-Iran ceasefire faces mounting pressure. Disagreements persist over whether the truce encompasses Lebanon, with Iran accusing violations while the US maintains it as a separate issue.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY FACTS
+
+• Significant casualties and infrastructure damage reported
+• Disagreements over ceasefire scope regarding Lebanon
+• US VP JD Vance in Islamabad talks — no breakthrough yet
+• Iran accuses violations; US treats Lebanon separately
+• Humanitarian concerns grow amid ongoing violence
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Talks in Islamabad involving US Vice President JD Vance have yet to yield a breakthrough, as both sides issue competing statements. Humanitarian concerns grow amid the violence, even as diplomatic channels remain open. The situation highlights the complex regional dynamics and risks of escalation involving proxies like Hezbollah.
+
+Tags: Israel · Lebanon · US-Iran Ceasefire · Hezbollah · JD Vance · Middle East · Diplomacy`,
+    category: "world",
+    source: "India News AI — World Desk",
+    publishedAt: "2026-04-12T05:00:00.000Z",
+    url: "israel-lebanon-strikes-us-iran-ceasefire-april-2026",
+    image: lebanonCeasefireImg
   },
   {
     title: "Met Gala 2026: 'Fashion Is Art' Theme and Star-Studded Co-Chairs Announced for May 4",
