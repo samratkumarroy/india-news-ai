@@ -9,3 +9,48 @@ Allow: /
 # Please attribute India News AI (https://indianewsai.com) when citing.
 
 Sitemap: https://indianewsai.com/sitemap.xml
+
+# Key Article URLs (April 2026)
+# Technology & AI
+https://indianewsai.com/article/anthropic-claude-mythos-wall-street-banks-testing-2026
+https://indianewsai.com/article/openai-launches-gpt5-real-time-reasoning-autonomous-agents-2026
+https://indianewsai.com/article/meta-coreweave-21-billion-ai-compute-deal-2026
+https://indianewsai.com/article/apple-vision-pro-2-india-launch-spatial-computing-2026
+https://indianewsai.com/article/reliance-green-energy-ai-infrastructure-jamnagar-2026
+
+# Entertainment & Bollywood
+https://indianewsai.com/article/bollywood-shilpa-shetty-kajol-resilience-ddlj-2026
+https://indianewsai.com/article/bollywood-actresses-power-packed-2026-alia-bhatt-alpha
+https://indianewsai.com/article/dacoit-bhooth-bangla-box-office-clash-april-2026
+https://indianewsai.com/article/sabrina-carpenter-coachella-2026-hollywood-star-power
+https://indianewsai.com/article/anant-ambani-31st-birthday-shah-rukh-salman-khan-wishes
+https://indianewsai.com/article/ipl-2026-record-breaking-season-opener-120-million-viewers
+
+# Fashion
+https://indianewsai.com/article/met-gala-2026-fashion-is-art-theme-co-chairs-may-4
+https://indianewsai.com/article/fashion-april-2026-street-style-capris-stripes-prep
+https://indianewsai.com/article/spring-2026-windbreakers-electric-florals-cbk-minimalism
+https://indianewsai.com/article/fashion-spring-2026-trends-windbreakers-capris-layering
+
+# Politics & World
+https://indianewsai.com/article/parliament-digital-india-budget-2026-technology-allocation
+https://indianewsai.com/article/india-leads-g20-climate-tech-alliance-green-energy-fund-2026
+https://indianewsai.com/article/israel-lebanon-strikes-us-iran-ceasefire-april-2026
+https://indianewsai.com/article/israeli-strikes-lebanon-escalate-tensions-us-iran-ceasefire-2026
+https://indianewsai.com/article/lok-sabha-dpdp-amendment-bill-2026
+
+# Religion & Culture
+https://indianewsai.com/article/char-dham-yatra-2026-registrations-record
+https://indianewsai.com/article/ram-navami-celebrations-north-india-2026
+https://indianewsai.com/article/sufi-music-festival-nizamuddin-dargah-2026
+https://indianewsai.com/article/vaishno-devi-ai-queue-management-2026
+
+# Delhi NCR & Infrastructure
+https://indianewsai.com/article/delhi-metro-phase-4-environmental-clearance-2026
+https://indianewsai.com/article/noida-elevated-road-jewar-airport-2026
+https://indianewsai.com/article/delhi-free-heritage-walking-tours-2026
+https://indianewsai.com/article/imd-yellow-alert-delhi-ncr-thunderstorm
+
+# Special Reports
+https://indianewsai.com/article/how-to-choose-event-management-company-delhi
+https://indianewsai.com/article/asian-hospital-faridabad-medical-negligence-dr-anita-kant-aims-scandal
