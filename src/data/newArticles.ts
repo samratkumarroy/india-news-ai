@@ -16,7 +16,11 @@ import metGalaImg1 from "@/assets/met-gala-2026-1.jpg";
 import metGalaImg2 from "@/assets/met-gala-2026-2.jpg";
 import metGalaImg3 from "@/assets/met-gala-2026-3.jpg";
 import metGala2026Img from "@/assets/met-gala-2026-4.jpg";
-
+import anthropicMythosImg from "@/assets/anthropic-mythos-wall-street-2026.jpg";
+import shilpaKajolImg from "@/assets/bollywood-shilpa-kajol-2026.jpg";
+import streetStyleCaprisImg from "@/assets/april-2026-street-style-capris.jpg";
+import relianceGreenAiImg from "@/assets/reliance-green-energy-ai-2026.jpg";
+import lebanonCeasefireImg from "@/assets/lebanon-strikes-ceasefire-2026.jpg";
 const today = new Date().toISOString();
 
 export const newArticles: NewsArticle[] = [
