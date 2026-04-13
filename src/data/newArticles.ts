@@ -26,6 +26,7 @@ import dhurandhar2Img from "@/assets/dhurandhar-2-1000-crore-2026.jpg";
 import iranNuclearImg from "@/assets/iran-nuclear-talks-breakdown-2026.jpg";
 import indianRailwaysImg from "@/assets/indian-railways-projects-2026.jpg";
 import ciscoAnthropicImg from "@/assets/cisco-anthropic-cybersecurity-2026.jpg";
+import dishaPataniImg from "@/assets/disha-patani-bollywood-2026.png";
 const today = new Date().toISOString();
 
 export const newArticles: NewsArticle[] = [
