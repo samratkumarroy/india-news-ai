@@ -29,3 +29,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://indianewsai.com/sitemap.xml
+Sitemap: https://indianewsai.com/news-sitemap.xml
