@@ -1,37 +1,23 @@
 
 
-## Plan: Add 5 New Articles for April 13, 2026
+## Plan: Generate an Eye-Catching AI Favicon
 
-Based on today's verified news, here are the 5 articles to add:
+### What we'll do
+Generate a bold, eye-catching favicon for India News AI using AI image generation, then set it as the site's favicon.
 
-### Articles
+### Design concept
+A striking "AI" monogram with a saffron-orange gradient glow on a dark background — compact, bold, and instantly recognizable at small sizes. The design will incorporate a subtle neural/circuit motif to reinforce the AI branding.
 
-1. **AI/Technology**: "Microsoft Launches MAI In-House AI Models in Direct Challenge to OpenAI"
-   - Microsoft releases MAI-Transcribe-1, MAI-Voice-1, MAI-Image-2 — first in-house models after renegotiating OpenAI contract
-   - Category: technology
+### Steps
 
-2. **Bollywood/Entertainment**: "Dhurandhar 2 Crosses ₹1,000 Crore Mark — First Hindi Film of 2026 to Hit Milestone"
-   - Ranveer Singh's sequel becomes the first Hindi film of 2026 to cross ₹1,000 crore domestically
-   - Category: entertainment
+1. **Generate favicon** using AI image generation (google/gemini-3-pro-image-preview for highest quality) — a 512x512 bold icon optimized for small-size visibility
+2. **Copy the generated image** to `public/favicon.png`
+3. **Update `index.html`** to reference the new favicon (already points to `/favicon.png`)
+4. **Remove old favicon files** if any `.ico` versions exist that could override
 
-3. **World/Geopolitics**: "Iran Exits Nuclear Talks After Vance Team Trigger in Pakistan"
-   - Iran FM Araghchi reveals breakdown in US-Iran talks in Islamabad; diplomatic tensions escalate
-   - Category: world
-
-4. **India/Infrastructure**: "Indian Railways Sanctions 100 Projects Worth ₹1.53 Lakh Crore"
-   - Record 110% jump in funding for FY 2025-26 to expand rail network and connectivity
-   - Category: politics
-
-5. **AI/Cybersecurity**: "Cisco Joins Anthropic's Project Glasswing for AI-Powered Cyber Defense"
-   - Major cross-industry alliance for AI-driven cybersecurity; signals shift in enterprise defense strategy
-   - Category: technology
-
-### Technical Steps
-
-1. **Generate 5 thumbnail images** (800x512 JPEG) for each article using canvas-based generation, saved to `src/assets/`
-2. **Add article entries** to `src/data/newArticles.ts` with `publishedAt: "2026-04-13T..."` timestamps, full content, and proper URLs
-3. **Update `public/sitemap.xml`** with the 5 new article URLs
-4. **Update `public/ai.txt`** and `public/llms.txt`** with new article references
-
-Met Gala stays pinned as hero. New articles appear immediately below it, sorted by date (newest first).
+### Technical details
+- Model: `google/gemini-3-pro-image-preview` for best quality
+- Output: 512x512 PNG with transparency
+- Color palette: Saffron orange (#FF9933) with dark brown/black background
+- Style: Bold, high-contrast, readable at 16x16 and 32x32 sizes
 
