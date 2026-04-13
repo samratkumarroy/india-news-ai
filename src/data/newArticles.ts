@@ -31,6 +31,37 @@ const today = new Date().toISOString();
 
 export const newArticles: NewsArticle[] = [
   {
+    title: "Disha Patani Dominates Headlines with Fitness, Fashion & Bollywood Comeback Buzz",
+    description: "Bollywood star Disha Patani trends again with her fitness routines, bold fashion choices, and upcoming film projects. Explore why she remains a youth icon in India.",
+    content: `ENTERTAINMENT — Bollywood & Lifestyle | April 13, 2026
+
+Disha Patani continues to command attention across Bollywood and digital platforms, reinforcing her position as one of India's most influential young celebrities. Known for her disciplined fitness regime and striking on-screen presence, she has built a strong personal brand that resonates with Gen Z and millennials alike.
+
+Recently, the actress has been making waves with her high-impact social media presence, where glimpses of her workout routines and fashion-forward appearances regularly go viral. Industry insiders suggest that her upcoming film projects could further elevate her market positioning, especially in action and commercial cinema segments.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• Disha Patani's fitness routines and fashion posts continue to go viral
+• Upcoming film projects expected to boost her commercial cinema presence
+• Strong brand associations with premium lifestyle and fitness labels
+• Recognized as a full-fledged youth icon shaping trends across industries
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Beyond films, Disha's association with premium lifestyle and fitness brands reflects her growing value as a commercial asset. Her ability to seamlessly merge glamour with athleticism makes her a standout figure in today's competitive entertainment landscape.
+
+With increasing visibility across media channels and consistent audience engagement, Disha Patani is not just a Bollywood actress—she is a full-fledged youth icon shaping trends across industries.
+
+Tags: Disha Patani · Bollywood · Fitness · Fashion · Youth Icon · Entertainment · Celebrity`,
+    category: "entertainment",
+    source: "India News AI — Entertainment Desk",
+    publishedAt: "2026-04-13T14:30:00.000Z",
+    url: "Disha-Patani",
+    image: dishaPataniImg,
+  },
+  {
     title: "AI Updates: Meta Strikes Massive $21 Billion Compute Deal with CoreWeave Amid Aggressive AI Model Push",
     description: "Meta secures massive AI computing capacity in a $21B deal with CoreWeave while launching a competitive new closed AI model for super intelligent applications.",
     content: `TECHNOLOGY — AI & Infrastructure | April 2026
