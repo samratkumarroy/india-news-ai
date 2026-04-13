@@ -1,7 +1,7 @@
 import { NewsArticle } from "@/types/news";
 import { newArticles } from "./newArticles";
 
-const today = new Date().toISOString();
+// Base articles use fixed dates for proper chronological sorting
 
 const baseArticles: NewsArticle[] = [
   {
@@ -156,7 +156,7 @@ DOCUMENT ENDS — FOR EDITORIAL AND REGULATORY USE
 Case Reference: TKC/MED-COMPLAINT/ASIAN/2026/002 | All supporting documents available on request`,
     category: "health",
     source: "India News AI — Investigative Desk",
-    publishedAt: today,
+    publishedAt: "2026-04-08T10:00:00.000Z",
     url: "asian-hospital-faridabad-medical-negligence-dr-anita-kant-aims-scandal",
     pinned: false
   },
@@ -166,7 +166,7 @@ Case Reference: TKC/MED-COMPLAINT/ASIAN/2026/002 | All supporting documents avai
     content: "The Ministry of Environment, Forest and Climate Change has officially granted the final environmental clearance for three key corridors under the Delhi Metro Phase-IV expansion project.\n\nThe approved corridors — Lajpat Nagar to Saket G-Block (7.9 km), Inderlok to Indraprastha (12.4 km), and Mukundpur to Maujpur (12.6 km) — are expected to collectively serve over 8 lakh daily commuters once operational.\n\nDMRC Managing Director confirmed that construction tenders will be floated within the next 45 days, with completion targeted by 2029. The corridors will feature energy-efficient rolling stock and solar-powered stations.\n\nUrban planners have welcomed the decision, noting that the new lines will significantly reduce congestion on parallel road corridors and provide last-mile connectivity to several underserved areas in East and South Delhi.",
     category: "breaking",
     source: "ANI",
-    publishedAt: today,
+    publishedAt: "2026-04-08T10:00:00.000Z",
     url: "delhi-metro-phase-4-environmental-clearance-2026"
   },
   {
@@ -175,7 +175,7 @@ Case Reference: TKC/MED-COMPLAINT/ASIAN/2026/002 | All supporting documents avai
     content: "Registrations for the 2026 Char Dham Yatra have surpassed the 5 lakh mark within just seven days of the online portal going live, shattering all previous records.\n\nThe Uttarakhand Tourism Department attributed the surge to improved road infrastructure, including the nearly completed Char Dham Highway project, and enhanced digital registration systems.\n\nChief Minister announced additional medical facilities and helicopter services along all four pilgrimage routes — Yamunotri, Gangotri, Kedarnath, and Badrinath — to accommodate the expected footfall.\n\nSecurity agencies have deployed over 15,000 personnel and implemented AI-powered crowd monitoring at key bottleneck points to ensure pilgrim safety during the season.",
     category: "religion",
     source: "The Tribune",
-    publishedAt: today,
+    publishedAt: "2026-04-08T10:00:00.000Z",
     url: "char-dham-yatra-2026-registrations-record"
   },
   {
@@ -184,7 +184,7 @@ Case Reference: TKC/MED-COMPLAINT/ASIAN/2026/002 | All supporting documents avai
     content: "The India Meteorological Department (IMD) has issued a yellow alert for the entire Delhi-NCR region, warning of thunderstorms accompanied by gusty winds reaching speeds of 50-60 kmph.\n\nThe weather system, originating from a Western Disturbance interacting with lower-level easterlies from the Bay of Bengal, is expected to bring moderate to heavy rainfall between 8 PM and midnight.\n\nIMD scientist Dr. R.K. Jenamani advised residents to avoid outdoor activities during the storm window and secure loose objects on rooftops and balconies. Flight operations at IGI Airport may face delays.\n\nTemperatures are expected to drop by 4-5°C following the storm, providing temporary relief from the early summer heat that has pushed daytime temperatures to 38°C this week.",
     category: "weather",
     source: "IMD / Zee News",
-    publishedAt: today,
+    publishedAt: "2026-04-08T10:00:00.000Z",
     url: "imd-yellow-alert-delhi-ncr-thunderstorm"
   },
   {
@@ -193,7 +193,7 @@ Case Reference: TKC/MED-COMPLAINT/ASIAN/2026/002 | All supporting documents avai
     content: "Ram Navami celebrations reached a crescendo across North India with millions participating in processions, bhajan sandhyas, and community feasts marking the birth anniversary of Lord Ram.\n\nIn Ayodhya, the newly constructed Ram Mandir witnessed a footfall of over 3.5 lakh devotees, with special rituals performed from dawn including the ceremonial bathing of the Ram Lalla idol with panchamrit.\n\nDelhi's major temples including Birla Mandir, Hanuman Mandir at Connaught Place, and Chattarpur Temple organised day-long programmes featuring Ramcharitmanas recitations and cultural performances.\n\nSecurity arrangements were heightened across all major cities with CCTV surveillance, drone monitoring, and multi-layered barricading at procession routes. No untoward incident was reported from any location.",
     category: "religion",
     source: "News24",
-    publishedAt: today,
+    publishedAt: "2026-04-08T10:00:00.000Z",
     url: "ram-navami-celebrations-north-india-2026"
   },
   {
@@ -202,7 +202,7 @@ Case Reference: TKC/MED-COMPLAINT/ASIAN/2026/002 | All supporting documents avai
     content: "The Lok Sabha has passed the Digital Personal Data Protection (Amendment) Bill, 2026, introducing sweeping changes to India's data privacy framework.\n\nKey amendments include mandatory 72-hour breach notification requirements, enhanced consent mechanisms requiring explicit opt-in for cross-border data transfers, and penalties of up to ₹500 crore for significant data breaches.\n\nIT Minister stated that the amendments bring India's data protection regime at par with global standards while ensuring the digital economy continues to thrive. Opposition members raised concerns about surveillance exemptions retained from the original Act.\n\nIndustry body NASSCOM welcomed the clarity on compliance timelines but urged the government to establish the Data Protection Board expeditiously to handle disputes and complaints.",
     category: "politics",
     source: "LiveLaw",
-    publishedAt: today,
+    publishedAt: "2026-04-08T10:00:00.000Z",
     url: "lok-sabha-dpdp-amendment-bill-2026"
   },
   {
@@ -211,7 +211,7 @@ Case Reference: TKC/MED-COMPLAINT/ASIAN/2026/002 | All supporting documents avai
     content: "After a three-year gap, the iconic Sufi music festival at the Hazrat Nizamuddin Auliya Dargah in Delhi has returned, drawing thousands of music lovers and spiritual seekers.\n\nThe five-day festival features performances by renowned qawwali groups including the Nizami Bandhu, Sabri Brothers, and emerging artists from Pakistan, Bangladesh, and Afghanistan who received special cultural visas.\n\nThe Dargah committee, in collaboration with the Delhi government's cultural wing, has expanded the festival to include Sufi poetry recitations, calligraphy exhibitions, and workshops on the syncretic traditions of South Asian Sufism.\n\nEntry is free and the festival runs from 6 PM to midnight daily. DMRC has arranged additional late-night metro services from JLN Stadium metro station to facilitate the expected crowds.",
     category: "culture",
     source: "The Hindu",
-    publishedAt: today,
+    publishedAt: "2026-04-08T10:00:00.000Z",
     url: "sufi-music-festival-nizamuddin-dargah-2026"
   },
   {
@@ -220,7 +220,7 @@ Case Reference: TKC/MED-COMPLAINT/ASIAN/2026/002 | All supporting documents avai
     content: "The Shri Mata Vaishno Devi Shrine Board has unveiled an artificial intelligence-powered queue management and crowd monitoring system ahead of the peak pilgrimage season.\n\nThe system uses computer vision cameras at 47 strategic points along the 13-km trekking route to monitor real-time crowd density, predict bottlenecks, and dynamically adjust batch release timings from the base camp at Katra.\n\nPilgrims will now receive real-time updates on estimated wait times via the shrine's mobile app, with the system capable of processing movement data for up to 50,000 pilgrims simultaneously.\n\nThe board's CEO said the technology has been developed in partnership with IIT Delhi and is expected to reduce average darshan waiting times by 40% compared to last year's peak season figures.",
     category: "religion",
     source: "Business Standard",
-    publishedAt: today,
+    publishedAt: "2026-04-08T10:00:00.000Z",
     url: "vaishno-devi-ai-queue-management-2026"
   },
   {
@@ -229,7 +229,7 @@ Case Reference: TKC/MED-COMPLAINT/ASIAN/2026/002 | All supporting documents avai
     content: "In a major infrastructure boost for the NCR region, the Noida Authority has given final approval for a ₹2,400 crore elevated road project connecting Greater Noida's commercial hub to the upcoming Noida International Airport at Jewar.\n\nThe 21-km six-lane elevated corridor will reduce travel time between the Knowledge Park area and the airport to under 20 minutes, compared to the current estimated 45-minute journey via surface roads.\n\nThe project will be executed in two phases, with the first 12-km stretch expected to be operational before the airport's planned inauguration. Land acquisition for the corridor has already been completed.\n\nReal estate developers in the region have welcomed the announcement, predicting a 15-20% appreciation in property values along the corridor within the next 18 months.",
     category: "breaking",
     source: "Economic Times",
-    publishedAt: today,
+    publishedAt: "2026-04-08T10:00:00.000Z",
     url: "noida-elevated-road-jewar-airport-2026"
   },
   {
@@ -238,7 +238,7 @@ Case Reference: TKC/MED-COMPLAINT/ASIAN/2026/002 | All supporting documents avai
     content: "The Delhi Tourism Department has launched a series of free heritage walking tours covering 15 lesser-known historical monuments from the Mughal, Sultanate, and British colonial eras.\n\nThe weekend walks, led by trained historians and archaeologists from JNU and Jamia Millia Islamia, cover three curated routes: the Mehrauli Archaeological Park trail, the Purana Qila-Nizamuddin circuit, and the Civil Lines heritage corridor.\n\nEach walk spans approximately 3 hours and includes access to monuments that are typically closed to general visitors, including the Tomb of Balban, Rajon ki Baoli, and the Mutiny Memorial.\n\nRegistration is available through the Delhi Tourism app, with each walk limited to 40 participants to ensure an intimate and educational experience. The programme runs every Saturday and Sunday through September.",
     category: "culture",
     source: "Hindustan Times",
-    publishedAt: today,
+    publishedAt: "2026-04-08T10:00:00.000Z",
     url: "delhi-free-heritage-walking-tours-2026"
   },
 ];
