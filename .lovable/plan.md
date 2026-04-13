@@ -1,44 +1,37 @@
 
 
-# AI News Chatbot Widget
+## Plan: Add 5 New Articles for April 13, 2026
 
-## What We're Building
-A floating chat widget (bottom-right corner) where readers can ask questions about news articles and get AI-powered answers grounded in your site's content.
+Based on today's verified news, here are the 5 articles to add:
 
-## How It Works
-1. User clicks a chat bubble icon to open a chat panel
-2. User types a question (e.g., "What happened with GPT-5?" or "Latest Delhi news")
-3. The app sends the question along with all article content to an AI model via a Supabase Edge Function
-4. AI responds with answers sourced from your articles, with streaming text display
+### Articles
 
-## Technical Plan
+1. **AI/Technology**: "Microsoft Launches MAI In-House AI Models in Direct Challenge to OpenAI"
+   - Microsoft releases MAI-Transcribe-1, MAI-Voice-1, MAI-Image-2 — first in-house models after renegotiating OpenAI contract
+   - Category: technology
 
-### 1. Create Supabase Edge Function (`supabase/functions/chat/index.ts`)
-- Receives user messages from the frontend
-- Injects all article content as system context so the AI answers only from your news
-- Calls Lovable AI Gateway (`google/gemini-3-flash-preview`) with streaming enabled
-- Returns SSE stream to the client
+2. **Bollywood/Entertainment**: "Dhurandhar 2 Crosses ₹1,000 Crore Mark — First Hindi Film of 2026 to Hit Milestone"
+   - Ranveer Singh's sequel becomes the first Hindi film of 2026 to cross ₹1,000 crore domestically
+   - Category: entertainment
 
-### 2. Create Chat Widget Component (`src/components/AIChatWidget.tsx`)
-- Floating button (bottom-right) with a chat icon
-- Expandable chat panel with message history
-- Input field for questions
-- Streaming response display with markdown rendering
-- Mobile-responsive design matching the site's newspaper theme
+3. **World/Geopolitics**: "Iran Exits Nuclear Talks After Vance Team Trigger in Pakistan"
+   - Iran FM Araghchi reveals breakdown in US-Iran talks in Islamabad; diplomatic tensions escalate
+   - Category: world
 
-### 3. Create Chat Hook (`src/hooks/useChat.ts`)
-- Manages conversation state (messages array)
-- Handles SSE streaming from the edge function
-- Loading/error states
+4. **India/Infrastructure**: "Indian Railways Sanctions 100 Projects Worth ₹1.53 Lakh Crore"
+   - Record 110% jump in funding for FY 2025-26 to expand rail network and connectivity
+   - Category: politics
 
-### 4. Add Widget to Index Page
-- Import and render `AIChatWidget` in `Index.tsx`
+5. **AI/Cybersecurity**: "Cisco Joins Anthropic's Project Glasswing for AI-Powered Cyber Defense"
+   - Major cross-industry alliance for AI-driven cybersecurity; signals shift in enterprise defense strategy
+   - Category: technology
 
-### Dependencies
-- `react-markdown` for rendering AI responses with formatting
+### Technical Steps
 
-### Design
-- Dark themed to match the site's ink/saffron color scheme
-- Compact overlay that doesn't interfere with news reading
-- "Ask about the news" placeholder text
+1. **Generate 5 thumbnail images** (800x512 JPEG) for each article using canvas-based generation, saved to `src/assets/`
+2. **Add article entries** to `src/data/newArticles.ts` with `publishedAt: "2026-04-13T..."` timestamps, full content, and proper URLs
+3. **Update `public/sitemap.xml`** with the 5 new article URLs
+4. **Update `public/ai.txt`** and `public/llms.txt`** with new article references
+
+Met Gala stays pinned as hero. New articles appear immediately below it, sorted by date (newest first).
 
