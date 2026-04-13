@@ -71,7 +71,7 @@ export default function ArticlePage() {
   const formattedTime = pubDate.toLocaleTimeString("en-IN", { hour: "2-digit", minute: "2-digit" });
 
   const isEventArticle = slug === "how-to-choose-event-management-company-delhi";
-  const isMetGalaArticle = slug === "met-gala-2026-fashion-is-art-theme-co-chairs-may-4";
+  const isMetGalaArticle = slug === "met-gala-2026-fashion-is-art-theme-co-chairs-may-4" || slug === "met-gala-2026-cochairs-beyonce-kidman-williams-wintour";
 
   const articleJsonLd = {
     "@context": "https://schema.org",
