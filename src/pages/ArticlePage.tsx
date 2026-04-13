@@ -182,8 +182,8 @@ export default function ArticlePage() {
           {/* Hero image */}
           <div className="relative w-full" style={{ maxHeight: "70vh", overflow: "hidden" }}>
             <img
-              src={metGalaImg4}
-              alt="Met Gala 2026 — Fashion Is Art"
+              src={article.image || metGalaImg4}
+              alt={article.title}
               className="w-full object-cover"
               style={{ maxHeight: "70vh" }}
               loading="eager"
