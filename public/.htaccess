@@ -7,6 +7,7 @@ RewriteBase /
 
 # Serve static files directly
 RewriteRule ^sitemap\.xml$ - [L]
+RewriteRule ^news-sitemap\.xml$ - [L]
 RewriteRule ^robots\.txt$ - [L]
 RewriteRule ^ai\.txt$ - [L]
 RewriteRule ^humans\.txt$ - [L]
