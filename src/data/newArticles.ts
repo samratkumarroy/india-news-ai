@@ -563,6 +563,168 @@ Tags: Israel · Lebanon · US-Iran Ceasefire · Hezbollah · JD Vance · Middle 
     image: lebanonCeasefireImg
   },
   {
+    title: "Microsoft Launches MAI In-House AI Models in Direct Challenge to OpenAI",
+    description: "Microsoft releases MAI-Transcribe-1, MAI-Voice-1, and MAI-Image-2 — its first in-house AI models after renegotiating its partnership contract with OpenAI.",
+    content: `TECHNOLOGY — AI | April 13, 2026
+
+Microsoft has officially launched its first suite of in-house AI models under the new "MAI" brand, marking a pivotal shift in the company's artificial intelligence strategy. The initial lineup includes MAI-Transcribe-1 for speech-to-text, MAI-Voice-1 for text-to-speech synthesis, and MAI-Image-2 for image generation — all developed independently of OpenAI.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• MAI-Transcribe-1 — Real-time multilingual speech transcription
+• MAI-Voice-1 — Natural-sounding text-to-speech in 40+ languages
+• MAI-Image-2 — Enterprise-grade image generation with safety guardrails
+• Models developed after Microsoft renegotiated its OpenAI contract terms
+• Available immediately on Azure AI Services
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The move comes after Microsoft restructured its $13 billion partnership with OpenAI, securing the right to develop competing models in-house. Industry analysts view this as Microsoft hedging its AI bets while maintaining its OpenAI relationship for GPT-based products.
+
+CEO Satya Nadella emphasized that MAI models are designed for enterprise customers who need "predictable, controllable AI infrastructure" without dependency on third-party model providers. The models are optimized for Azure's cloud infrastructure and offer tighter integration with Microsoft 365 and Dynamics platforms.
+
+The launch signals an intensifying AI model race, with Microsoft now competing directly against OpenAI, Google, and Anthropic with its own foundational models. OpenAI has not yet commented on the development.
+
+Tags: Microsoft · MAI · AI Models · OpenAI · Azure · Enterprise AI · Satya Nadella`,
+    category: "technology",
+    source: "India News AI — Tech Desk",
+    publishedAt: "2026-04-13T09:30:00.000Z",
+    url: "microsoft-mai-in-house-ai-models-challenge-openai-2026",
+    image: microsoftMaiImg
+  },
+  {
+    title: "Dhurandhar 2 Crosses ₹1,000 Crore Mark — First Hindi Film of 2026 to Hit Milestone",
+    description: "Ranveer Singh's action sequel becomes the first Hindi film of 2026 to cross the ₹1,000 crore mark domestically, shattering box office records.",
+    content: `ENTERTAINMENT — Bollywood | April 13, 2026
+
+Mumbai: Ranveer Singh's action-packed sequel Dhurandhar 2 has officially crossed the ₹1,000 crore mark at the domestic box office, becoming the first Hindi film of 2026 to achieve this landmark milestone. The film reached the figure in just 24 days of release, making it one of the fastest Hindi films ever to enter the coveted club.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• ₹1,000 Crore+ — Domestic box office collection
+• 24 Days — Time to reach the milestone
+• First Hindi film of 2026 to cross ₹1,000 crore
+• Directed by Rohit Shetty
+• Worldwide gross estimated at ₹1,450 crore
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Director Rohit Shetty's signature blend of high-octane action sequences, comedy, and emotional drama has resonated with audiences across all demographics. The film's success has been powered by strong word-of-mouth, repeat viewership, and an extended holiday window that boosted footfalls.
+
+Trade analyst Taran Adarsh called it "a watershed moment for Hindi cinema in 2026," noting that the film has outperformed all Bollywood releases this year by a significant margin. The sequel's worldwide gross is estimated at ₹1,450 crore, with particularly strong performance in overseas markets including North America, UAE, and the UK.
+
+Ranveer Singh celebrated the milestone on social media, thanking fans for their "incredible love and energy." The film's success is expected to further boost confidence in big-budget Hindi theatrical releases.
+
+Tags: Dhurandhar 2 · Ranveer Singh · Rohit Shetty · Bollywood · Box Office · ₹1000 Crore Club · Hindi Cinema`,
+    category: "entertainment",
+    source: "India News AI — Entertainment Desk",
+    publishedAt: "2026-04-13T08:15:00.000Z",
+    url: "dhurandhar-2-crosses-1000-crore-first-hindi-film-2026",
+    image: dhurandhar2Img
+  },
+  {
+    title: "Iran Exits Nuclear Talks After Vance Team Trigger in Pakistan — Diplomatic Tensions Escalate",
+    description: "Iran FM Araghchi reveals breakdown in US-Iran nuclear talks in Islamabad after tensions with the Vance negotiation team, raising fears of regional instability.",
+    content: `WORLD — Geopolitics | April 13, 2026
+
+Islamabad: Iran's Foreign Minister Abbas Araghchi has announced Tehran's withdrawal from nuclear negotiations in Pakistan after what he described as "provocative preconditions" imposed by US Vice President JD Vance's negotiation team. The breakdown marks the most significant setback in US-Iran diplomacy since talks resumed in early 2026.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• Iran exits nuclear talks hosted in Islamabad
+• FM Araghchi cites "provocative preconditions" from Vance team
+• Pakistan offered neutral ground for negotiations
+• European mediators express "deep concern"
+• Oil prices spike 3.2% on escalation fears
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The talks, hosted by Pakistan as a neutral mediator, were seen as a critical window for de-escalation following months of rising tensions in the Persian Gulf region. Sources close to the negotiations indicate that the Vance team pushed for immediate IAEA inspector access to undisclosed facilities — a demand Iran considers a violation of its sovereignty.
+
+European mediators, including representatives from France and Germany, expressed "deep concern" at the collapse and urged both sides to return to the table. The EU's foreign policy chief called for "restraint and continued dialogue."
+
+Markets reacted swiftly, with Brent crude prices spiking 3.2% to $89.40 per barrel on fears of supply disruption. Regional analysts warn that the breakdown could embolden hardliners on both sides, complicating future diplomatic efforts.
+
+Tags: Iran · Nuclear Talks · JD Vance · Pakistan · Diplomacy · US-Iran · Oil Prices · Middle East`,
+    category: "world",
+    source: "India News AI — World Desk",
+    publishedAt: "2026-04-13T07:00:00.000Z",
+    url: "iran-exits-nuclear-talks-vance-team-pakistan-2026",
+    image: iranNuclearImg
+  },
+  {
+    title: "Indian Railways Sanctions 100 Projects Worth ₹1.53 Lakh Crore — Record 110% Funding Jump",
+    description: "Indian Railways announces 100 new infrastructure projects with a record ₹1.53 lakh crore allocation, marking a 110% increase in funding for FY 2025-26.",
+    content: `POLITICS — Infrastructure | April 13, 2026
+
+New Delhi: The Indian Railways has sanctioned 100 new infrastructure projects worth ₹1.53 lakh crore ($18.2 billion), marking a historic 110% jump in capital allocation for FY 2025-26. The announcement, made by Railway Minister Ashwini Vaishnaw, represents the largest single-year infrastructure push in Indian Railways' history.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• 100 New Projects sanctioned across India
+• ₹1.53 Lakh Crore — Total allocation ($18.2 billion)
+• 110% Increase over previous year's funding
+• Focus: High-speed corridors, station modernization, electrification
+• 12 new Vande Bharat routes approved
+• Target: 50,000+ direct jobs in construction phase
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The projects span high-speed rail corridors, station modernization, complete electrification of remaining routes, and expansion of the Vande Bharat network with 12 new routes. The government aims to create over 50,000 direct jobs during the construction phase alone.
+
+Key projects include the Mumbai-Pune hyperloop feasibility study, the Varanasi-Kolkata high-speed corridor, and a comprehensive modernization of 50 major railway stations into world-class transit hubs. The electrification drive will cover the remaining 8,000 km of unelectrified track.
+
+Minister Vaishnaw stated that the investment reflects "India's commitment to building world-class rail infrastructure that supports both economic growth and sustainable mobility." The projects are expected to be completed in phases over the next 4-5 years.
+
+Tags: Indian Railways · Infrastructure · ₹1.53 Lakh Crore · Ashwini Vaishnaw · Vande Bharat · Rail Projects · Budget`,
+    category: "politics",
+    source: "India News AI — Policy Desk",
+    publishedAt: "2026-04-13T06:30:00.000Z",
+    url: "indian-railways-100-projects-153-lakh-crore-2026",
+    image: indianRailwaysImg
+  },
+  {
+    title: "Cisco Joins Anthropic's Project Glasswing for AI-Powered Cyber Defense",
+    description: "Cisco partners with Anthropic on Project Glasswing, a cross-industry initiative using AI for real-time cybersecurity threat detection and autonomous defense.",
+    content: `TECHNOLOGY — AI & Cybersecurity | April 13, 2026
+
+San Jose: Cisco Systems has announced its partnership with Anthropic on "Project Glasswing," a cross-industry initiative aimed at deploying AI-powered systems for real-time cybersecurity threat detection and autonomous defense. The collaboration marks one of the most significant enterprise AI security alliances to date.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• Project Glasswing — Joint Cisco-Anthropic cybersecurity initiative
+• Uses Claude-based AI models for real-time threat detection
+• Autonomous response capabilities for enterprise networks
+• Integration with Cisco SecureX and Umbrella platforms
+• Additional partners include CrowdStrike and Palo Alto Networks
+• Pilot deployments begin Q3 2026
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Project Glasswing leverages Anthropic's Claude AI models — specifically tuned for security analysis — integrated directly into Cisco's SecureX and Umbrella platforms. The system is designed to detect, analyze, and respond to cyber threats in real-time without human intervention for routine incidents.
+
+Cisco CEO Chuck Robbins described the initiative as "a paradigm shift in how enterprises defend against increasingly sophisticated AI-powered attacks." The partnership also includes CrowdStrike and Palo Alto Networks as supporting partners, creating an industry-wide defense ecosystem.
+
+Pilot deployments are scheduled to begin in Q3 2026, with Fortune 500 companies in the financial services and healthcare sectors among the first adopters. Anthropic CEO Dario Amodei emphasized that safety guardrails are "deeply embedded" in the system to prevent autonomous AI from taking actions that could disrupt legitimate network operations.
+
+Tags: Cisco · Anthropic · Project Glasswing · Cybersecurity · AI Defense · Claude · Enterprise Security · CrowdStrike`,
+    category: "technology",
+    source: "India News AI — Tech Desk",
+    publishedAt: "2026-04-13T10:00:00.000Z",
+    url: "cisco-anthropic-project-glasswing-ai-cyber-defense-2026",
+    image: ciscoAnthropicImg
+  },
+  {
     title: "Met Gala 2026: 'Fashion Is Art' Theme and Star-Studded Co-Chairs Announced for May 4",
     description: "Met Gala 2026 will feature the 'Fashion Is Art' theme with co-chairs Beyoncé, Nicole Kidman, Venus Williams, and Anna Wintour on May 4.",
     content: `FASHION — Met Gala 2026 | April 10, 2026
