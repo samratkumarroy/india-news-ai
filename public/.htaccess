@@ -11,6 +11,7 @@ RewriteRule ^robots\.txt$ - [L]
 RewriteRule ^ai\.txt$ - [L]
 RewriteRule ^humans\.txt$ - [L]
 RewriteRule ^llms\.txt$ - [L]
+RewriteRule ^rss\.xml$ - [L]
 
 RewriteRule ^index\.html$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
