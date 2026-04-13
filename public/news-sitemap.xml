@@ -302,4 +302,16 @@
     </news:news>
   </url>
 
+  <url>
+    <loc>https://indianewsai.com/article/met-gala-2026-cochairs-beyonce-kidman-williams-wintour</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IndiaNewsAI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-13</news:publication_date>
+      <news:title>Met Gala 2026 Co-Chairs Confirmed: Beyoncé Returns Alongside Nicole Kidman, Venus Williams, and Anna Wintour</news:title>
+    </news:news>
+  </url>
+
 </urlset>

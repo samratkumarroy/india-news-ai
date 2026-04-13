@@ -71,7 +71,7 @@ export default function ArticlePage() {
   const formattedTime = pubDate.toLocaleTimeString("en-IN", { hour: "2-digit", minute: "2-digit" });
 
   const isEventArticle = slug === "how-to-choose-event-management-company-delhi";
-  const isMetGalaArticle = slug === "met-gala-2026-fashion-is-art-theme-co-chairs-may-4";
+  const isMetGalaArticle = slug === "met-gala-2026-fashion-is-art-theme-co-chairs-may-4" || slug === "met-gala-2026-cochairs-beyonce-kidman-williams-wintour";
 
   const articleJsonLd = {
     "@context": "https://schema.org",
@@ -182,8 +182,8 @@ export default function ArticlePage() {
           {/* Hero image */}
           <div className="relative w-full" style={{ maxHeight: "70vh", overflow: "hidden" }}>
             <img
-              src={metGalaImg4}
-              alt="Met Gala 2026 — Fashion Is Art"
+              src={article.image || metGalaImg4}
+              alt={article.title}
               className="w-full object-cover"
               style={{ maxHeight: "70vh" }}
               loading="eager"
@@ -242,16 +242,17 @@ export default function ArticlePage() {
             </div>
 
             {/* Gallery */}
+            {article.gallery && article.gallery.length > 0 && (
             <div className="mt-16 mb-8">
               <h2 className="text-2xl font-black text-white mb-8 tracking-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
                 Gallery
               </h2>
               <div className="grid grid-cols-2 gap-3 md:gap-4">
-                {[metGalaImg1, metGalaImg2, metGalaImg3, metGalaImg4].map((img, i) => (
+                {article.gallery.map((img, i) => (
                   <div key={i} className="overflow-hidden group">
                     <img
                       src={img}
-                      alt={`Met Gala 2026 — Image ${i + 1}`}
+                      alt={`${article.title} — Image ${i + 1}`}
                       className="w-full h-48 sm:h-64 md:h-72 object-cover grayscale hover:grayscale-0 transition-all duration-700 group-hover:scale-105"
                       loading="lazy"
                     />
@@ -259,6 +260,7 @@ export default function ArticlePage() {
                 ))}
               </div>
             </div>
+            )}
           </div>
         </main>
 

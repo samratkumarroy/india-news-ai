@@ -27,6 +27,7 @@ import iranNuclearImg from "@/assets/iran-nuclear-talks-breakdown-2026.jpg";
 import indianRailwaysImg from "@/assets/indian-railways-projects-2026.jpg";
 import ciscoAnthropicImg from "@/assets/cisco-anthropic-cybersecurity-2026.jpg";
 import dishaPataniImg from "@/assets/disha-patani-bollywood-2026.png";
+import metGalaCochairsImg from "@/assets/met-gala-2026-cochairs-beyonce.jpg";
 const today = new Date().toISOString();
 
 export const newArticles: NewsArticle[] = [
@@ -790,5 +791,49 @@ Tags: Met Gala 2026 · Fashion Is Art · Beyoncé · Nicole Kidman · Venus Will
     image: metGala2026Img,
     gallery: [metGalaImg1, metGalaImg2, metGalaImg3, metGala2026Img],
     pinned: true
+  },
+  {
+    title: "Met Gala 2026 Co-Chairs Confirmed: Beyoncé Returns Alongside Nicole Kidman, Venus Williams, and Anna Wintour",
+    description: "Beyoncé, Nicole Kidman, Venus Williams, and Anna Wintour serve as co-chairs for Met Gala 2026 under the 'Fashion Is Art' theme on May 4.",
+    content: `FASHION EVENT REPORT | New York | April 13, 2026
+By Elena Moreau, Fashion Event Correspondent
+
+With just weeks until the big night, the Met Gala 2026 lineup solidifies around its powerhouse co-chairs — Beyoncé (returning after a decade), Nicole Kidman, Venus Williams, and Anna Wintour. The event on May 4 will celebrate the "Fashion Is Art" theme, tied to the Costume Institute's spring exhibition that blends historic garments with fine art in new permanent galleries.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CO-CHAIRS 2026
+
+• Beyoncé — Returns after a decade
+• Nicole Kidman — Film & fashion icon
+• Venus Williams — Sports meets style
+• Anna Wintour — Vogue editor, perennial host
+
+HONORARY CO-CHAIRS
+• Jeff Bezos
+• Lauren Sánchez
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The dress code promises artistic, boundary-pushing interpretations likely to generate memorable red-carpet moments. Preparations are in full swing, with anticipation building for a diverse, high-profile guest list influenced by the co-chairs' varied worlds of music, film, sports, and fashion.
+
+Beyoncé's return is particularly noteworthy — her last Met Gala appearance in 2016 remains one of the most iconic red carpet moments in the event's history. Her involvement as co-chair signals a major cultural moment for this year's celebration.
+
+Nicole Kidman, fresh off critical acclaim for her latest projects, brings Hollywood gravitas and a longstanding relationship with haute couture houses. Venus Williams adds an athletic dimension, representing the growing intersection of sports and high fashion that has defined recent fashion discourse.
+
+Anna Wintour, as always, anchors the evening with her unmatched authority in the fashion world. As the architect of the modern Met Gala, her vision for the "Fashion Is Art" theme is expected to push boundaries further than ever before.
+
+Honorary co-chairs Jeff Bezos and Lauren Sánchez add further star power and reflect the gala's expanding influence beyond traditional fashion circles into technology and media.
+
+This edition marks a significant cultural milestone for the Met, as it inaugurates the new Condé M. Nast Galleries — permanent spaces that will house the Costume Institute's collection alongside fine art, sculpture, and decorative arts spanning 5,000 years of human creativity.
+
+Fashion insiders anticipate that designers will create one-of-a-kind pieces that blur the boundaries between wearable couture and gallery-worthy installations, making this year's red carpet potentially the most artistically ambitious in Met Gala history.
+
+Tags: Met Gala 2026 · Co-Chairs · Beyoncé · Nicole Kidman · Venus Williams · Anna Wintour · Fashion Is Art · Jeff Bezos · Lauren Sánchez`,
+    category: "fashion",
+    source: "India News AI — Fashion Desk",
+    publishedAt: "2026-04-13T09:00:00.000Z",
+    url: "met-gala-2026-cochairs-beyonce-kidman-williams-wintour",
+    image: metGalaCochairsImg
   }
 ];
