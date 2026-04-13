@@ -22,18 +22,19 @@ https://indianewsai.com
 Primary: Delhi NCR (Delhi, Noida, Gurugram, Faridabad, Ghaziabad)
 Secondary: Pan-India and World
 
-## Latest Articles (April 2026)
+## Latest Articles (April 13, 2026)
+- Microsoft Launches MAI In-House AI Models in Direct Challenge to OpenAI
+- Cisco Joins Anthropic's Project Glasswing for AI-Powered Cyber Defense
+- Dhurandhar 2 Crosses ₹1,000 Crore Mark — First Hindi Film of 2026
+- Iran Exits Nuclear Talks After Vance Team Trigger in Pakistan
+- Indian Railways Sanctions 100 Projects Worth ₹1.53 Lakh Crore
 - Wall Street Banks Begin Testing Anthropic's Restricted Claude Mythos AI Model
 - Shilpa Shetty's On-Set Burn Story and Kajol's DDLJ Endorsement
 - April 2026 Street Style: Capris, Stripes, and Metropolitan Prep
 - Reliance Accelerates Battery Giga Factories and $110B AI Infrastructure Push
-- Israeli Strikes Continue in Lebanon, Testing Fragile US-Iran Ceasefire
 - Met Gala 2026: 'Fashion Is Art' Theme Announced for May 4
 - OpenAI Launches GPT-5 With Real-Time Reasoning
-- Parliament Passes Landmark Digital India Budget 2026
 - IPL 2026: Record-Breaking Season Opener Draws 120 Million Viewers
-- Apple Vision Pro 2 Launches in India
-- India Leads G20 Climate-Tech Alliance
 
 ## Content Type
 Automated AI-curated and verified news articles with editorial oversight.

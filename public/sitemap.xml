@@ -156,4 +156,29 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://indianewsai.com/article/microsoft-mai-in-house-ai-models-challenge-openai-2026</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/dhurandhar-2-crosses-1000-crore-first-hindi-film-2026</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/iran-exits-nuclear-talks-vance-team-pakistan-2026</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/indian-railways-100-projects-153-lakh-crore-2026</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/cisco-anthropic-project-glasswing-ai-cyber-defense-2026</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
