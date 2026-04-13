@@ -29,7 +29,6 @@ export default function Index() {
   const filteredArticles = useMemo(() => {
     const list = filter === "all" ? articles : articles.filter((a) => a.category === filter);
     return [...list].sort((a, b) => {
-      if (a.pinned !== b.pinned) return (b.pinned ? 1 : 0) - (a.pinned ? 1 : 0);
       return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime();
     });
   }, [articles, filter]);

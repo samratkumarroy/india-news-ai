@@ -1,7 +1,7 @@
 import { NewsArticle } from "@/types/news";
 import { newArticles } from "./newArticles";
 
-const today = new Date().toISOString();
+// Base articles use fixed dates for proper chronological sorting
 
 const baseArticles: NewsArticle[] = [
   {
