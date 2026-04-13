@@ -11,6 +11,7 @@ export default function Footer() {
       <span>Sources: ANI · Zee News · News24 · The Tribune · LiveLaw · Business Standard</span>
       <div className="mt-3 flex justify-center gap-4">
         <Link to="/about" className="text-saffron hover:text-primary-foreground underline underline-offset-2">About Us</Link>
+        <Link to="/contact-us" className="text-saffron hover:text-primary-foreground underline underline-offset-2">Contact Us</Link>
         <a href="/rss.xml" target="_blank" rel="noopener" className="text-saffron hover:text-primary-foreground underline underline-offset-2">RSS Feed</a>
       </div>
     </footer>

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Rss } from "lucide-react";
+import { Rss, Info, Mail } from "lucide-react";
 
 interface HeaderProps {
   currentTime: Date;
@@ -26,14 +26,10 @@ export default function Header({ currentTime }: HeaderProps) {
           })}{" "}
           IST
         </time>
-        <div className="flex items-center gap-3">
-          <a
-            href="/rss.xml"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="RSS Feed"
-            className="text-saffron hover:text-primary-foreground transition-colors"
-          >
+        <nav className="flex items-center gap-3 text-[0.65rem] tracking-widest uppercase" aria-label="Top navigation">
+          <Link to="/about" className="text-rule hover:text-saffron transition-colors">About</Link>
+          <Link to="/contact-us" className="text-rule hover:text-saffron transition-colors">Contact</Link>
+          <a href="/rss.xml" target="_blank" rel="noopener noreferrer" aria-label="RSS Feed" className="text-saffron hover:text-primary-foreground transition-colors">
             <Rss className="w-4 h-4" />
           </a>
           <div className="flex gap-0.5 items-center" aria-label="Indian flag" role="img">
@@ -41,7 +37,7 @@ export default function Header({ currentTime }: HeaderProps) {
             <div className="w-4 h-1.5 bg-primary-foreground rounded-sm"></div>
             <div className="w-4 h-1.5 bg-[#138808] rounded-sm"></div>
           </div>
-        </div>
+        </nav>
       </div>
 
       <div className="text-center py-4 px-6">
