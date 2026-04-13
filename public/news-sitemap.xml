@@ -3,6 +3,18 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
   <url>
+    <loc>https://indianewsai.com/article/Disha-Patani</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IndiaNewsAI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-13</news:publication_date>
+      <news:title>Disha Patani Dominates Headlines with Fitness, Fashion &amp; Bollywood Comeback Buzz</news:title>
+    </news:news>
+  </url>
+
+  <url>
     <loc>https://indianewsai.com/article/cisco-anthropic-project-glasswing-ai-cyber-defense-2026</loc>
     <news:news>
       <news:publication>
