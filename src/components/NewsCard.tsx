@@ -56,7 +56,7 @@ export default function NewsCard({ article, index, isHero, currentTime }: NewsCa
     <motion.article
       initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: index * 0.04 }}
+      transition={{ delay: Math.min(index * 0.04, 0.2) }}
       className={`news-card flex flex-col ${isHero ? "md:col-span-2 lg:col-span-3 md:flex-row" : ""}`}
     >
       {isHero && !article.image && (
@@ -83,7 +83,10 @@ export default function NewsCard({ article, index, isHero, currentTime }: NewsCa
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.6 }}
-              loading="lazy"
+              loading={index < 3 ? "eager" : "lazy"}
+              width={isHero ? 600 : 400}
+              height={isHero ? 400 : 192}
+              decoding="async"
             />
           </AnimatePresence>
           <div className="absolute bottom-2 right-2 flex gap-1 z-10">
@@ -98,7 +101,11 @@ export default function NewsCard({ article, index, isHero, currentTime }: NewsCa
             src={article.image}
             alt={`${article.title} — IndiaNewsAi`}
             className="w-full h-full object-cover"
-            loading="lazy"
+            loading={index < 3 ? "eager" : "lazy"}
+            width={isHero ? 600 : 400}
+            height={isHero ? 400 : 192}
+            decoding="async"
+            fetchPriority={index === 0 ? "high" : "auto"}
           />
         </div>
       ) : null}
