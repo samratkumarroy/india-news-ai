@@ -1,23 +1,23 @@
 
 
-## Plan: Generate an Eye-Catching AI Favicon
+## Plan: Image Compression & WebP Conversion
 
 ### What we'll do
-Generate a bold, eye-catching favicon for India News AI using AI image generation, then set it as the site's favicon.
-
-### Design concept
-A striking "AI" monogram with a saffron-orange gradient glow on a dark background — compact, bold, and instantly recognizable at small sizes. The design will incorporate a subtle neural/circuit motif to reinforce the AI branding.
+Convert all 20+ JPG/PNG article images to optimized WebP format, and add a Vite plugin to automatically compress any future images at build time.
 
 ### Steps
 
-1. **Generate favicon** using AI image generation (google/gemini-3-pro-image-preview for highest quality) — a 512x512 bold icon optimized for small-size visibility
-2. **Copy the generated image** to `public/favicon.png`
-3. **Update `index.html`** to reference the new favicon (already points to `/favicon.png`)
-4. **Remove old favicon files** if any `.ico` versions exist that could override
+1. **Install `vite-plugin-image-optimizer`** — automatically compresses and optimizes all imported images (JPG, PNG, WebP) during build
+2. **Convert existing JPG/PNG assets to WebP** — use a script with `sharp` (or `nix run nixpkgs#libwebp -- cwebp`) to batch-convert all 25 JPG/PNG article images in `src/assets/` to WebP at quality 80, targeting ~60-80% size reduction
+3. **Update all import references** — update `src/data/newArticles.ts` and `src/pages/ArticlePage.tsx` to reference the new `.webp` files instead of `.jpg`/`.png`
+4. **Configure Vite plugin** — add `vite-plugin-image-optimizer` to `vite.config.ts` with WebP/PNG/JPG compression settings so future images are auto-optimized
+5. **Remove old JPG/PNG originals** (except favicon PNGs and `ai-chat-icon.png`) to reduce repo size
+6. **Verify build** — ensure no broken imports
 
 ### Technical details
-- Model: `google/gemini-3-pro-image-preview` for best quality
-- Output: 512x512 PNG with transparency
-- Color palette: Saffron orange (#FF9933) with dark brown/black background
-- Style: Bold, high-contrast, readable at 16x16 and 32x32 sizes
+- **Tool**: `sharp` via Node script or `cwebp` CLI for conversion
+- **Quality**: WebP at quality 80 (good balance of size vs quality)
+- **Vite plugin**: `vite-plugin-image-optimizer` with mozjpeg, optipng, and svgo presets
+- **Files affected**: ~25 images, 2 TypeScript files (`newArticles.ts`, `ArticlePage.tsx`)
+- **Expected improvement**: 50-70% reduction in total image payload, faster LCP
 
