@@ -4,10 +4,10 @@ import { ChevronLeft, Calendar, Share2, Check, Clock } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import { sampleArticles } from "@/data/sampleNews";
 import eventManagementThumbnail from "@/assets/event-management-delhi-thumbnail.webp";
-import metGalaImg1 from "@/assets/met-gala-2026-1.jpg";
-import metGalaImg2 from "@/assets/met-gala-2026-2.jpg";
-import metGalaImg3 from "@/assets/met-gala-2026-3.jpg";
-import metGalaImg4 from "@/assets/met-gala-2026-4.jpg";
+import metGalaImg1 from "@/assets/met-gala-2026-1.webp";
+import metGalaImg2 from "@/assets/met-gala-2026-2.webp";
+import metGalaImg3 from "@/assets/met-gala-2026-3.webp";
+import metGalaImg4 from "@/assets/met-gala-2026-4.webp";
 
 const categoryBadgeColors: Record<string, string> = {
   religion: "bg-green-100 text-green-800",
