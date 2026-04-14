@@ -10,7 +10,6 @@ import Footer from "@/components/Footer";
 import { sampleArticles } from "@/data/sampleNews";
 
 const AIChatWidget = lazy(() => import("@/components/AIChatWidget"));
-import { sampleArticles } from "@/data/sampleNews";
 
 export default function Index() {
   const [filter, setFilter] = useState("all");
