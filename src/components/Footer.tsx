@@ -9,9 +9,14 @@ export default function Footer() {
       <span>Covering Delhi NCR · Religion · Politics · Culture · Weather</span>
       <br />
       <span>Sources: ANI · Zee News · News24 · The Tribune · LiveLaw · Business Standard</span>
-      <div className="mt-3 flex justify-center gap-4">
+      <div className="mt-3 flex flex-wrap justify-center gap-3 sm:gap-4">
         <Link to="/about" className="text-saffron hover:text-primary-foreground underline underline-offset-2">About Us</Link>
         <Link to="/contact-us" className="text-saffron hover:text-primary-foreground underline underline-offset-2">Contact Us</Link>
+        <Link to="/privacy-policy" className="text-saffron hover:text-primary-foreground underline underline-offset-2">Privacy Policy</Link>
+        <Link to="/terms" className="text-saffron hover:text-primary-foreground underline underline-offset-2">Terms</Link>
+        <Link to="/editorial-policy" className="text-saffron hover:text-primary-foreground underline underline-offset-2">Editorial Policy</Link>
+        <Link to="/disclaimer" className="text-saffron hover:text-primary-foreground underline underline-offset-2">Disclaimer</Link>
+        <Link to="/sitemap" className="text-saffron hover:text-primary-foreground underline underline-offset-2">Sitemap</Link>
         <a href="/rss.xml" target="_blank" rel="noopener" className="text-saffron hover:text-primary-foreground underline underline-offset-2">RSS Feed</a>
       </div>
     </footer>
