@@ -10,6 +10,11 @@ import Index from "./pages/Index.tsx";
 const ArticlePage = lazy(() => import("./pages/ArticlePage.tsx"));
 const AboutPage = lazy(() => import("./pages/AboutPage.tsx"));
 const ContactPage = lazy(() => import("./pages/ContactPage.tsx"));
+const PrivacyPolicyPage = lazy(() => import("./pages/PrivacyPolicyPage.tsx"));
+const TermsPage = lazy(() => import("./pages/TermsPage.tsx"));
+const EditorialPolicyPage = lazy(() => import("./pages/EditorialPolicyPage.tsx"));
+const DisclaimerPage = lazy(() => import("./pages/DisclaimerPage.tsx"));
+const SitemapPage = lazy(() => import("./pages/SitemapPage.tsx"));
 const NotFound = lazy(() => import("./pages/NotFound.tsx"));
 
 const queryClient = new QueryClient();
@@ -26,6 +31,11 @@ const App = () => (
               <Route path="/" element={<Index />} />
               <Route path="/about" element={<AboutPage />} />
               <Route path="/contact-us" element={<ContactPage />} />
+              <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+              <Route path="/terms" element={<TermsPage />} />
+              <Route path="/editorial-policy" element={<EditorialPolicyPage />} />
+              <Route path="/disclaimer" element={<DisclaimerPage />} />
+              <Route path="/sitemap" element={<SitemapPage />} />
               <Route path="/article/:slug" element={<ArticlePage />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
