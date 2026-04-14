@@ -7,7 +7,8 @@ import CategoryNav from "@/components/CategoryNav";
 import NewsTicker from "@/components/NewsTicker";
 import NewsCard from "@/components/NewsCard";
 import Footer from "@/components/Footer";
-import { lazy, Suspense } from "react";
+import { sampleArticles } from "@/data/sampleNews";
+
 const AIChatWidget = lazy(() => import("@/components/AIChatWidget"));
 import { sampleArticles } from "@/data/sampleNews";
 
