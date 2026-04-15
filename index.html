@@ -72,6 +72,18 @@
       "potentialAction": { "@type": "SearchAction", "target": "https://indianewsai.com/search?q={search_term_string}", "query-input": "required name=search_term_string" }
     }
     </script>
+    <script async type="application/javascript"
+            src="https://news.google.com/swg/js/v1/swg-basic.js"></script>
+    <script>
+      (self.SWG_BASIC = self.SWG_BASIC || []).push( basicSubscriptions => {
+        basicSubscriptions.init({
+          type: "NewsArticle",
+          isPartOfType: ["Product"],
+          isPartOfProductId: "CAowgZvGDA:openaccess",
+          clientOptions: { theme: "light", lang: "en-GB" },
+        });
+      });
+    </script>
   </head>
   <body>
     <div id="root"></div>

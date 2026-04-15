@@ -100,6 +100,12 @@ export default function ArticlePage() {
       "@type": "WebPage",
       "@id": `https://indianewsai.com/article/${article.url}`,
     },
+    isAccessibleForFree: true,
+    isPartOf: {
+      "@type": ["CreativeWork", "Product"],
+      name: "India News AI",
+      productID: "CAowgZvGDA:openaccess",
+    },
     articleSection: article.category,
     keywords: article.category,
   };
