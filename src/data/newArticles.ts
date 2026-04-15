@@ -28,6 +28,10 @@ import indianRailwaysImg from "@/assets/indian-railways-projects-2026.webp";
 import ciscoAnthropicImg from "@/assets/cisco-anthropic-cybersecurity-2026.webp";
 import dishaPataniImg from "@/assets/disha-patani-bollywood-2026.webp";
 import metGalaCochairsImg from "@/assets/met-gala-2026-cochairs-beyonce.webp";
+import asmlAiChipImg from "@/assets/asml-ai-chip-demand-2026.webp";
+import bollywoodToasterImg from "@/assets/bollywood-toaster-screening-2026.webp";
+import springBoldColorsImg from "@/assets/spring-2026-bold-colors-florals.webp";
+import noidaProtestImg from "@/assets/noida-protest-violence-2026.webp";
 const today = new Date().toISOString();
 
 export const newArticles: NewsArticle[] = [
