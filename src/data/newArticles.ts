@@ -28,9 +28,162 @@ import indianRailwaysImg from "@/assets/indian-railways-projects-2026.webp";
 import ciscoAnthropicImg from "@/assets/cisco-anthropic-cybersecurity-2026.webp";
 import dishaPataniImg from "@/assets/disha-patani-bollywood-2026.webp";
 import metGalaCochairsImg from "@/assets/met-gala-2026-cochairs-beyonce.webp";
+import asmlAiChipImg from "@/assets/asml-ai-chip-demand-2026.webp";
+import bollywoodToasterImg from "@/assets/bollywood-toaster-screening-2026.webp";
+import springBoldColorsImg from "@/assets/spring-2026-bold-colors-florals.webp";
+import noidaProtestImg from "@/assets/noida-protest-violence-2026.webp";
 const today = new Date().toISOString();
 
 export const newArticles: NewsArticle[] = [
+  {
+    title: "Noida Workers' Protest Turns Violent: Over 350 Arrested, Vehicles Torched & IT Offices Vandalised — Syndicate & Pakistan Link Under Probe",
+    description: "Over 350 arrested after Noida factory workers' wage-hike protest in Sector 63 escalated into arson, vandalism of IT offices, and vehicle torching. Police register 7 FIRs and probe organised syndicate with possible foreign links.",
+    content: `BREAKING — Law & Order | Noida, Gautam Buddh Nagar | April 15, 2026
+
+The latest news from Noida has sent shockwaves across the National Capital Region as a seemingly peaceful protest by factory workers demanding wage hikes turned violent on April 13-14, 2026, resulting in over 350 arrests, registration of seven FIRs, and extensive property damage described as total loss by affected parties.
+
+Gautam Buddh Nagar Police Commissioner Laxmi Singh confirmed that more than 300 individuals were taken into custody following clashes in key industrial pockets like Sector 63 and Phase-2. Multiple sources, including TOI and NDTV, put the arrest figure closer to 350, with over 200 additional detentions. Police have launched a high-level probe into a possible "syndicate" angle involving organised outsiders who allegedly incited the unrest.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY FACTS
+
+• 350+ arrests and 200+ detentions across Noida industrial areas
+• 7 FIRs registered; CCTV and WhatsApp groups under investigation
+• IT company premises in Sector 63 vandalised; multiple vehicles including police SUVs torched
+• Property damage described as "total loss" by affected businesses
+• UP Labour Minister hints at possible Pakistan link; police probing syndicate angle
+• 15,000+ police personnel deployed; route marches conducted since 5 AM
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+VIOLENCE ERUPTS: ARSON, VANDALISM & TOTAL LOSS REPORTED
+
+What started as demonstrations over rising living costs — reportedly linked to global economic pressures — quickly spiralled out of control. Protesters allegedly broke into an IT company in Sector 63, causing widespread vandalism captured on CCTV. Several vehicles, including police SUVs, were set ablaze, leading to what eyewitnesses and officials described as "total loss" of the affected assets.
+
+Key roads were blocked, creating chaos for commuters, while domestic workers in residential societies like Cleo County also joined the protests. Stones were pelted and arson incidents were reported in a coordinated manner, prompting authorities to suspect a larger conspiracy.
+
+POLICE CRACKDOWN & ONGOING INVESTIGATION
+
+"Route marches have been conducted continuously since 5 a.m. This morning, workers gathered at three locations; following immediate dialogue, they were peacefully dispersed within just 15 minutes," Commissioner Laxmi Singh stated. However, the scale of arrests and FIRs indicates the initial violence was significant.
+
+UP Labour Minister Anil Rajbhar has hinted at a possible Pakistan link, citing recent terror-related arrests in the region. Police are now scanning WhatsApp groups, social media, and CCTV footage to identify the masterminds behind the "militia-style operation."
+
+The Gautam Buddh Nagar Police have deployed heavy forces across sensitive zones and issued advisories to maintain law and order. A high-powered committee has been formed to assess the total financial loss suffered by industries and vehicle owners due to the arson and vandalism.
+
+BACKGROUND: WAGE DEMANDS AMID ECONOMIC PRESSURES
+
+Workers were protesting a recent hike in minimum wages announced by the Haryana government, demanding similar benefits in Uttar Pradesh's industrial hubs. The protest, which spread across 80 locations, reflected growing discontent over inflation and living costs.
+
+Authorities have appealed for calm while assuring strict action against those involved in violence. Further updates on the total loss assessment and arrests are expected in the coming hours.
+
+Stay tuned to India News AI for live updates on this developing Noida story.
+
+Tags: Noida News · Noida Protest · Noida Arrest · Noida Violence · Workers Protest · Total Loss · Syndicate Probe · Gautam Buddh Nagar`,
+    category: "breaking",
+    source: "India News AI — PTI, TOI, NDTV, The Hindu",
+    publishedAt: "2026-04-15T15:30:00.000Z",
+    url: "noida-protest-violence-arrest-total-loss-2026",
+    image: noidaProtestImg,
+    pinned: true
+  },
+  {
+    title: "AI Updates: ASML Raises 2026 Revenue Outlook to €36-40 Billion as Surging AI Chip Demand Outpaces Supply",
+    description: "Dutch chip equipment leader ASML lifts full-year guidance citing AI-driven semiconductor demand outpacing supply, ramping up EUV tool shipments by 25%.",
+    content: `TECHNOLOGY — AI & Semiconductors | April 15, 2026
+
+Dutch chip equipment leader ASML has significantly lifted its 2026 revenue forecast to between €36 billion and €40 billion, driven by robust demand for its advanced lithography tools fueled by the global AI boom. The company reported stronger-than-expected first-quarter results, with CEO Christophe Fouquet noting that customer demand for AI-related chips continues to exceed supply, prompting accelerated expansion plans.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• €36-40 Billion — ASML's revised 2026 revenue outlook
+• 60 low-NA EUV tools planned for shipment in 2026, a 25% increase YoY
+• AI-related chip demand continues to outpace global supply
+• Stronger-than-expected Q1 results bolster optimistic guidance
+• 1 in 4 US adults now using AI tools like ChatGPT for health advice
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ASML also plans to ship 60 low-NA EUV tools in 2026, a 25% increase from the previous year. This optimistic outlook underscores the semiconductor industry's pivotal role in powering next-generation AI infrastructure, even as broader challenges like AI-driven memory chip shortages hinder global efforts to expand internet access in developing regions.
+
+Parallel trends show growing public adoption of AI for health advice, with roughly one in four U.S. adults using tools like ChatGPT to supplement medical information before or after doctor visits. While many view AI as a helpful research aid, experts emphasize it should complement — not replace — professional care.
+
+The semiconductor supply chain remains one of the most critical bottlenecks in AI infrastructure expansion, with ASML's lithography machines being essential for producing the most advanced chips used in AI training and inference.
+
+Tags: ASML · AI Chips · Semiconductors · EUV Lithography · Revenue Outlook · AI Infrastructure · Technology`,
+    category: "technology",
+    source: "India News AI — Technology Desk",
+    publishedAt: "2026-04-15T10:00:00.000Z",
+    url: "asml-2026-revenue-outlook-ai-chip-demand",
+    image: asmlAiChipImg
+  },
+  {
+    title: "Bollywood: Star-Studded Toaster Screening Celebrates Dark Comedy Buzz as Alia Bhatt Hosts Mixed-Reaction Event",
+    description: "Glamorous turnout at Toaster dark comedy premiere and Alia Bhatt's hosting debut with Zakir Khan and Sunil Grover highlight a vibrant day in Bollywood.",
+    content: `ENTERTAINMENT — Bollywood | April 15, 2026
+
+Bollywood turned out in force for a glamorous screening of the upcoming Hindi dark comedy Toaster, which premiered on April 15 with sharp satirical tones. Celebrities including Rajkummar Rao and Sanya Malhotra joined the buzz, spotlighting the film's fresh take on everyday absurdities.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• Toaster dark comedy premieres with sharp satirical tones on April 15
+• Rajkummar Rao, Sanya Malhotra among celebrity attendees
+• Alia Bhatt's hosting debut with Zakir Khan and Sunil Grover draws mixed reactions
+• Priyanka Chopra's viral on-set moment with daughter trends on social media
+• Rising talents like Krithi Shetty continue glamorous career trajectory
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Meanwhile, Alia Bhatt made headlines with her hosting debut alongside comedy heavyweights Zakir Khan and Sunil Grover, drawing mixed fan reactions that trended heavily on social media. Some praised her spontaneity while others felt the format didn't play to her strengths.
+
+Other leading ladies stayed active: Priyanka Chopra shared a lighthearted viral moment explaining her on-set fake blood look to her young daughter for The Bluff, while rising talents like Krithi Shetty continued glamorous photoshoots amid career reflections.
+
+These stories reflect the industry's lively mix of premieres, personal glimpses, and evolving on-stage experiments that keep Bollywood at the centre of India's entertainment conversation.
+
+Tags: Bollywood · Toaster · Alia Bhatt · Rajkummar Rao · Dark Comedy · Priyanka Chopra · Entertainment`,
+    category: "entertainment",
+    source: "India News AI — Entertainment Desk",
+    publishedAt: "2026-04-15T12:00:00.000Z",
+    url: "bollywood-toaster-screening-alia-bhatt-hosting-2026",
+    image: bollywoodToasterImg
+  },
+  {
+    title: "Fashion: Spring 2026 Embraces Bold Primary Colors, Electric Florals, and Metropolitan Prep for Everyday Wear",
+    description: "Vibrant primaries, electric florals, and polished prep elements lead Spring 2026 trends, blending function with flair across global runways and streets.",
+    content: `FASHION — Spring 2026 Trends | April 15, 2026
+
+As spring 2026 fully unfolds, street style and runway influences converge on vibrant, movement-friendly looks featuring bold primary colors, electric florals, metropolitan prep elements, and playful details like polka dots and texture play.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY TRENDS
+
+• Bold primary colors dominate — red, cobalt blue, and sunshine yellow
+• Electric florals replace subdued botanicals across collections
+• Metropolitan prep elements: blazers, loafers, and pleated skirts
+• Polka dots and texture play add whimsical touches
+• Sporty windbreakers and capris for transitional weather
+• Borrowed-from-the-boys tailoring for casual-to-evening versatility
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Designers emphasize real-life versatility with sporty windbreakers, capris, clever layering, and borrowed-from-the-boys tailoring that transitions effortlessly from casual days to elevated evenings.
+
+Influencers in cities like Milan showcase these optimistic silhouettes at mild temperatures, mixing fun prints with practical pieces. Retailers report strong demand for these joyful, functional trends that prioritize comfort and self-expression amid variable spring weather.
+
+The season's standout theme is "joyful pragmatism" — clothing that lifts mood while remaining wearable across unpredictable spring conditions. Fashion insiders predict these trends will sustain momentum well into early summer, particularly in urban markets where day-to-night dressing remains essential.
+
+Tags: Fashion · Spring 2026 · Bold Colors · Electric Florals · Metropolitan Prep · Street Style · Runway Trends`,
+    category: "fashion",
+    source: "India News AI — Fashion Desk",
+    publishedAt: "2026-04-15T09:00:00.000Z",
+    url: "fashion-spring-2026-bold-colors-electric-florals-prep",
+    image: springBoldColorsImg
+  },
   {
     title: "Disha Patani Dominates Headlines with Fitness, Fashion & Bollywood Comeback Buzz",
     description: "Bollywood star Disha Patani trends again with her fitness routines, bold fashion choices, and upcoming film projects. Explore why she remains a youth icon in India.",
