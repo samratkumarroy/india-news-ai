@@ -120,47 +120,6 @@ Tags: Event Management Delhi · Celebrity Booking · Corporate Events · The Kab
     pinned: true
   },
   {
-    title: "Asian Hospital Faridabad: Doctors Named in Major Medical Negligence Scandal",
-    description: "A high-risk preeclampsia patient at Asian Institute of Medical Sciences, Faridabad nearly died after Dr. Anita Kant's team abandoned her in recovery. Records falsified. Family threatened. Complaint reaches NMC, PMO.",
-    content: `INVESTIGATIVE REPORT — Health & Patient Safety | Delhi NCR | April 2026
-
-Case Reference: TKC/MED-COMPLAINT/ASIAN/2026/002 | Names of complainant family changed at their request. All hospital personnel named are identified from formal complaint documents and medical records.
-
-Priya Mehta came to Asian Hospital, Faridabad, carrying a child her family had waited fifteen years for. She nearly did not leave.
-
-What happened between 19th and 26th March 2026 at the Asian Institute of Medical Sciences (AIMS), Faridabad, is not a story of a single medical error. It is, according to a meticulously documented complaint now filed with the National Medical Commission, the Prime Minister's Office, the National Human Rights Commission, and multiple national media houses, a story of systemic failure: a post-operative haemorrhage that was allegedly concealed from the patient's family; medical records that the hospital's own billing documents appear to contradict; a discharge prescription missing blood pressure medication for a patient whose entire crisis was hypertension-related; a Superintendent who avoided the complainant for ten consecutive days across seven contact attempts; and an anonymous institutional reply that ignored nine of the most serious allegations.
-
-The doctors and staff named in the complaint include Dr. Anita Kant (primary gynaecologist), Dr. Sourabh Gupta (anaesthesiologist), Dr. Amrita (treating gynaecologist), Dr. Usha Priyambada and Dr. Aishwarya (consultants), Dr. Divesh (Head of Recovery Room), HOD Sumit (involved in alleged staff intimidation), Dr. Geetika (hospital contact), and Mr. Ahmed (Medical Superintendent). The Chairman and Managing Director of AIMS is Dr. Narendra Kumar Pandey.
-
-This report is based entirely on the formal complaint documents, medical records, billing invoices, and the hospital's own reply — all of which are cited throughout.
-
-
-THE PATIENT AND HER MEDICAL BACKGROUND
-
-Priya Mehta, 32, was admitted to AIMS Faridabad on 20th March 2026 at 37 weeks gestation, following a KFT urine report showing urinary protein at +2 (proteinuria) and elevated blood pressure. She had been diagnosed with preeclampsia — a high-risk obstetric condition. The hospital's own reply letter, dated 6th April 2026, states: "Preeclampsia is a recognised high-risk obstetric condition associated with Postpartum Haemorrhage (PPH)." That admission sits at the centre of what happened next.
-
-Her husband, Rajiv Mehta, a Delhi-based business professional, filed the formal complaint. He is referred to throughout this article as the complainant. His elder son, Arjun, was also present at the hospital on the evening of 23rd March when the events described below unfolded.
-
-
-THE DISPUTED DISCHARGE: WHY THE HOSPITAL'S OWN DOCUMENTS UNDERMINE ITS 'LAMA' CLASSIFICATION
-
-On 21st March 2026, with protein levels improving from +2 to +1 and with the medical team having decided to postpone the C-section to 23rd March to allow the patient to safely complete 37 weeks, Dr. Amrita formally approved a discharge for Priya to rest at home for two days and return for delivery. The nursing staff gave no objection. The family used Rs. 16,000 from their Rs. 50,000 deposit, and asked the billing department to hold the remaining balance as a credit note — because they were returning on 23rd.
-
-The hospital, in its subsequent documentation, classified this departure as 'DAMA' — Discharged Against Medical Advice — and later inserted the notation 'PATIENT TOOK LAMA ON 21/3/26' into the Past History section of the 23rd March Discharge Summary.
-
-The complainant argues — and three of the hospital's own documents appear to corroborate — that this classification is false.
-
-This publication has approached AIMS Faridabad and Dr. Narendra Kumar Pandey's office for comment. This report will be updated to include any response received.
-
-DOCUMENT ENDS — FOR EDITORIAL AND REGULATORY USE
-Case Reference: TKC/MED-COMPLAINT/ASIAN/2026/002 | All supporting documents available on request`,
-    category: "health",
-    source: "India News AI — Investigative Desk",
-    publishedAt: "2026-04-08T10:00:00.000Z",
-    url: "asian-hospital-faridabad-medical-negligence-dr-anita-kant-aims-scandal",
-    pinned: false
-  },
-  {
     title: "Delhi Metro Phase-IV Corridor Receives Final Environmental Clearance",
     description: "The Ministry of Environment has granted the final clearance for three new Delhi Metro Phase-IV corridors connecting Lajpat Nagar to Saket and Inderlok to Indraprastha, set to benefit over 8 lakh daily commuters.",
     content: "The Ministry of Environment, Forest and Climate Change has officially granted the final environmental clearance for three key corridors under the Delhi Metro Phase-IV expansion project.\n\nThe approved corridors — Lajpat Nagar to Saket G-Block (7.9 km), Inderlok to Indraprastha (12.4 km), and Mukundpur to Maujpur (12.6 km) — are expected to collectively serve over 8 lakh daily commuters once operational.\n\nDMRC Managing Director confirmed that construction tenders will be floated within the next 45 days, with completion targeted by 2029. The corridors will feature energy-efficient rolling stock and solar-powered stations.\n\nUrban planners have welcomed the decision, noting that the new lines will significantly reduce congestion on parallel road corridors and provide last-mile connectivity to several underserved areas in East and South Delhi.",
