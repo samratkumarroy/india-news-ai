@@ -32,9 +32,71 @@ import asmlAiChipImg from "@/assets/asml-ai-chip-demand-2026.webp";
 import bollywoodToasterImg from "@/assets/bollywood-toaster-screening-2026.webp";
 import springBoldColorsImg from "@/assets/spring-2026-bold-colors-florals.webp";
 import noidaProtestImg from "@/assets/noida-protest-violence-2026.webp";
+import kanganaDhurandharImg from "@/assets/kangana-ranaut-dhurandhar2-2026.webp";
 const today = new Date().toISOString();
 
 export const newArticles: NewsArticle[] = [
+  {
+    title: "Kangana Ranaut Hails Dhurandhar 2: Madhavan 'Terrific', Wants Separate Ajit Doval Film",
+    description: "Kangana Ranaut praises R Madhavan's performance in Dhurandhar 2 as 'terrific' and demands a separate film on NSA Ajit Doval. Inside her full reaction on the Ranveer Singh starrer reviving Bollywood.",
+    content: `ENTERTAINMENT — Bollywood | April 17, 2026
+
+Bollywood's boldest voice, Kangana Ranaut, has once again sparked conversations with her no-holds-barred praise for the blockbuster spy thriller Dhurandhar: The Revenge (Dhurandhar 2). In a fresh interview, the actress-politician lauded the film for reviving Hindi cinema and singled out R Madhavan's powerful performance as "terrific".
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• Kangana Ranaut calls Dhurandhar 2 the film that "revived the industry"
+• Praises R Madhavan's portrayal of Ajay Sanyal — inspired by NSA Ajit Doval
+• Demands a separate, full-fledged biopic on Ajit Doval
+• Dhurandhar franchise has crossed ₹3000 crore worldwide
+• Dhurandhar: The Revenge running strong in Week 4
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KANGANA ON DHURANDHAR 2: "IT REVIVED THE FILM INDUSTRY"
+
+While speaking to the media, Kangana Ranaut explained how the Ranveer Singh and Aditya Dhar film has reconnected Bollywood with Indian audiences.
+
+"The film industry, in a way, was becoming disconnected from the country. Audience participation had declined… With such relevant films, people want to watch them. Dhurandhar has revived the film industry and gave a new hope," she said.
+
+The sequel, which continues the story of Ranveer Singh's character in Pakistan, has been running strong in its fourth week and is part of the ₹3000-crore Dhurandhar franchise.
+
+"MADHAVAN WAS TERRIFIC" — KANGANA PRAISES THE AJAY SANYAL ROLE
+
+Kangana, who has previously worked with R Madhavan in Tanu Weds Manu, showered special praise on his portrayal of Ajay Sanyal, the Director of the Intelligence Bureau. The character is heavily inspired by India's National Security Advisor, Ajit Doval.
+
+"Madhavan was terrific in the film. I have met Ajit Doval ji and he has got a huge personality. I think there should be an entirely separate film on Ajit Doval. Only then an actor would be able to do justice to his character. But Madhavan was very close. He is a very good actor."
+
+Her words have gone viral, with fans and netizens hailing the chemistry between Madhavan's nuanced performance and the real-life inspiration behind it.
+
+WHY KANGANA BELIEVES AJIT DOVAL DESERVES A SOLO BIOPIC
+
+Kangana Ranaut didn't stop at praising the actor — she made a strong case for a full-fledged film dedicated to Ajit Doval, calling him a "real-life Dhurandhar". Her comment highlights the larger-than-life persona of the NSA and the limitations of a supporting role in even a massive franchise.
+
+KANGANA'S EARLIER LOVE FOR THE DHURANDHAR FRANCHISE
+
+This isn't Kangana's first appreciation post for the film. She had earlier called director Aditya Dhar a "superstar filmmaker shining brighter than any hero" and compared him to Nolan and Spielberg. At IFFD 2026, she also described Dhurandhar 2 as the "picture of New India" — a perfect blend of culture, patriotism, and modernity.
+
+DHURANDHAR 2 BOX OFFICE & IMPACT
+
+• Original Dhurandhar (2025): ₹3000 crore worldwide
+• Dhurandhar: The Revenge still going strong in Week 4
+• Continues to dominate over other releases with strong word-of-mouth
+
+CONCLUSION
+
+Kangana Ranaut's latest comments prove once again why she remains one of Bollywood's most outspoken and influential personalities. Her call for a separate Ajit Doval film and praise for R Madhavan have added fresh fuel to the Dhurandhar frenzy. Will we see a Doval biopic soon? Only time will tell.
+
+Tags: Kangana Ranaut · Dhurandhar 2 · R Madhavan · Ajit Doval · Ranveer Singh · Aditya Dhar · Bollywood`,
+    category: "entertainment",
+    source: "India News AI — Entertainment Desk",
+    publishedAt: "2026-04-17T04:30:00.000Z",
+    url: "kangana-ranaut-dhurandhar-2-madhavan-terrific-ajit-doval-film",
+    image: kanganaDhurandharImg,
+    pinned: true
+  },
   {
     title: "Noida Workers' Protest Turns Violent: Over 350 Arrested, Vehicles Torched & IT Offices Vandalised — Syndicate & Pakistan Link Under Probe",
     description: "Over 350 arrested after Noida factory workers' wage-hike protest in Sector 63 escalated into arson, vandalism of IT offices, and vehicle torching. Police register 7 FIRs and probe organised syndicate with possible foreign links.",
