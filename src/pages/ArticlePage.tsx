@@ -113,6 +113,29 @@ export default function ArticlePage() {
     keywords: article.category,
   };
 
+  const webStoryJsonLd = webStoryUrl
+    ? {
+        "@context": "https://schema.org",
+        "@type": "WebStory",
+        url: `https://indianewsai.com${webStoryUrl}`,
+        name: article.title,
+        headline: article.title,
+        description: article.description,
+        image: article.image ? `https://indianewsai.com${article.image}` : undefined,
+        datePublished: article.publishedAt,
+        dateModified: article.publishedAt,
+        inLanguage: "en",
+        author: { "@type": "Organization", name: "IndiaNewsAi", url: "https://indianewsai.com" },
+        publisher: {
+          "@type": "NewsMediaOrganization",
+          name: "IndiaNewsAi",
+          url: "https://indianewsai.com",
+          logo: { "@type": "ImageObject", url: "https://indianewsai.com/logo.png" },
+        },
+        isPartOf: { "@type": "WebPage", "@id": `https://indianewsai.com/article/${article.url}` },
+      }
+    : null;
+
   const faqJsonLd = isEventArticle
     ? {
         "@context": "https://schema.org",
@@ -167,7 +190,9 @@ export default function ArticlePage() {
           <meta property="og:url" content={`https://indianewsai.com/article/${article.url}`} />
           <meta name="twitter:card" content="summary_large_image" />
           <link rel="canonical" href={`https://indianewsai.com/article/${article.url}`} />
+          {webStoryUrl && <link rel="amphtml" href={`https://indianewsai.com${webStoryUrl}`} />}
           <script type="application/ld+json">{JSON.stringify(articleJsonLd)}</script>
+          {webStoryJsonLd && <script type="application/ld+json">{JSON.stringify(webStoryJsonLd)}</script>}
         </Helmet>
 
         {/* Elegant black header */}
@@ -298,7 +323,9 @@ export default function ArticlePage() {
         {isEventArticle && (
           <meta name="keywords" content="event management company Delhi, best event planner Delhi NCR, celebrity booking India, corporate events Delhi, luxury wedding planner, artist management India, The Kabir Company" />
         )}
+        {webStoryUrl && <link rel="amphtml" href={`https://indianewsai.com${webStoryUrl}`} />}
         <script type="application/ld+json">{JSON.stringify(articleJsonLd)}</script>
+        {webStoryJsonLd && <script type="application/ld+json">{JSON.stringify(webStoryJsonLd)}</script>}
         {faqJsonLd && <script type="application/ld+json">{JSON.stringify(faqJsonLd)}</script>}
       </Helmet>
 
