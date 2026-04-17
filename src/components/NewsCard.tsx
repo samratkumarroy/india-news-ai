@@ -118,6 +118,22 @@ export default function NewsCard({ article, index, isHero, currentTime }: NewsCa
         <h2 className={`font-display font-bold leading-snug mb-2 sm:mb-3 text-ink ${isHero ? "text-lg sm:text-xl lg:text-2xl" : "text-[0.95rem] sm:text-base lg:text-lg"}`}>
           {article.title}
         </h2>
+        {article.url === "kangana-ranaut-dhurandhar-2-madhavan-terrific-ajit-doval-film" && (
+          <a
+            href="/web-stories/kangana-dhurandhar2-web-story.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
+            className="group inline-flex items-center justify-between gap-2 mb-3 px-3 py-2 rounded-sm bg-gradient-to-r from-saffron to-saffron-dark text-primary-foreground font-bold tracking-widest uppercase text-[0.65rem] sm:text-xs shadow hover:shadow-md transition-all min-h-[36px] w-full sm:w-auto self-start"
+            aria-label="Watch web story for this article"
+          >
+            <span className="flex items-center gap-2">
+              <span className="inline-block w-1.5 h-1.5 rounded-full bg-primary-foreground animate-pulse" aria-hidden="true" />
+              Watch Web Story
+            </span>
+            <span className="opacity-90 group-hover:translate-x-1 transition-transform">▶</span>
+          </a>
+        )}
         <p className="text-[0.82rem] sm:text-sm text-news-muted leading-relaxed mb-3 sm:mb-4 flex-1">
           {article.description}
         </p>
