@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
+import { Globe, Zap, MessageCircle, Bot, ExternalLink } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { useState, useEffect } from "react";
@@ -15,128 +16,80 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Helmet>
-        <title>About Us — IndiaNewsAi | AI-Powered News Intelligence</title>
+        <title>About Us — India News AI | AI-Powered News Destination</title>
         <meta
           name="description"
-          content="IndiaNewsAi delivers AI-powered, real-time news intelligence covering Delhi NCR, religion, politics, technology, entertainment, and world affairs."
+          content="India News AI is a next-generation AI-powered news platform delivering live breaking news from across India and the world — faster, smarter, 24/7."
         />
         <link rel="canonical" href="https://indianewsai.com/about" />
       </Helmet>
 
       <Header currentTime={currentTime} />
 
-      <main className="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-12 flex-1 w-full">
-        <article className="prose prose-neutral max-w-none">
-          <div className="flex items-center gap-3 mb-6" role="separator">
-            <div className="flex-1 h-px bg-rule"></div>
-            <span className="font-display text-sm font-bold">About Us</span>
-            <div className="flex-1 h-px bg-rule"></div>
+      <main className="max-w-3xl mx-auto px-4 sm:px-6 py-8 sm:py-12 flex-1 w-full">
+        <article>
+          <span className="inline-block text-[0.7rem] font-medium bg-saffron/10 text-saffron px-3 py-1 rounded-full tracking-wider uppercase mb-6">
+            About Us
+          </span>
+
+          <h1 className="font-display text-2xl sm:text-3xl font-bold text-foreground leading-tight mb-4">
+            India's AI-powered news destination — breaking stories, the moment they happen.
+          </h1>
+
+          <p className="text-base text-muted-foreground leading-relaxed mb-8">
+            India News AI is a next-generation news platform delivering live breaking news from across India and around the world — powered by artificial intelligence to bring you faster, smarter, and more relevant coverage 24/7.
+          </p>
+
+          <div className="border-l-4 border-saffron bg-paper-dark px-5 py-4 rounded-sm mb-8">
+            <p className="text-sm sm:text-base text-foreground leading-relaxed">
+              Our mission is simple: keep you informed without the wait. From Delhi NCR to global headlines, we combine real-time journalism with AI to surface what matters most — before anyone else.
+            </p>
           </div>
 
-          <div className="bg-card border border-rule rounded-sm p-6 sm:p-8 space-y-6">
-            <section>
-              <h2 className="font-display text-xl font-bold text-foreground mb-3">
-                Who We Are
-              </h2>
-              <p className="text-sm leading-relaxed text-muted-foreground">
-                <strong className="text-foreground">IndiaNewsAi</strong> is an AI-powered news intelligence platform delivering real-time, verified coverage of India and the world. We combine automated editorial intelligence with human oversight to bring you the stories that matter — fast, accurate, and bias-aware.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="font-display text-xl font-bold text-foreground mb-3">
-                Our Mission
-              </h2>
-              <p className="text-sm leading-relaxed text-muted-foreground">
-                To democratize access to high-quality news through artificial intelligence — making breaking news, deep analysis, and contextual reporting available to every reader in India and beyond, around the clock.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="font-display text-xl font-bold text-foreground mb-3">
-                What We Cover
-              </h2>
-              <ul className="text-sm text-muted-foreground space-y-2 list-none pl-0">
-                <li className="flex items-start gap-2">
-                  <span className="text-saffron mt-0.5">✦</span>
-                  <span><strong className="text-foreground">Delhi NCR</strong> — Local governance, infrastructure, metro, weather, and civic life</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-saffron mt-0.5">✦</span>
-                  <span><strong className="text-foreground">Religion & Culture</strong> — Festivals, pilgrimages, interfaith events, and heritage</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-saffron mt-0.5">✦</span>
-                  <span><strong className="text-foreground">Politics</strong> — Parliament, policy, elections, and governance</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-saffron mt-0.5">✦</span>
-                  <span><strong className="text-foreground">Technology & AI</strong> — Artificial intelligence, startups, digital India, and global tech</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-saffron mt-0.5">✦</span>
-                  <span><strong className="text-foreground">Entertainment</strong> — Bollywood, fashion, lifestyle, and trending culture</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-saffron mt-0.5">✦</span>
-                  <span><strong className="text-foreground">World</strong> — Geopolitics, diplomacy, conflicts, and international affairs</span>
-                </li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="font-display text-xl font-bold text-foreground mb-3">
-                Our Sources
-              </h2>
-              <p className="text-sm leading-relaxed text-muted-foreground">
-                We aggregate and verify information from trusted sources including <strong className="text-foreground">ANI, Zee News, News24, The Tribune, LiveLaw, Business Standard</strong>, and other credible outlets. Every story undergoes AI-assisted fact-checking before publication.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="font-display text-xl font-bold text-foreground mb-3">
-                AI-Powered Features
-              </h2>
-              <p className="text-sm leading-relaxed text-muted-foreground">
-                Our platform features an <strong className="text-foreground">AI News Assistant</strong> powered by advanced language models that can answer questions about current events, summarize articles, and provide contextual analysis — available 24/7 via the chat widget on every page.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="font-display text-xl font-bold text-foreground mb-3">
-                RSS Feed
-              </h2>
-              <p className="text-sm leading-relaxed text-muted-foreground">
-                Stay updated with our{" "}
-                <a
-                  href="/rss.xml"
-                  className="text-saffron underline underline-offset-2 hover:text-saffron-dark"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  RSS Feed
-                </a>{" "}
-                — subscribe in your favorite reader to get the latest stories delivered automatically.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="font-display text-xl font-bold text-foreground mb-3">
-                Contact
-              </h2>
-              <p className="text-sm leading-relaxed text-muted-foreground">
-                For tips, corrections, or partnerships, reach us at{" "}
-                <a
-                  href="mailto:contact@indianewsai.com"
-                  className="text-saffron underline underline-offset-2 hover:text-saffron-dark"
-                >
-                  contact@indianewsai.com
-                </a>
-              </p>
-            </section>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8">
+            <div className="bg-paper-dark border border-rule rounded-sm p-4">
+              <Globe className="w-4 h-4 text-saffron mb-2" />
+              <h3 className="text-sm font-semibold text-foreground mb-1">India & international coverage</h3>
+              <p className="text-xs text-muted-foreground leading-relaxed">From national politics and business to global events — comprehensive reporting across every beat.</p>
+            </div>
+            <div className="bg-paper-dark border border-rule rounded-sm p-4">
+              <Zap className="w-4 h-4 text-saffron mb-2" />
+              <h3 className="text-sm font-semibold text-foreground mb-1">Live breaking news</h3>
+              <p className="text-xs text-muted-foreground leading-relaxed">AI-curated alerts and real-time updates so you're always the first to know — not the last.</p>
+            </div>
+            <div className="bg-paper-dark border border-rule rounded-sm p-4">
+              <MessageCircle className="w-4 h-4 text-saffron mb-2" />
+              <h3 className="text-sm font-semibold text-foreground mb-1">AI news chatbot</h3>
+              <p className="text-xs text-muted-foreground leading-relaxed">Ask questions, get summaries, and explore stories conversationally — your personal news assistant, always on.</p>
+            </div>
           </div>
 
-          <div className="mt-8 text-center">
+          <div className="border border-rule rounded-sm p-5 flex items-start gap-4 mb-8 bg-card">
+            <div className="w-10 h-10 rounded-full bg-saffron/10 flex items-center justify-center flex-shrink-0">
+              <Bot className="w-5 h-5 text-saffron" />
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-foreground mb-1">Meet your AI news assistant</h3>
+              <p className="text-xs text-muted-foreground leading-relaxed mb-3">
+                Not sure where to start? Our built-in news chatbot lets you ask anything — "What's happening in Delhi today?" or "Summarise the latest budget news" — and get clear, instant answers drawn from our live coverage. No scrolling required.
+              </p>
+              <a
+                href="https://indianewsai.com"
+                className="inline-flex items-center gap-1.5 text-xs text-saffron bg-saffron/10 px-3 py-1.5 rounded-full hover:bg-saffron/20 transition-colors"
+              >
+                <ExternalLink className="w-3 h-3" />
+                indianewsai.com
+              </a>
+            </div>
+          </div>
+
+          <hr className="border-rule mb-6" />
+
+          <p className="text-sm text-muted-foreground leading-relaxed">
+            India News AI is built for readers who value speed, accuracy, and clarity. Whether you're tracking a developing story from Mumbai, following a geopolitical shift in Washington, or just catching up on the morning headlines — we're here, around the clock, powered by AI and driven by the belief that everyone deserves news that works for them.
+          </p>
+
+          <div className="mt-10 text-center">
             <Link
               to="/"
               className="text-xs tracking-widest uppercase text-saffron hover:text-saffron-dark underline underline-offset-4"
