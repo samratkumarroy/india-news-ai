@@ -72,6 +72,9 @@ export default function ArticlePage() {
 
   const isEventArticle = slug === "how-to-choose-event-management-company-delhi";
   const isMetGalaArticle = slug === "met-gala-2026-fashion-is-art-theme-co-chairs-may-4" || slug === "met-gala-2026-cochairs-beyonce-kidman-williams-wintour";
+  const webStoryUrl: string | null = slug === "kangana-ranaut-dhurandhar-2-madhavan-terrific-ajit-doval-film"
+    ? "/web-stories/kangana-dhurandhar2-web-story.html"
+    : null;
 
   const articleJsonLd = {
     "@context": "https://schema.org",
@@ -341,6 +344,21 @@ export default function ArticlePage() {
                 className="w-full rounded-sm mb-6 border border-paper-dark"
                 loading="eager"
               />
+            )}
+            {webStoryUrl && (
+              <a
+                href={webStoryUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center justify-between gap-3 mb-6 px-4 py-3 rounded-sm bg-gradient-to-r from-saffron to-saffron-dark text-primary-foreground font-bold tracking-widest uppercase text-xs sm:text-sm shadow-md hover:shadow-lg transition-all min-h-[44px]"
+                aria-label="Watch the AMP web story for this article"
+              >
+                <span className="flex items-center gap-2">
+                  <span className="inline-block w-2 h-2 rounded-full bg-primary-foreground animate-pulse" aria-hidden="true" />
+                  Watch Web Story
+                </span>
+                <span className="opacity-90 group-hover:translate-x-1 transition-transform">▶</span>
+              </a>
             )}
             <h1 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black leading-tight text-ink mb-4 sm:mb-6">
               {article.title}
