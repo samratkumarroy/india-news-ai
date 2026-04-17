@@ -146,8 +146,7 @@ Tags: Noida News · Noida Protest · Noida Arrest · Noida Violence · Workers P
     source: "India News AI — PTI, TOI, NDTV, The Hindu",
     publishedAt: "2026-04-15T15:30:00.000Z",
     url: "noida-protest-violence-arrest-total-loss-2026",
-    image: noidaProtestImg,
-    pinned: true
+    image: noidaProtestImg
   },
   {
     title: "AI Updates: ASML Raises 2026 Revenue Outlook to €36-40 Billion as Surging AI Chip Demand Outpaces Supply",
