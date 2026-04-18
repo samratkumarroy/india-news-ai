@@ -33,9 +33,145 @@ import bollywoodToasterImg from "@/assets/bollywood-toaster-screening-2026.webp"
 import springBoldColorsImg from "@/assets/spring-2026-bold-colors-florals.webp";
 import noidaProtestImg from "@/assets/noida-protest-violence-2026.webp";
 import kanganaDhurandharImg from "@/assets/kangana-ranaut-dhurandhar2-2026.webp";
+import claudeOpus47Img from "@/assets/claude-opus-47-2026.jpg";
+import sayaniGuptaHarvardImg from "@/assets/sayani-gupta-harvard-2026.jpg";
+import dgRaybanImg from "@/assets/dg-rayban-aviator-2026.jpg";
+import jioIpoImg from "@/assets/jio-ipo-may-2026.jpg";
+import israelLebanonCeasefireAprImg from "@/assets/israel-lebanon-ceasefire-april-2026.jpg";
 const today = new Date().toISOString();
 
 export const newArticles: NewsArticle[] = [
+  {
+    title: "Anthropic Releases Claude Opus 4.7: Stronger Coding, Vision Capabilities Available on Claude.ai, AWS Bedrock & Vertex AI",
+    description: "Anthropic officially launched Claude Opus 4.7 on April 16, 2026, delivering major gains in coding, long-horizon reasoning, multi-step agentic tasks and high-resolution vision support up to 2576px. Pricing remains stable, though a new tokenizer may shift effective costs.",
+    content: `TECHNOLOGY — Artificial Intelligence | April 18, 2026
+
+Anthropic officially launched Claude Opus 4.7 on April 16, 2026, making the model generally available across Claude.ai, the Anthropic API, Amazon Bedrock, Google Vertex AI and other partner platforms. The release marks the company's most significant capability jump of the year.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• Stronger coding performance on long-horizon and agentic benchmarks
+• High-resolution vision support up to 2576px
+• Pricing held at prior Opus levels; new tokenizer may shift effective per-prompt cost
+• Available on Claude.ai, API, Amazon Bedrock and Google Vertex AI from day one
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Analysts continue monitoring frontier AI releases for downstream cybersecurity and policy implications. The Opus 4.7 launch underscores an accelerating cadence of capability upgrades from leading labs while keeping safety evaluations central to deployment.
+
+Source: Anthropic, April 16, 2026.`,
+    category: "technology",
+    source: "Anthropic / Reuters",
+    publishedAt: "2026-04-18T10:30:00+05:30",
+    url: "anthropic-claude-opus-4-7-coding-vision-april-2026",
+    image: claudeOpus47Img,
+  },
+  {
+    title: "Sayani Gupta Named Harvard South Asian Association's 2026 Person of the Year; Sara Ali Khan Completes 18-km Himalayan Trek",
+    description: "Bollywood actress Sayani Gupta has been selected as the 2026 Person of the Year by the Harvard South Asian Association for her contributions to authentic storytelling. Separately, Sara Ali Khan completed an 18-km trek across Panwali Kantha Bugyal in Uttarakhand.",
+    content: `ENTERTAINMENT — Bollywood | April 18, 2026
+
+Bollywood actress Sayani Gupta has been selected as the 2026 Person of the Year by the Harvard South Asian Association (HSAA), in recognition of her contributions to authentic storytelling and the global representation of South Asian narratives. She will be formally honoured at Harvard later this month.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• Sayani Gupta named HSAA 2026 Person of the Year
+• Honour recognises authentic South Asian storytelling on global platforms
+• Sara Ali Khan completes 18-km trek across Panwali Kantha Bugyal (April 11–13, 2026)
+• Trek crosses forests, alpine meadows and snowline of Tehri Garhwal
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Separately, actress Sara Ali Khan completed a challenging 18-kilometre trek across Panwali Kantha Bugyal in Uttarakhand's Tehri Garhwal district between April 11 and 13, 2026. She shared scenic moments from forests, high-altitude meadows and snow-capped ridges on social media, drawing wide engagement from followers.
+
+Both updates reinforce a growing trend of Bollywood talent gaining recognition beyond cinema — through academic honours and outdoor adventure storytelling alike.`,
+    category: "entertainment",
+    source: "Harvard SAA / ANI",
+    publishedAt: "2026-04-18T09:45:00+05:30",
+    url: "sayani-gupta-harvard-2026-sara-ali-khan-himalayan-trek",
+    image: sayaniGuptaHarvardImg,
+  },
+  {
+    title: "Dolce & Gabbana x Ray-Ban Aviator Collection Launches as 'Bedtime Florals' Define Spring 2026 Trends",
+    description: "The Dolce & Gabbana x Ray-Ban collaboration reinterprets the iconic Aviator silhouette with tinted lenses and refined metal frames for spring/summer 2026 — arriving as soft 'bedtime florals' continue to define the season's pastel print direction.",
+    content: `FASHION — Spring/Summer 2026 | April 18, 2026
+
+The Dolce & Gabbana x Ray-Ban collaboration officially lands for April 2026, reinterpreting the iconic Aviator silhouette with modern Italian flourishes — tinted lenses, refined metal frames and distinctive D&G hardware details. The drop arrives just ahead of the Aviator's near-90th anniversary.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• Dolce & Gabbana x Ray-Ban Aviator collection launches for SS26
+• Tinted lenses, refined metal frames, signature D&G detailing
+• Marks lead-up to the Aviator's 90th anniversary
+• "Bedtime florals" trend dominates spring runways with pastel Regency-era prints
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Running parallel to the eyewear launch, "bedtime florals" — delicate pastel motifs that evoke Regency-era wallpaper, soft frills and nightwear-inspired silhouettes — continue to define approachable spring print trends across major runways and high-street capsules. Together, the two stories highlight a season balancing iconography with quiet romance.`,
+    category: "fashion",
+    source: "Vogue / WWD",
+    publishedAt: "2026-04-18T08:30:00+05:30",
+    url: "dolce-gabbana-rayban-aviator-bedtime-florals-spring-2026",
+    image: dgRaybanImg,
+  },
+  {
+    title: "Reliance Targets May 2026 Filing for Jio Platforms IPO as Ambani Doubles Down on AI and Digital Infrastructure",
+    description: "Reliance Industries is preparing to file draft papers for the Jio Platforms IPO in May 2026, incorporating full FY26 financials. The blockbuster offering is expected to focus on shareholder exits as Mukesh Ambani accelerates AI, data centre and digital infrastructure investments.",
+    content: `BUSINESS — Industry & Markets | April 18, 2026
+
+Reliance Industries is preparing to file draft papers for the long-anticipated Jio Platforms IPO in May 2026, with the offering expected to incorporate full FY26 financials. People familiar with the process indicate that the structure will focus largely on shareholder exits rather than fresh primary capital raise.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• Jio Platforms IPO draft filing targeted for May 2026
+• Offering structured around shareholder exits with FY26 financials
+• Syndicate of leading domestic and global banks engaged
+• Aligns with Ambani's accelerated push into AI, data centres and digital infrastructure
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+A syndicate of leading domestic and international banks has been engaged to manage the offering, which would rank among India's largest-ever public listings if executed at the upper end of expectations. The move dovetails with Mukesh Ambani's broader strategy of deepening Reliance's position in AI, hyperscale data centres and consumer digital services across India's tech ecosystem.`,
+    category: "politics",
+    source: "Bloomberg / Mint",
+    publishedAt: "2026-04-18T07:45:00+05:30",
+    url: "reliance-jio-platforms-ipo-may-2026-ambani-ai-infrastructure",
+    image: jioIpoImg,
+  },
+  {
+    title: "Israel-Lebanon 10-Day Ceasefire Holds with Cautious Celebrations in Beirut as Iran Reopens Strait of Hormuz",
+    description: "The US-brokered 10-day ceasefire between Israel and Lebanon took effect on April 16–17, 2026, prompting cautious celebrations in Beirut despite localized incidents. President Trump linked the truce to broader regional talks as Iran reopened the Strait of Hormuz to commercial traffic.",
+    content: `WORLD — Middle East | April 18, 2026
+
+The US-brokered 10-day ceasefire between Israel and Lebanon took effect on April 16–17, 2026, prompting cautious celebrations in Beirut and other Lebanese cities despite reports of localized incidents along the border. The truce represents the most significant pause in hostilities in months.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• US-brokered 10-day Israel-Lebanon ceasefire takes effect April 16–17, 2026
+• Cautious celebrations reported across Beirut and southern Lebanon
+• President Trump links truce to broader regional diplomacy, including US-Iran track
+• Iran reopens the Strait of Hormuz to commercial traffic during the pause
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+President Trump publicly linked the truce to broader regional diplomacy, including potential progress on the US-Iran track. In a parallel signal, Iran reopened the Strait of Hormuz to commercial traffic during the ceasefire window — easing pressure on global energy shipping lanes.
+
+Humanitarian agencies and diplomatic envoys remain focused on extending the temporary pause into a more durable framework, with aid corridors and prisoner exchanges expected to dominate the coming days.`,
+    category: "world",
+    source: "Reuters / AP",
+    publishedAt: "2026-04-18T06:30:00+05:30",
+    url: "israel-lebanon-ceasefire-april-2026-iran-hormuz-reopened",
+    image: israelLebanonCeasefireAprImg,
+  },
   {
     title: "Kangana Ranaut Hails Dhurandhar 2: Madhavan 'Terrific', Wants Separate Ajit Doval Film",
     description: "Kangana Ranaut praises R Madhavan's performance in Dhurandhar 2 as 'terrific' and demands a separate film on NSA Ajit Doval. Inside her full reaction on the Ranveer Singh starrer reviving Bollywood.",
