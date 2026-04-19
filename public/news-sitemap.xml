@@ -4,6 +4,23 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <url>
+    <loc>https://indianewsai.com/article/justin-bieber-coachella-2026-billie-eilish-surprise-headlines-weekend-2</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IndiaNewsAI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-19T18:00:00+05:30</news:publication_date>
+      <news:title>Justin Bieber's Coachella Set Delights with Billie Eilish Surprise: Bieber Headlines Coachella Weekend 2</news:title>
+      <news:keywords>justin bieber, coachella 2026, billie eilish, one less lonely girl, bieberchella, sza, big sean, weekend 2</news:keywords>
+    </news:news>
+    <image:image>
+      <image:loc>https://indianewsai.com/assets/justin-bieber-coachella-2026.jpg</image:loc>
+      <image:title>Justin Bieber serenades Billie Eilish at Coachella 2026 Weekend 2</image:title>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://indianewsai.com/article/kangana-ranaut-dhurandhar-2-madhavan-terrific-ajit-doval-film</loc>
     <news:news>
       <news:publication>

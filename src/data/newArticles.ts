@@ -38,9 +38,41 @@ import sayaniGuptaHarvardImg from "@/assets/sayani-gupta-harvard-2026.jpg";
 import dgRaybanImg from "@/assets/dg-rayban-aviator-2026.jpg";
 import jioIpoImg from "@/assets/jio-ipo-may-2026.jpg";
 import israelLebanonCeasefireAprImg from "@/assets/israel-lebanon-ceasefire-april-2026.jpg";
+import justinBieberCoachellaImg from "@/assets/justin-bieber-coachella-2026.jpg";
 const today = new Date().toISOString();
 
 export const newArticles: NewsArticle[] = [
+  {
+    title: "Justin Bieber's Coachella Set Delights with Billie Eilish Surprise: Bieber Headlines Coachella Weekend 2 in Epic Fashion",
+    description: "Justin Bieber headlined Coachella Weekend 2 on April 18, 2026, delivering a star-studded set featuring a heartwarming surprise appearance by Billie Eilish during 'One Less Lonely Girl', plus guest spots from SZA, Sexyy Red and Big Sean.",
+    content: `ENTERTAINMENT — Music | April 19, 2026
+
+INDIO, CALIFORNIA — Pop superstar Justin Bieber turned the Coachella Valley Music and Arts Festival into a nostalgic spectacle on April 18, 2026, headlining Coachella Weekend 2 in a performance fans are already calling "BieberChella". The set reached its emotional peak when Bieber brought out longtime friend and self-proclaimed Belieber Billie Eilish for a surprise serenade during his 2009 hit "One Less Lonely Girl".
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• Billie Eilish pulled on stage and serenaded during "One Less Lonely Girl"
+• Sexyy Red joined for a fiery "Sweet Spot"
+• Big Sean appeared on "As Long As You Love Me" and "No Pressure"
+• SZA closed the night with a sultry duet on "Snooze"
+• Setlist blended early YouTube-era hits with new "SWAG" and "SWAG II" tracks
+• Crowd estimated at 125,000
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Eilish, who has openly credited Bieber as an early inspiration, was seated on a chair on stage as the Canadian singer directed the song straight at her — a full-circle moment that sent social media into a frenzy. The duo first connected at Coachella in 2019 and later collaborated on the "Bad Guy" remix.
+
+The Weekend 2 performance was a marked upgrade from his stripped-down Weekend 1 set, with a nostalgic "YouTube section" featuring vintage clips and viral videos from Bieber's rise to fame. Trending hashtags #BieberChella, #OneLessLonelyGirl and #BillieAtCoachella dominated Indian Twitter and Instagram Reels within minutes.
+
+Source: Coachella / Reuters / Variety, April 18, 2026.`,
+    category: "entertainment",
+    source: "Coachella / Variety",
+    publishedAt: "2026-04-19T18:00:00+05:30",
+    url: "justin-bieber-coachella-2026-billie-eilish-surprise-headlines-weekend-2",
+    image: justinBieberCoachellaImg,
+  },
   {
     title: "Anthropic Releases Claude Opus 4.7: Stronger Coding, Vision Capabilities Available on Claude.ai, AWS Bedrock & Vertex AI",
     description: "Anthropic officially launched Claude Opus 4.7 on April 16, 2026, delivering major gains in coding, long-horizon reasoning, multi-step agentic tasks and high-resolution vision support up to 2576px. Pricing remains stable, though a new tokenizer may shift effective costs.",
