@@ -260,4 +260,13 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://indianewsai.com/article/justin-bieber-coachella-2026-billie-eilish-surprise-headlines-weekend-2</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://indianewsai.com/assets/justin-bieber-coachella-2026.jpg</image:loc>
+      <image:title>Justin Bieber Coachella 2026 Weekend 2 with Billie Eilish surprise</image:title>
+    </image:image>
+  </url>
 </urlset>
