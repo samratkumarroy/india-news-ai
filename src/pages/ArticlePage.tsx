@@ -72,9 +72,11 @@ export default function ArticlePage() {
 
   const isEventArticle = slug === "how-to-choose-event-management-company-delhi";
   const isMetGalaArticle = slug === "met-gala-2026-fashion-is-art-theme-co-chairs-may-4" || slug === "met-gala-2026-cochairs-beyonce-kidman-williams-wintour";
-  const webStoryUrl: string | null = slug === "kangana-ranaut-dhurandhar-2-madhavan-terrific-ajit-doval-film"
-    ? "/web-stories/kangana-dhurandhar2-web-story.html"
-    : null;
+  const webStoryUrlMap: Record<string, string> = {
+    "kangana-ranaut-dhurandhar-2-madhavan-terrific-ajit-doval-film": "/web-stories/kangana-dhurandhar2-web-story.html",
+    "brock-lesnar-wwe-retirement-wrestlemania-42": "/web-stories/brock-lesnar-wwe-retirement-wrestlemania-42.html",
+  };
+  const webStoryUrl = slug ? webStoryUrlMap[slug] ?? null : null;
 
   const articleJsonLd = {
     "@context": "https://schema.org",

@@ -39,9 +39,52 @@ import dgRaybanImg from "@/assets/dg-rayban-aviator-2026.jpg";
 import jioIpoImg from "@/assets/jio-ipo-may-2026.jpg";
 import israelLebanonCeasefireAprImg from "@/assets/israel-lebanon-ceasefire-april-2026.jpg";
 import justinBieberCoachellaImg from "@/assets/justin-bieber-coachella-2026.jpg";
+import brockLesnarWrestlemaniaImg from "@/assets/brock-lesnar-wwe-retirement-wrestlemania-42.png";
 const today = new Date().toISOString();
 
 export const newArticles: NewsArticle[] = [
+  {
+    title: "Brock Lesnar WWE Retirement Buzz Builds Around WrestleMania 42: Will The Beast Incarnate Get a Final Farewell?",
+    description: "Brock Lesnar retirement speculation is heating up ahead of WrestleMania 42, with WWE fans debating whether The Beast Incarnate could return for one last arena-shaking farewell match on wrestling's biggest stage.",
+    content: `ENTERTAINMENT — WWE / International Sports Entertainment | April 19, 2026
+
+WWE fans are once again watching every Brock Lesnar signal closely as retirement buzz grows around WrestleMania 42. The possibility of The Beast Incarnate receiving a final farewell match has become one of the biggest speculative wrestling conversations of the season.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• Brock Lesnar retirement talk is trending ahead of WrestleMania 42
+• Fans are debating whether WWE could frame one final match as a farewell attraction
+• Lesnar remains one of WWE's rare crossover names across wrestling, MMA and mainstream sports
+• A WrestleMania stage would give the story maximum global visibility
+• IndiaNewsAI has attached a dedicated AMP web story for Google Discover and mobile readers
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHY BROCK LESNAR STILL MATTERS
+
+Few performers in modern WWE history carry the aura of Brock Lesnar. From his early rise as a dominant champion to his UFC crossover and later WWE returns, Lesnar became a special-attraction figure whose appearances instantly changed the scale of any card.
+
+That rarity is why retirement speculation around him gains traction quickly. Even without weekly television presence, Lesnar's name remains connected to major-event storytelling, marquee opponents and the kind of spectacle WWE often reserves for WrestleMania.
+
+WHY WRESTLEMANIA 42 IS THE PERFECT STAGE
+
+If WWE chooses to present a final Brock Lesnar match, WrestleMania 42 would offer the biggest possible platform. A farewell bout could be built around legacy, dominance, and one last test against a new-generation star — a structure that would naturally fit WWE's global event marketing.
+
+For Indian wrestling fans, the story also has strong nostalgia value. Lesnar has long been one of WWE's most recognizable names in India, and a confirmed farewell angle would likely dominate social media clips, YouTube highlights and Discover surfaces.
+
+WHAT TO WATCH NEXT
+
+The key signals will be WWE programming references, official promotional material, premium live event teasers, and any verified update from WWE or Lesnar's representatives. Until confirmed, the retirement match remains speculation — but the conversation is already powerful enough to make WrestleMania 42 one of the most watched WWE storylines of 2026.
+
+Source: WWE fan discussion / IndiaNewsAI Entertainment Desk, April 19, 2026.`,
+    category: "entertainment",
+    source: "IndiaNewsAI Entertainment Desk",
+    publishedAt: "2026-04-19T19:00:00+05:30",
+    url: "brock-lesnar-wwe-retirement-wrestlemania-42",
+    image: brockLesnarWrestlemaniaImg,
+  },
   {
     title: "Justin Bieber's Coachella Set Delights with Billie Eilish Surprise: Bieber Headlines Coachella Weekend 2 in Epic Fashion",
     description: "Justin Bieber headlined Coachella Weekend 2 on April 18, 2026, delivering a star-studded set featuring a heartwarming surprise appearance by Billie Eilish during 'One Less Lonely Girl', plus guest spots from SZA, Sexyy Red and Big Sean.",

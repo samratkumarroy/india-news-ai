@@ -4,6 +4,40 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <url>
+    <loc>https://indianewsai.com/article/brock-lesnar-wwe-retirement-wrestlemania-42</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IndiaNewsAI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-19T19:00:00+05:30</news:publication_date>
+      <news:title>Brock Lesnar WWE Retirement Buzz Builds Around WrestleMania 42</news:title>
+      <news:keywords>brock lesnar, wwe retirement, wrestlemania 42, beast incarnate, wwe news, wrestling</news:keywords>
+    </news:news>
+    <image:image>
+      <image:loc>https://indianewsai.com/web-stories/brock-lesnar-wwe-retirement-wrestlemania-42.png</image:loc>
+      <image:title>Brock Lesnar WWE retirement buzz ahead of WrestleMania 42</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://indianewsai.com/web-stories/brock-lesnar-wwe-retirement-wrestlemania-42.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IndiaNewsAI</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-19T19:00:00+05:30</news:publication_date>
+      <news:title>Brock Lesnar WWE Retirement at WrestleMania 42 — Web Story</news:title>
+      <news:keywords>brock lesnar, wwe retirement, wrestlemania 42, web story, wwe news</news:keywords>
+    </news:news>
+    <image:image>
+      <image:loc>https://indianewsai.com/web-stories/brock-lesnar-wwe-retirement-wrestlemania-42.png</image:loc>
+      <image:title>Brock Lesnar WrestleMania 42 web story</image:title>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://indianewsai.com/article/justin-bieber-coachella-2026-billie-eilish-surprise-headlines-weekend-2</loc>
     <news:news>
       <news:publication>
