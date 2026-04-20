@@ -192,7 +192,6 @@ export default function ArticlePage() {
           <meta property="og:url" content={`https://indianewsai.com/article/${article.url}`} />
           <meta name="twitter:card" content="summary_large_image" />
           <link rel="canonical" href={`https://indianewsai.com/article/${article.url}`} />
-          {webStoryUrl && <link rel="amphtml" href={`https://indianewsai.com${webStoryUrl}`} />}
           <script type="application/ld+json">{JSON.stringify(articleJsonLd)}</script>
           {webStoryJsonLd && <script type="application/ld+json">{JSON.stringify(webStoryJsonLd)}</script>}
         </Helmet>
@@ -325,7 +324,6 @@ export default function ArticlePage() {
         {isEventArticle && (
           <meta name="keywords" content="event management company Delhi, best event planner Delhi NCR, celebrity booking India, corporate events Delhi, luxury wedding planner, artist management India, The Kabir Company" />
         )}
-        {webStoryUrl && <link rel="amphtml" href={`https://indianewsai.com${webStoryUrl}`} />}
         <script type="application/ld+json">{JSON.stringify(articleJsonLd)}</script>
         {webStoryJsonLd && <script type="application/ld+json">{JSON.stringify(webStoryJsonLd)}</script>}
         {faqJsonLd && <script type="application/ld+json">{JSON.stringify(faqJsonLd)}</script>}
