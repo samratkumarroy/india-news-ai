@@ -28,6 +28,11 @@ export default function NewsCard({ article, index, isHero, currentTime }: NewsCa
   const [copied, setCopied] = useState(false);
   const [galleryIndex, setGalleryIndex] = useState(0);
   const gallery = article.gallery;
+  const webStoryUrlMap: Record<string, string> = {
+    "kangana-ranaut-dhurandhar-2-madhavan-terrific-ajit-doval-film": "/web-stories/kangana-dhurandhar2-web-story.html",
+    "brock-lesnar-wwe-retirement-wrestlemania-42": "/web-stories/brock-lesnar-wwe-retirement-wrestlemania-42.html",
+  };
+  const webStoryUrl = webStoryUrlMap[article.url];
 
   useEffect(() => {
     if (!gallery || gallery.length <= 1) return;
@@ -118,9 +123,9 @@ export default function NewsCard({ article, index, isHero, currentTime }: NewsCa
         <h2 className={`font-display font-bold leading-snug mb-2 sm:mb-3 text-ink ${isHero ? "text-lg sm:text-xl lg:text-2xl" : "text-[0.95rem] sm:text-base lg:text-lg"}`}>
           {article.title}
         </h2>
-        {article.url === "kangana-ranaut-dhurandhar-2-madhavan-terrific-ajit-doval-film" && (
+        {webStoryUrl && (
           <a
-            href="/web-stories/kangana-dhurandhar2-web-story.html"
+            href={webStoryUrl}
             target="_blank"
             rel="noopener noreferrer"
             onClick={(e) => e.stopPropagation()}

@@ -269,4 +269,22 @@
       <image:title>Justin Bieber Coachella 2026 Weekend 2 with Billie Eilish surprise</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://indianewsai.com/article/brock-lesnar-wwe-retirement-wrestlemania-42</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://indianewsai.com/web-stories/brock-lesnar-wwe-retirement-wrestlemania-42.png</image:loc>
+      <image:title>Brock Lesnar WWE retirement buzz ahead of WrestleMania 42</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/web-stories/brock-lesnar-wwe-retirement-wrestlemania-42.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://indianewsai.com/web-stories/brock-lesnar-wwe-retirement-wrestlemania-42.png</image:loc>
+      <image:title>Brock Lesnar WrestleMania 42 web story</image:title>
+    </image:image>
+  </url>
 </urlset>
