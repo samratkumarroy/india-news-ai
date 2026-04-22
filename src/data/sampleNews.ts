@@ -1,9 +1,190 @@
 import { NewsArticle } from "@/types/news";
 import { newArticles } from "./newArticles";
+import hormuzShipImg from "@/assets/iran-hormuz-india-bound-ship-april-2026.jpg";
+import ecKhargeImg from "@/assets/ec-kharge-notice-april-2026.jpg";
+import supremeCourtMamataImg from "@/assets/supreme-court-mamata-ipac-april-2026.jpg";
+import keralaFireworksImg from "@/assets/kerala-fireworks-blast-april-2026.jpg";
+import pahalgamAnniversaryImg from "@/assets/pahalgam-attack-anniversary-april-2026.jpg";
 
 // Base articles use fixed dates for proper chronological sorting
 
 const baseArticles: NewsArticle[] = [
+  {
+    title: "IRGC Seizes India-Bound Ship Near Strait of Hormuz, Raising Fresh Alarm Over India's Energy Security",
+    description: "Iran's Revolutionary Guard has seized two vessels including the Gujarat-bound Epaminondas headed for Mundra, sharply escalating shipping risk in the Strait of Hormuz as India monitors possible fallout for oil imports and maritime security.",
+    content: `BREAKING NEWS — Energy Security / West Asia | April 22, 2026
+
+India's energy-security establishment moved into high alert on Wednesday evening after Iran's Revolutionary Guard seized two vessels in and around the Strait of Hormuz, including the India-bound Epaminondas, a ship reportedly heading toward Gujarat's Mundra Port.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• India-bound vessel Epaminondas was among ships seized in the Hormuz region
+• The route is critical because a large share of India's crude imports pass through these waters
+• Delhi has raised concerns as regional military tensions remain elevated
+• Maritime monitoring and energy-risk calculations are intensifying in New Delhi
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHY THIS MATTERS FOR INDIA
+
+The Strait of Hormuz remains one of the world's most strategically sensitive chokepoints. Any disruption here directly affects freight insurance, tanker routing, delivery schedules and crude price expectations. For India, the stakes are unusually high because Gulf-origin energy cargoes remain central to refining, transport fuel supply and inflation management.
+
+Officials are expected to closely track whether the seizure remains an isolated signal or expands into a broader pressure tactic linked to ongoing US-Iran tensions. Shipping firms, refiners and port-linked logistics operators may now reassess route risk, timing buffers and exposure to sudden escalation.
+
+WHAT HAPPENS NEXT
+
+India's diplomatic and security systems are likely to focus on safe passage, ship status, crew welfare, and the broader risk to commercial shipping lanes. Any sustained disruption in Hormuz could ripple through freight costs, oil pricing and market sentiment within hours.
+
+Source: Reuters / maritime security monitoring / IndiaNewsAi desk, April 22, 2026.`,
+    category: "breaking",
+    source: "Reuters / IndiaNewsAi Desk",
+    publishedAt: "2026-04-22T19:20:00+05:30",
+    url: "irgc-seizes-india-bound-ship-strait-of-hormuz-april-2026",
+    image: hormuzShipImg,
+    pinned: true,
+  },
+  {
+    title: "Election Commission Issues Notice to Mallikarjun Kharge Over 'Terrorist' Remark Against PM Modi",
+    description: "The Election Commission has sent a sharp notice to Congress chief Mallikarjun Kharge over his 'terrorist' remark against Prime Minister Narendra Modi, asking for a response within 24 hours as campaigning intensifies ahead of key polling phases.",
+    content: `POLITICS — Election Watch | April 22, 2026
+
+The Election Commission has issued a formal notice to Congress president Mallikarjun Kharge over his reported "terrorist" remark aimed at Prime Minister Narendra Modi during a press interaction in Chennai, opening a fresh flashpoint in an already heated campaign cycle.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• EC has sought Kharge's reply within 24 hours
+• BJP has demanded an apology and accused Congress of lowering political discourse
+• The controversy has surfaced just as campaigning peaks before crucial voting rounds
+• The episode is likely to dominate television debates and party messaging through polling eve
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHY THE NOTICE MATTERS
+
+At this stage of the campaign, language and code-of-conduct disputes can shape headlines almost as much as manifestos. The Commission's intervention signals concern over rhetoric that could inflame tensions or distort public discourse in the final stretch before voting.
+
+With Tamil Nadu and West Bengal entering a high-intensity political window, both sides are expected to weaponise the controversy: the BJP as evidence of disrespect toward the prime minister, and Congress as part of a wider argument over political overreach and selective outrage.
+
+WHAT TO WATCH NEXT
+
+The next step will be Kharge's response, followed by any advisory or censure from the Commission. The issue may also influence campaign messaging in states where turnout battles are tight and last-minute narrative shifts matter.
+
+Source: Election Commission reporting / ANI / IndiaNewsAi political desk, April 22, 2026.`,
+    category: "politics",
+    source: "ANI / Election Watch",
+    publishedAt: "2026-04-22T18:55:00+05:30",
+    url: "election-commission-notice-mallikarjun-kharge-pm-modi-remark-april-2026",
+    image: ecKhargeImg,
+  },
+  {
+    title: "Supreme Court Criticises Mamata Banerjee in I-PAC Case, Says Democracy Cannot Ignore 'Reality'",
+    description: "The Supreme Court has sharply criticised West Bengal Chief Minister Mamata Banerjee in the I-PAC matter, warning that democracy cannot function by 'shutting our eyes to reality' amid allegations of interference during an ED raid.",
+    content: `POLITICS — Supreme Court / West Bengal | April 22, 2026
+
+In one of the sharpest observations of the campaign season, the Supreme Court on Wednesday criticised West Bengal Chief Minister Mamata Banerjee in the I-PAC-related matter, saying the court could not "shut our eyes to reality" while examining allegations tied to interference during an Enforcement Directorate operation.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• Supreme Court made strong remarks while hearing the I-PAC-linked matter
+• Bench indicated that democratic accountability cannot be ignored during politically sensitive raids
+• Observations come as West Bengal wraps up campaigning ahead of the next voting phase
+• The remarks are likely to become a major campaign issue within hours
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHY THIS IS POLITICALLY SIGNIFICANT
+
+Courtroom observations during election season often carry outsized political weight, particularly when they touch on governance, institutional conduct and law-enforcement access. Opposition parties and the ruling establishment in Bengal are both likely to recast the court's comments to suit competing narratives of federal overreach versus rule-of-law breakdown.
+
+The timing is critical. With campaigning entering its final stage, any judicially framed language around democracy, interference and state responsibility can quickly shift the public conversation and news agenda.
+
+WHAT HAPPENS NEXT
+
+Attention will now turn to the court's subsequent directions, the legal responses from the Bengal government, and whether the matter produces concrete procedural consequences beyond the verbal observations.
+
+Source: Supreme Court reporting / legal correspondents / IndiaNewsAi desk, April 22, 2026.`,
+    category: "politics",
+    source: "Legal Correspondents / IndiaNewsAi",
+    publishedAt: "2026-04-22T18:25:00+05:30",
+    url: "supreme-court-criticises-mamata-banerjee-ipac-case-april-2026",
+    image: supremeCourtMamataImg,
+  },
+  {
+    title: "Kerala Fireworks Unit Blast Kills 13 in Mundathicode, Days After Tamil Nadu Factory Tragedy",
+    description: "At least 13 people have been killed in a blast at a fireworks unit in Kerala's Mundathicode, prompting a state disaster response and judicial probe just days after another deadly firecracker factory tragedy in Tamil Nadu.",
+    content: `BREAKING NEWS — Disaster / Public Safety | April 22, 2026
+
+At least 13 people were killed after a powerful explosion tore through a fireworks unit in Mundathicode, Kerala, deepening national concern over industrial safety failures in the fireworks sector just days after a separate high-fatality firecracker factory tragedy in Tamil Nadu.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• 13 people reported dead in Kerala fireworks unit explosion
+• State government has treated the incident as a disaster and ordered a judicial probe
+• Most victims are reported to be women workers
+• The blast comes within days of another deadly factory tragedy in Tamil Nadu
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHY THIS STORY CUTS DEEP
+
+The back-to-back tragedies raise urgent questions about storage practices, licensing, enforcement and worker protection in hazardous manufacturing clusters. Fireworks and firecracker units remain heavily dependent on labour-intensive processes, often exposing workers to catastrophic risk when safety audits fail or production norms are bypassed.
+
+For policymakers, the latest explosion is likely to trigger renewed scrutiny over inspections, emergency preparedness, and whether existing regulations are being implemented in practice rather than on paper.
+
+WHAT TO WATCH NEXT
+
+Investigators will examine the blast trigger, compliance history, and accountability chain within the unit. Families of the victims are expected to seek compensation, while labour safety enforcement could become a wider political and administrative issue across southern states.
+
+Source: state disaster reporting / local administration / IndiaNewsAi desk, April 22, 2026.`,
+    category: "breaking",
+    source: "State Disaster Reporting / IndiaNewsAi",
+    publishedAt: "2026-04-22T17:40:00+05:30",
+    url: "kerala-fireworks-unit-blast-mundathicode-april-2026",
+    image: keralaFireworksImg,
+  },
+  {
+    title: "One Year After Pahalgam Terror Attack, Leaders Renew Warning as Security Tightens Across Kashmir",
+    description: "India marked one year since the Pahalgam terror attack with tributes, renewed warnings to Pakistan and heightened security across Kashmir as officials balanced remembrance, deterrence and the return of tourist activity.",
+    content: `NATIONAL SECURITY — Kashmir / Terror Response | April 22, 2026
+
+India on Wednesday marked one year since the Pahalgam terror attack with tributes to those killed, sharpened political warnings toward Pakistan, and visible security tightening across parts of Kashmir as the region manages both grief and recovery.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• National leaders marked the anniversary with public tributes and security messaging
+• Rajnath Singh and other senior figures renewed warning signals toward Pakistan
+• Tourist activity is returning, but security presence has been visibly strengthened
+• Army messaging emphasized preparedness after Operation Sindoor-era lessons
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHY THE ANNIVERSARY MATTERS
+
+Anniversary dates in conflict-sensitive regions are never symbolic alone. They shape public memory, counterterror messaging, force posture and political signalling. This year's observance comes at a moment when Kashmir is trying to project stability and tourism revival without appearing complacent about persistent security threats.
+
+The government's messaging reflects that dual objective: honour the victims, reassure civilians and visitors, and underline that deterrence remains active.
+
+WHAT TO WATCH NEXT
+
+Security agencies are likely to maintain elevated alert levels around tourist corridors, memorial events and transport nodes. Political statements around cross-border terrorism may also sharpen as parties frame the anniversary through national security and regional stability.
+
+Source: defence and security reporting / IndiaNewsAi desk, April 22, 2026.`,
+    category: "breaking",
+    source: "Security Reporting / IndiaNewsAi",
+    publishedAt: "2026-04-22T16:50:00+05:30",
+    url: "pahalgam-terror-attack-anniversary-kashmir-security-april-2026",
+    image: pahalgamAnniversaryImg,
+  },
   {
     title: "How to Choose an Event Management Company in Delhi? 7 Essential Things to Know",
     description: "From corporate events to Bollywood celebrity bookings — the event industry in Delhi NCR is evolving rapidly. 7 expert tips for choosing the right partner and avoiding costly mistakes.",

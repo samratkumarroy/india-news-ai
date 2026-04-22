@@ -316,10 +316,12 @@ export default function ArticlePage() {
         <meta property="og:description" content={article.description} />
         <meta property="og:type" content="article" />
         <meta property="og:url" content={`https://indianewsai.com/article/${article.url}`} />
+        {article.image && <meta property="og:image" content={`https://indianewsai.com${article.image}`} />}
         {isEventArticle && <meta property="og:image" content="https://indianewsai.com/og-event-management-delhi.png" />}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={article.title} />
         <meta name="twitter:description" content={article.description} />
+        {article.image && <meta name="twitter:image" content={`https://indianewsai.com${article.image}`} />}
         <link rel="canonical" href={`https://indianewsai.com/article/${article.url}`} />
         {isEventArticle && (
           <meta name="keywords" content="event management company Delhi, best event planner Delhi NCR, celebrity booking India, corporate events Delhi, luxury wedding planner, artist management India, The Kabir Company" />
