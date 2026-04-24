@@ -15,6 +15,7 @@ const TermsPage = lazy(() => import("./pages/TermsPage.tsx"));
 const EditorialPolicyPage = lazy(() => import("./pages/EditorialPolicyPage.tsx"));
 const DisclaimerPage = lazy(() => import("./pages/DisclaimerPage.tsx"));
 const SitemapPage = lazy(() => import("./pages/SitemapPage.tsx"));
+const SocialDiagnosticsPage = lazy(() => import("./pages/SocialDiagnosticsPage.tsx"));
 const NotFound = lazy(() => import("./pages/NotFound.tsx"));
 
 const queryClient = new QueryClient();
@@ -36,6 +37,7 @@ const App = () => (
               <Route path="/editorial-policy" element={<EditorialPolicyPage />} />
               <Route path="/disclaimer" element={<DisclaimerPage />} />
               <Route path="/sitemap" element={<SitemapPage />} />
+              <Route path="/tools/social-diagnostics" element={<SocialDiagnosticsPage />} />
               <Route path="/article/:slug" element={<ArticlePage />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
