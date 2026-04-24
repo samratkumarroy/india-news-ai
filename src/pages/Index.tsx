@@ -29,7 +29,17 @@ export default function Index() {
 
   const filteredArticles = useMemo(() => {
     const list = filter === "all" ? articles : articles.filter((a) => a.category === filter);
+    const priorityByUrl = new Map([
+      ["met-gala-2026-deepika-padukone-ranveer-singh-guest-list-leak", 0],
+      ["avatar-3-teaser-cinemacon-2026-james-cameron-december-release", 1],
+    ]);
+
     return [...list].sort((a, b) => {
+      const priorityA = priorityByUrl.get(a.url) ?? Number.MAX_SAFE_INTEGER;
+      const priorityB = priorityByUrl.get(b.url) ?? Number.MAX_SAFE_INTEGER;
+
+      if (priorityA !== priorityB) return priorityA - priorityB;
+      if (a.pinned !== b.pinned) return Number(Boolean(b.pinned)) - Number(Boolean(a.pinned));
       return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime();
     });
   }, [articles, filter]);

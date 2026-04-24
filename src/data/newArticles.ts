@@ -122,6 +122,7 @@ Source: CinemaCon coverage / IndiaNewsAI Entertainment Desk, April 23, 2026.`,
     publishedAt: "2026-04-23T13:15:00+05:30",
     url: "avatar-3-teaser-cinemacon-2026-james-cameron-december-release",
     image: avatar3TeaserImg,
+    pinned: true,
   },
   {
     title: "Brock Lesnar WWE Retirement Buzz Builds Around WrestleMania 42: Will The Beast Incarnate Get a Final Farewell?",
