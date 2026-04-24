@@ -108,8 +108,7 @@
 
   .nav-pill:hover,
   .nav-pill.active {
-    background-image: var(--gradient-brand);
-    @apply text-primary-foreground;
+    @apply bg-foreground text-background;
   }
 
   .ticker-content {
@@ -120,30 +119,26 @@
 
   .news-card {
     @apply bg-card rounded-sm overflow-hidden transition-all duration-200 border border-border;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    box-shadow: none;
   }
 
   @media (hover: hover) {
     .news-card:hover {
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
       transform: translateY(-2px);
     }
   }
 
   .card-pattern {
-    @apply w-full min-h-[200px] flex items-center justify-center;
-    background-image: var(--gradient-brand);
+    @apply w-full min-h-[200px] flex items-center justify-center bg-secondary;
   }
 
   .text-gradient-brand {
-    background-image: var(--gradient-brand);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    @apply text-foreground;
   }
 
   .bg-gradient-brand {
-    background-image: var(--gradient-brand);
+    @apply bg-foreground;
   }
 }
 
