@@ -72,6 +72,23 @@ export default function ArticlePage() {
 
   const isEventArticle = slug === "how-to-choose-event-management-company-delhi";
   const isMetGalaArticle = slug === "met-gala-2026-fashion-is-art-theme-co-chairs-may-4" || slug === "met-gala-2026-cochairs-beyonce-kidman-williams-wintour";
+
+  // Curated social-share image overrides (absolute URLs for OG/Twitter crawlers)
+  const SITE_ORIGIN = "https://indianewsai.com";
+  const socialImageOverrides: Record<string, string> = {
+    "met-gala-2026-deepika-padukone-ranveer-singh-guest-list-leak":
+      `${SITE_ORIGIN}/og/met-gala-2026-deepika-ranveer.jpg`,
+    "avatar-3-teaser-cinemacon-2026-james-cameron-december-release":
+      `${SITE_ORIGIN}/og/avatar-3-teaser-2026.jpg`,
+  };
+  const resolvedSocialImage =
+    (slug && socialImageOverrides[slug]) ||
+    (article.image
+      ? article.image.startsWith("http")
+        ? article.image
+        : `${SITE_ORIGIN}${article.image}`
+      : `${SITE_ORIGIN}/og-default.png`);
+
   const webStoryUrlMap: Record<string, string> = {
     "kangana-ranaut-dhurandhar-2-madhavan-terrific-ajit-doval-film": "/web-stories/kangana-dhurandhar2-web-story.html",
     "brock-lesnar-wwe-retirement-wrestlemania-42": "/web-stories/brock-lesnar-wwe-retirement-wrestlemania-42.html",
