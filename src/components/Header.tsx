@@ -8,7 +8,7 @@ interface HeaderProps {
 
 export default function Header({ currentTime }: HeaderProps) {
   return (
-    <header className="sticky top-0 z-50 bg-background border-b-4 border-transparent pt-[env(safe-area-inset-top,0px)]" style={{ borderImage: "var(--gradient-brand) 1" }} role="banner">
+    <header className="sticky top-0 z-50 bg-background border-b border-border pt-[env(safe-area-inset-top,0px)]" role="banner">
       <div className="flex items-center justify-between px-6 py-2 border-b border-border">
         <time
           dateTime={currentTime.toISOString()}
@@ -65,20 +65,13 @@ export default function Header({ currentTime }: HeaderProps) {
         </nav>
       </div>
 
-      <div className="text-center py-4 px-6">
+      <div className="text-center py-6 px-6">
         <Link to="/" aria-label="India News AI - Home" className="inline-flex items-center justify-center gap-3">
-          <img
-            src={logo}
-            alt="India News AI logo"
-            width={48}
-            height={48}
-            className="w-10 h-10 md:w-12 md:h-12"
-          />
-          <h1 className="font-display text-3xl md:text-5xl font-bold text-foreground leading-none tracking-tight">
-            India<span className="text-gradient-brand">News</span>Ai
+          <h1 className="font-display text-4xl md:text-6xl font-black text-foreground leading-none tracking-tight">
+            India<span className="italic font-bold">News</span>Ai
           </h1>
         </Link>
-        <p className="text-[0.55rem] md:text-[0.68rem] tracking-[0.18em] uppercase text-muted-foreground mt-1 font-medium">
+        <p className="text-[0.55rem] md:text-[0.65rem] tracking-[0.25em] uppercase text-muted-foreground mt-2 font-medium">
           AI-Powered News · Breaking Stories the Moment They Happen
         </p>
       </div>
