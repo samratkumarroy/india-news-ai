@@ -206,9 +206,16 @@ export default function ArticlePage() {
           <meta property="og:title" content={article.title} />
           <meta property="og:description" content={article.description} />
           <meta property="og:type" content="article" />
-          <meta property="og:url" content={`https://indianewsai.com/article/${article.url}`} />
+          <meta property="og:url" content={`${SITE_ORIGIN}/article/${article.url}`} />
+          <meta property="og:image" content={resolvedSocialImage} />
+          <meta property="og:image:alt" content={article.title} />
+          <meta property="og:site_name" content="IndiaNewsAi" />
           <meta name="twitter:card" content="summary_large_image" />
-          <link rel="canonical" href={`https://indianewsai.com/article/${article.url}`} />
+          <meta name="twitter:title" content={article.title} />
+          <meta name="twitter:description" content={article.description} />
+          <meta name="twitter:image" content={resolvedSocialImage} />
+          <meta name="twitter:image:alt" content={article.title} />
+          <link rel="canonical" href={`${SITE_ORIGIN}/article/${article.url}`} />
           <script type="application/ld+json">{JSON.stringify(articleJsonLd)}</script>
           {webStoryJsonLd && <script type="application/ld+json">{JSON.stringify(webStoryJsonLd)}</script>}
         </Helmet>
