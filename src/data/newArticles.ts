@@ -40,9 +40,88 @@ import jioIpoImg from "@/assets/jio-ipo-may-2026.jpg";
 import israelLebanonCeasefireAprImg from "@/assets/israel-lebanon-ceasefire-april-2026.jpg";
 import justinBieberCoachellaImg from "@/assets/justin-bieber-coachella-2026.jpg";
 import brockLesnarWrestlemaniaImg from "@/assets/brock-lesnar-wwe-retirement-wrestlemania-42.png";
+import metGalaDeepikaRanveerImg from "@/assets/met-gala-2026-deepika-ranveer.jpg";
+import avatar3TeaserImg from "@/assets/avatar-3-teaser-2026.jpg";
 const today = new Date().toISOString();
 
 export const newArticles: NewsArticle[] = [
+  {
+    title: "Met Gala 2026 Guest List Leak: Deepika Padukone & Ranveer Singh Lead Bollywood-Hollywood Crossover Alongside Zendaya, Beyoncé",
+    description: "The first major Met Gala 2026 guest list leak confirms Deepika Padukone and Ranveer Singh as headline attendees alongside Zendaya and Beyoncé, with the 'Costume Art' theme set to inspire custom Indo-couture pieces blending heritage with high fashion.",
+    content: `ENTERTAINMENT — Fashion / Global Red Carpet | April 23, 2026
+
+NEW YORK: The first major Met Gala 2026 guest list has surfaced online, and Bollywood is set for its biggest American fashion moment in years. Deepika Padukone and Ranveer Singh have been confirmed as headline attendees alongside Zendaya, Beyoncé and the announced co-chairs, according to leaked invitation lists circulating among fashion insiders.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• Deepika Padukone & Ranveer Singh confirmed on the leaked attendee list
+• Zendaya and Beyoncé among the international headliners
+• "Costume Art" theme to inspire Indian heritage-meets-couture custom looks
+• Largest expected Bollywood presence at the Met Gala since 2019
+• More A-list names expected to drop in the coming days
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHY THIS YEAR MATTERS
+
+The Met Gala has steadily widened its global lens, and 2026's "Costume Art" theme is being read as a direct invitation for designers to celebrate craft traditions. For Indian couturiers — from Sabyasachi to Manish Malhotra and Rahul Mishra — this is a rare opportunity to put zardozi, mirror work, and heritage embroidery on fashion's most-watched staircase.
+
+Insiders say several looks are already in development, with custom Indo-couture pieces being engineered to walk the line between editorial and wearable. Deepika Padukone, a Cartier global ambassador, and Ranveer Singh, known for fearless menswear silhouettes, are expected to anchor the Indian contingent.
+
+WHAT TO WATCH NEXT
+
+Attention now shifts to official confirmations from the Met, designer reveals in the days leading up to the first Monday in May, and the first carpet arrivals. Vogue is already calling it "the carpet that will break the internet."
+
+Source: Met Gala insider leaks / IndiaNewsAI Entertainment Desk, April 23, 2026.`,
+    category: "fashion",
+    source: "IndiaNewsAI Entertainment Desk",
+    publishedAt: "2026-04-23T15:30:00+05:30",
+    url: "met-gala-2026-deepika-padukone-ranveer-singh-guest-list-leak",
+    image: metGalaDeepikaRanveerImg,
+    gallery: [metGalaDeepikaRanveerImg, metGalaImg1, metGalaImg2, metGalaImg3],
+  },
+  {
+    title: "Avatar 3 Teaser Drops at CinemaCon: James Cameron Promises 'Biggest Visual Leap Yet' for December 2026 Release",
+    description: "James Cameron unveiled the first Avatar 3 teaser at CinemaCon 2026, showcasing new underwater sequences, fresh Na'vi clans and next-generation visual effects ahead of the film's December 19, 2026 global release.",
+    content: `ENTERTAINMENT — Hollywood / Franchise | April 23, 2026
+
+LOS ANGELES: James Cameron has raised the bar once again. The first official teaser for Avatar 3 premiered at CinemaCon 2026, teasing breathtaking underwater sequences, the introduction of new Na'vi clans, and visual technology that the director says makes the previous two films "look quaint."
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• Global release confirmed for December 19, 2026
+• Sigourney Weaver returns in an expanded role
+• Sam Worthington and Zoe Saldaña reprise lead roles
+• New Na'vi clans and underwater bioluminescent ecosystems revealed
+• Cameron: "We're not here to play small."
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHAT THE TEASER SHOWED
+
+The CinemaCon footage opened on a sweeping underwater sequence — schools of glowing creatures, sunlight filtering through Pandora's reefs — before cutting to a brand-new Na'vi clan with markings and weaponry not seen in earlier films. Industry insiders described the visual fidelity as "a generational leap" over The Way of Water.
+
+Cameron confirmed the December 19, 2026 worldwide release date and hinted at Sigourney Weaver's expanded role alongside returning leads Sam Worthington and Zoe Saldaña. The room reportedly erupted when he deadpanned, "We're not here to play small."
+
+WHY IT MATTERS FOR INDIAN AUDIENCES
+
+Avatar films have historically over-performed in Indian metros, with The Way of Water becoming one of the highest-grossing Hollywood releases ever in the country. A December 2026 release also positions Avatar 3 directly into the Christmas-New Year corridor — a window that has consistently delivered record IMAX numbers in India.
+
+WHAT TO WATCH NEXT
+
+Expect the official teaser to drop online within 24-48 hours and break early social metrics. Pre-bookings for IMAX and 3D screenings are likely to open by late November.
+
+Source: CinemaCon coverage / IndiaNewsAI Entertainment Desk, April 23, 2026.`,
+    category: "entertainment",
+    source: "IndiaNewsAI Entertainment Desk",
+    publishedAt: "2026-04-23T13:15:00+05:30",
+    url: "avatar-3-teaser-cinemacon-2026-james-cameron-december-release",
+    image: avatar3TeaserImg,
+  },
   {
     title: "Brock Lesnar WWE Retirement Buzz Builds Around WrestleMania 42: Will The Beast Incarnate Get a Final Farewell?",
     description: "Brock Lesnar retirement speculation is heating up ahead of WrestleMania 42, with WWE fans debating whether The Beast Incarnate could return for one last arena-shaking farewell match on wrestling's biggest stage.",
