@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        serif: ["'Source Serif 4'", "Georgia", "serif"],
-        display: ["'Playfair Display'", "serif"],
+        serif: ["'Inter'", "system-ui", "sans-serif"],
+        display: ["'Space Grotesk'", "'Inter'", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",

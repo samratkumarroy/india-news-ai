@@ -6,43 +6,46 @@
 
 @layer base {
   :root {
-    --background: 36 33% 93%;
-    --foreground: 30 50% 6%;
+    --background: 0 0% 100%;
+    --foreground: 0 0% 6%;
 
     --card: 0 0% 100%;
-    --card-foreground: 30 50% 6%;
+    --card-foreground: 0 0% 6%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 30 50% 6%;
+    --popover-foreground: 0 0% 6%;
 
-    --primary: 20 82% 50%;
+    --primary: 0 0% 6%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 36 28% 87%;
-    --secondary-foreground: 30 50% 6%;
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 6%;
 
-    --muted: 36 28% 87%;
-    --muted-foreground: 30 18% 41%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 40%;
 
-    --accent: 20 82% 50%;
+    --accent: 14 100% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 34 22% 69%;
-    --input: 34 22% 69%;
-    --ring: 20 82% 50%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 14 100% 55%;
 
     --radius: 0.25rem;
 
-    --ink: 30 50% 6%;
-    --paper: 36 33% 93%;
-    --paper-dark: 36 28% 87%;
-    --saffron: 20 82% 50%;
-    --saffron-dark: 20 85% 39%;
-    --rule: 34 22% 69%;
-    --news-muted: 30 18% 41%;
+    --ink: 0 0% 6%;
+    --paper: 0 0% 100%;
+    --paper-dark: 0 0% 96%;
+    --saffron: 14 100% 55%;
+    --saffron-dark: 8 95% 45%;
+    --rule: 0 0% 88%;
+    --news-muted: 0 0% 40%;
+
+    /* Brand orange gradient (from logo background) */
+    --gradient-brand: linear-gradient(135deg, hsl(20 100% 55%), hsl(355 85% 50%));
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -55,25 +58,25 @@
   }
 
   .dark {
-    --background: 30 50% 6%;
-    --foreground: 36 33% 93%;
-    --card: 30 40% 10%;
-    --card-foreground: 36 33% 93%;
-    --popover: 30 40% 10%;
-    --popover-foreground: 36 33% 93%;
-    --primary: 20 82% 50%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 30 20% 15%;
-    --secondary-foreground: 36 33% 93%;
-    --muted: 30 20% 15%;
-    --muted-foreground: 34 15% 55%;
-    --accent: 30 20% 15%;
-    --accent-foreground: 36 33% 93%;
+    --background: 0 0% 6%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 6%;
+    --secondary: 0 0% 14%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14%;
+    --muted-foreground: 0 0% 60%;
+    --accent: 14 100% 55%;
+    --accent-foreground: 0 0% 100%;
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 30 20% 20%;
-    --input: 30 20% 20%;
-    --ring: 20 82% 50%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 18%;
+    --input: 0 0% 18%;
+    --ring: 14 100% 55%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -92,31 +95,22 @@
 
   body {
     @apply bg-background text-foreground min-h-screen overflow-x-hidden;
-    font-family: 'Source Serif 4', Georgia, serif;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
     -webkit-overflow-scrolling: touch;
-  }
-
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
-    pointer-events: none;
-    z-index: 0;
-    will-change: auto;
-    contain: strict;
+    font-feature-settings: "ss01", "cv11";
   }
 }
 
 @layer components {
   .nav-pill {
-    @apply px-3 py-1.5 rounded-sm text-[0.62rem] sm:text-[0.67rem] tracking-widest uppercase cursor-pointer border-none transition-colors duration-200 bg-transparent text-news-muted min-h-[40px] sm:min-h-[36px] flex items-center;
+    @apply px-3 py-1.5 rounded-sm text-[0.62rem] sm:text-[0.67rem] tracking-widest uppercase cursor-pointer border-none transition-colors duration-200 bg-transparent text-news-muted min-h-[40px] sm:min-h-[36px] flex items-center font-semibold;
     -webkit-tap-highlight-color: transparent;
   }
 
   .nav-pill:hover,
   .nav-pill.active {
-    @apply bg-saffron text-primary-foreground;
+    background-image: var(--gradient-brand);
+    @apply text-primary-foreground;
   }
 
   .ticker-content {
@@ -126,24 +120,31 @@
   }
 
   .news-card {
-    @apply bg-card rounded-sm overflow-hidden transition-all duration-200 border border-secondary;
-    box-shadow: 0 2px 8px rgba(26, 16, 8, 0.1);
+    @apply bg-card rounded-sm overflow-hidden transition-all duration-200 border border-border;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
   }
 
   @media (hover: hover) {
     .news-card:hover {
-      box-shadow: 0 4px 20px rgba(26, 16, 8, 0.18);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10);
       transform: translateY(-2px);
     }
   }
 
-
   .card-pattern {
     @apply w-full min-h-[200px] flex items-center justify-center;
-    background-color: hsl(var(--ink));
-    background-image:
-      repeating-linear-gradient(45deg, transparent, transparent 12px, rgba(232, 99, 26, 0.06) 12px, rgba(232, 99, 26, 0.06) 13px),
-      repeating-linear-gradient(-45deg, transparent, transparent 12px, rgba(26, 122, 60, 0.06) 12px, rgba(26, 122, 60, 0.06) 13px);
+    background-image: var(--gradient-brand);
+  }
+
+  .text-gradient-brand {
+    background-image: var(--gradient-brand);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .bg-gradient-brand {
+    background-image: var(--gradient-brand);
   }
 }
 
