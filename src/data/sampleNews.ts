@@ -5,10 +5,189 @@ import ecKhargeImg from "@/assets/ec-kharge-notice-april-2026.jpg";
 import supremeCourtMamataImg from "@/assets/supreme-court-mamata-ipac-april-2026.jpg";
 import keralaFireworksImg from "@/assets/kerala-fireworks-blast-april-2026.jpg";
 import pahalgamAnniversaryImg from "@/assets/pahalgam-attack-anniversary-april-2026.jpg";
+import electionTurnoutImg from "@/assets/india-election-turnout-april-2026.jpg";
+import delhiSecurityImg from "@/assets/delhi-security-breach-april-2026.jpg";
+import usNavyImg from "@/assets/us-navy-secretary-fired-april-2026.jpg";
+import infosysHiringImg from "@/assets/infosys-hiring-freshers-2026.jpg";
+import karnatakaSslcImg from "@/assets/karnataka-sslc-result-2026.jpg";
 
 // Base articles use fixed dates for proper chronological sorting
 
 const baseArticles: NewsArticle[] = [
+  {
+    title: "India Election 2026: West Bengal Records Historic 91.78% Voter Turnout, Tamil Nadu Hits 84.69% in Phase 1",
+    description: "The Election Commission of India has confirmed record-breaking Phase 1 turnout — 91.78% in West Bengal and 84.69% in Tamil Nadu — driven by surging youth participation, strong rural mobilisation and aggressive digital voter-awareness campaigns.",
+    content: `BREAKING — Elections 2026 | April 24, 2026
+
+India witnessed a historic democratic moment on Thursday as the Election Commission of India confirmed record-breaking voter turnout in Phase 1 of the 2026 Assembly Elections, with West Bengal touching an unprecedented 91.78% and Tamil Nadu close behind at 84.69%.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• West Bengal: 91.78% turnout — the highest ever recorded in the state
+• Tamil Nadu: 84.69% turnout in Phase 1
+• Youth voter participation reported at an all-time high
+• Rural constituencies decisively outperformed urban booths
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHY THE NUMBERS MATTER
+
+ECI officials credited a combination of grassroots mobilisation, expanded digital voter-awareness campaigns and improved booth-level facilitation for the surge. Long queues were reported well past closing time across several districts in both states, prompting officials to extend voting hours at multiple booths.
+
+Political analysts say the scale of the turnout could reshape exit-poll modelling. Higher participation is historically associated with anti-incumbency waves and policy-driven voting — making the next 48 hours of campaign analysis especially significant for both ruling and opposition camps.
+
+WHAT TO WATCH NEXT
+
+Attention now shifts to constituency-level breakdowns, women voter share and the urban–rural gap, all of which will shape the narrative going into Phase 2. The Election Commission is also expected to release final EVM-wise data and a formal statement on the historic Bengal number.
+
+Source: Election Commission of India / IndiaNewsAi desk, April 24, 2026.`,
+    category: "politics",
+    source: "Election Commission of India / IndiaNewsAi Desk",
+    publishedAt: "2026-04-24T20:30:00+05:30",
+    url: "india-election-2026-record-voter-turnout-west-bengal-tamil-nadu",
+    image: electionTurnoutImg,
+    pinned: true,
+  },
+  {
+    title: "Delhi Shocker: Major Security Breach Under Probe in Brutal Rape-Murder of IRS Officer's Daughter",
+    description: "Delhi Police is investigating a serious security lapse after a terminated staff member allegedly bypassed a four-layer security system at a high-end residential complex, leading to the rape and murder of a 22-year-old daughter of an IRS officer.",
+    content: `CRIME — National Capital | April 24, 2026
+
+A deeply disturbing case has shaken the national capital as Delhi Police investigates a serious security lapse linked to the rape and murder of a 22-year-old woman, the daughter of a serving IRS officer, inside a high-security residential complex.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY DEVELOPMENTS
+
+• Accused identified as a recently terminated staff member of the complex
+• A four-layer security system was reportedly bypassed
+• Internal audit of access control protocols has been initiated
+• A Special Investigation Team has been formed
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHAT POLICE ARE EXAMINING
+
+Investigators are focusing on internal system failures, possible insider negligence and gaps in the residents' welfare association's vendor verification process. CCTV footage, biometric logs and visitor entry records are being forensically examined to reconstruct the accused's movements before the crime.
+
+The case has triggered intense scrutiny over private security protocols across high-rise societies in Delhi NCR, with several RWAs already announcing emergency reviews of guard rotations, ex-employee deactivation timelines and after-hours monitoring.
+
+POLITICAL & PUBLIC RESPONSE
+
+Women's safety groups have demanded an independent inquiry, while the Delhi Commission for Women is expected to seek a status report from the Police Commissioner. The victim's family has called for the strictest possible action.
+
+Source: Delhi Police briefing / IndiaNewsAi desk, April 24, 2026.`,
+    category: "breaking",
+    source: "Delhi Police / IndiaNewsAi Desk",
+    publishedAt: "2026-04-24T19:45:00+05:30",
+    url: "delhi-security-breach-rape-murder-irs-officer-daughter-april-2026",
+    image: delhiSecurityImg,
+  },
+  {
+    title: "US Military Shake-Up: Navy Secretary John Phelan Removed Amid Tensions With Pete Hegseth",
+    description: "John Phelan has been removed as US Navy Secretary in a major Pentagon leadership shake-up, with sources citing rising friction with Defense Secretary Pete Hegseth, shipbuilding modernisation delays and unresolved ethics concerns.",
+    content: `WORLD — US Defense | April 24, 2026
+
+In a major leadership shake-up at the Pentagon, John Phelan has been removed from his post as US Navy Secretary amid escalating tensions with Defense Secretary Pete Hegseth, multiple US officials confirmed on Thursday.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY POINTS
+
+• Phelan's exit follows months of internal disagreement on naval reforms
+• Delays in shipbuilding modernisation programs were a key flashpoint
+• Ongoing ethics concerns also reportedly contributed to the decision
+• A successor is expected to be named in the coming days
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STRATEGIC IMPLICATIONS
+
+The move signals a broader restructuring within US defence leadership at a time of heightened global tensions — from the Strait of Hormuz to the Indo-Pacific. For New Delhi, the shift is significant: the US Navy Secretary is a key counterpart in QUAD-linked maritime cooperation, joint exercises and shipbuilding-technology dialogue.
+
+Analysts say any prolonged uncertainty at the top of the US Navy could ripple through carrier deployment plans, AUKUS coordination and arms-export decisions relevant to India's own naval modernisation.
+
+WHAT NEXT
+
+Attention now turns to the White House for the next nominee and the Senate Armed Services Committee for the confirmation timeline. Markets tied to defence contractors are likely to track the decision closely.
+
+Source: US Department of Defense briefings / IndiaNewsAi desk, April 24, 2026.`,
+    category: "world",
+    source: "Reuters / IndiaNewsAi Desk",
+    publishedAt: "2026-04-24T18:20:00+05:30",
+    url: "us-navy-secretary-john-phelan-fired-pete-hegseth-april-2026",
+    image: usNavyImg,
+  },
+  {
+    title: "Infosys Hiring Surge: 20,000 Freshers to Be Onboarded in FY26 as AI and Cloud Demand Surges",
+    description: "Infosys has announced plans to hire 20,000 freshers in FY 2026, with CFO Jayesh Sanghrajka citing strong demand in AI integration, cloud services and digital transformation — a major signal of renewed confidence in India's IT job market.",
+    content: `BUSINESS — IT & Jobs | April 24, 2026
+
+India's IT bellwether Infosys has announced plans to hire 20,000 freshers in the current fiscal year, marking one of the strongest fresher-intake signals from the sector in recent quarters.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• 20,000 fresher hires planned for FY26
+• CFO Jayesh Sanghrajka confirmed the number in the post-results briefing
+• AI, cloud and digital-transformation deals are driving demand
+• Strong positive signal for engineering campus placements
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHY IT MATTERS
+
+After two cautious years of low fresher intake across India's IT majors, the Infosys announcement is being read as a turning point. The company highlighted a sustained pipeline in generative AI implementation, cloud migration and modernisation services as the core growth engines.
+
+For students, this is a significant tailwind: campus placements at Tier-1 and Tier-2 engineering colleges are expected to see renewed activity in Q2 and Q3, with starting-package bands likely to remain stable or improve modestly.
+
+INDUSTRY VIEW
+
+Analysts say the move could put competitive pressure on TCS, Wipro, HCLTech and Tech Mahindra to revisit their own fresher pipelines. Hiring data over the next two quarters will be a key indicator of broader IT-sector recovery.
+
+Source: Infosys investor briefing / IndiaNewsAi desk, April 24, 2026.`,
+    category: "technology",
+    source: "Infosys / IndiaNewsAi Desk",
+    publishedAt: "2026-04-24T17:10:00+05:30",
+    url: "infosys-hiring-20000-freshers-fy-2026-ai-cloud-demand",
+    image: infosysHiringImg,
+  },
+  {
+    title: "Karnataka SSLC Result 2026 Declared: Record-Breaking 94.1% Pass Percentage Achieved",
+    description: "The Karnataka School Examination and Assessment Board has declared the SSLC Class 10 results for 2026 with a record-breaking pass percentage of 94.1%, reflecting strong rural performance and the impact of digital learning reforms.",
+    content: `EDUCATION — Karnataka | April 24, 2026
+
+The Karnataka School Examination and Assessment Board (KSEAB) has declared the SSLC Class 10 results for 2026, achieving a record-breaking pass percentage of 94.1% — the highest in the state's history.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• Overall pass percentage: 94.1% (all-time high)
+• Significant improvement in rural district performance
+• Strong impact reported from digital learning rollouts
+• Several districts recorded near-perfect pass percentages
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHAT'S DRIVING THE NUMBERS
+
+Officials credited a combination of curriculum reforms, sustained digital-learning investment, restructured continuous evaluation, and stronger teacher-training programs. For the first time, several traditionally lagging rural districts crossed the state average — a trend educators say is the most meaningful shift in the data.
+
+HOW TO CHECK
+
+Students can check their results on the official KSEAB results portal using their registration number and date of birth. Mark sheets will be made available through schools shortly. Re-evaluation and supplementary exam timelines will be announced separately by the board.
+
+Source: KSEAB / IndiaNewsAi desk, April 24, 2026.`,
+    category: "breaking",
+    source: "KSEAB / IndiaNewsAi Desk",
+    publishedAt: "2026-04-24T16:00:00+05:30",
+    url: "karnataka-sslc-result-2026-record-94-percent-pass",
+    image: karnatakaSslcImg,
+  },
   {
     title: "IRGC Seizes India-Bound Ship Near Strait of Hormuz, Raising Fresh Alarm Over India's Energy Security",
     description: "Iran's Revolutionary Guard has seized two vessels including the Gujarat-bound Epaminondas headed for Mundra, sharply escalating shipping risk in the Strait of Hormuz as India monitors possible fallout for oil imports and maritime security.",
