@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect, lazy, Suspense } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Clock, CheckCircle2 } from "lucide-react";
 import NewsCardSkeleton from "@/components/NewsCardSkeleton";
@@ -8,8 +8,6 @@ import NewsTicker from "@/components/NewsTicker";
 import NewsCard from "@/components/NewsCard";
 import Footer from "@/components/Footer";
 import { sampleArticles } from "@/data/sampleNews";
-
-const AIChatWidget = lazy(() => import("@/components/AIChatWidget"));
 
 export default function Index() {
   const [filter, setFilter] = useState("all");
@@ -117,9 +115,6 @@ export default function Index() {
       </main>
 
       <Footer />
-      <Suspense fallback={null}>
-        <AIChatWidget />
-      </Suspense>
     </div>
   );
 }
