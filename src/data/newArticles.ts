@@ -81,6 +81,7 @@ Source: Met Gala insider leaks / IndiaNewsAI Entertainment Desk, April 23, 2026.
     url: "met-gala-2026-deepika-padukone-ranveer-singh-guest-list-leak",
     image: metGalaDeepikaRanveerImg,
     gallery: [metGalaDeepikaRanveerImg, metGalaImg1, metGalaImg2, metGalaImg3],
+    pinned: true,
   },
   {
     title: "Avatar 3 Teaser Drops at CinemaCon: James Cameron Promises 'Biggest Visual Leap Yet' for December 2026 Release",
