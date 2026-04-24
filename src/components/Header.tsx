@@ -42,7 +42,7 @@ export default function Header({ currentTime }: HeaderProps) {
             </svg>
           </a>
           <a
-            href="https://www.instagram.com/india_newsai/"
+            href="https://www.instagram.com/indianewsai_official/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Follow India News AI on Instagram"
