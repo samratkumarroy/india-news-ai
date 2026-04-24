@@ -72,6 +72,23 @@ export default function ArticlePage() {
 
   const isEventArticle = slug === "how-to-choose-event-management-company-delhi";
   const isMetGalaArticle = slug === "met-gala-2026-fashion-is-art-theme-co-chairs-may-4" || slug === "met-gala-2026-cochairs-beyonce-kidman-williams-wintour";
+
+  // Curated social-share image overrides (absolute URLs for OG/Twitter crawlers)
+  const SITE_ORIGIN = "https://indianewsai.com";
+  const socialImageOverrides: Record<string, string> = {
+    "met-gala-2026-deepika-padukone-ranveer-singh-guest-list-leak":
+      `${SITE_ORIGIN}/og/met-gala-2026-deepika-ranveer.jpg`,
+    "avatar-3-teaser-cinemacon-2026-james-cameron-december-release":
+      `${SITE_ORIGIN}/og/avatar-3-teaser-2026.jpg`,
+  };
+  const resolvedSocialImage =
+    (slug && socialImageOverrides[slug]) ||
+    (article.image
+      ? article.image.startsWith("http")
+        ? article.image
+        : `${SITE_ORIGIN}${article.image}`
+      : `${SITE_ORIGIN}/og-default.png`);
+
   const webStoryUrlMap: Record<string, string> = {
     "kangana-ranaut-dhurandhar-2-madhavan-terrific-ajit-doval-film": "/web-stories/kangana-dhurandhar2-web-story.html",
     "brock-lesnar-wwe-retirement-wrestlemania-42": "/web-stories/brock-lesnar-wwe-retirement-wrestlemania-42.html",
@@ -189,9 +206,16 @@ export default function ArticlePage() {
           <meta property="og:title" content={article.title} />
           <meta property="og:description" content={article.description} />
           <meta property="og:type" content="article" />
-          <meta property="og:url" content={`https://indianewsai.com/article/${article.url}`} />
+          <meta property="og:url" content={`${SITE_ORIGIN}/article/${article.url}`} />
+          <meta property="og:image" content={resolvedSocialImage} />
+          <meta property="og:image:alt" content={article.title} />
+          <meta property="og:site_name" content="IndiaNewsAi" />
           <meta name="twitter:card" content="summary_large_image" />
-          <link rel="canonical" href={`https://indianewsai.com/article/${article.url}`} />
+          <meta name="twitter:title" content={article.title} />
+          <meta name="twitter:description" content={article.description} />
+          <meta name="twitter:image" content={resolvedSocialImage} />
+          <meta name="twitter:image:alt" content={article.title} />
+          <link rel="canonical" href={`${SITE_ORIGIN}/article/${article.url}`} />
           <script type="application/ld+json">{JSON.stringify(articleJsonLd)}</script>
           {webStoryJsonLd && <script type="application/ld+json">{JSON.stringify(webStoryJsonLd)}</script>}
         </Helmet>
@@ -315,14 +339,18 @@ export default function ArticlePage() {
         <meta property="og:title" content={article.title} />
         <meta property="og:description" content={article.description} />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content={`https://indianewsai.com/article/${article.url}`} />
-        {article.image && <meta property="og:image" content={`https://indianewsai.com${article.image}`} />}
+        <meta property="og:url" content={`${SITE_ORIGIN}/article/${article.url}`} />
+        <meta property="og:image" content={resolvedSocialImage} />
+        <meta property="og:image:alt" content={article.title} />
+        <meta property="og:site_name" content="IndiaNewsAi" />
         {isEventArticle && <meta property="og:image" content="https://indianewsai.com/og-event-management-delhi.png" />}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={article.title} />
         <meta name="twitter:description" content={article.description} />
-        {article.image && <meta name="twitter:image" content={`https://indianewsai.com${article.image}`} />}
-        <link rel="canonical" href={`https://indianewsai.com/article/${article.url}`} />
+        <meta name="twitter:image" content={resolvedSocialImage} />
+        <meta name="twitter:image:alt" content={article.title} />
+        <meta name="twitter:site" content="@indianews_ai" />
+        <link rel="canonical" href={`${SITE_ORIGIN}/article/${article.url}`} />
         {isEventArticle && (
           <meta name="keywords" content="event management company Delhi, best event planner Delhi NCR, celebrity booking India, corporate events Delhi, luxury wedding planner, artist management India, The Kabir Company" />
         )}
