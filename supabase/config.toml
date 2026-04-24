@@ -1,1 +1,3 @@
 project_id = "copqnzarlbskubaemxux"
+[functions.og-inspect]
+verify_jwt = false
