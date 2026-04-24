@@ -112,8 +112,7 @@
   }
 
   .ticker-content {
-    @apply inline-block whitespace-nowrap text-[0.7rem] font-semibold tracking-wider;
-    color: hsl(var(--ink));
+    @apply inline-block whitespace-nowrap text-[0.7rem] font-semibold tracking-wider text-primary-foreground;
     animation: scroll-left 70s linear infinite;
   }
 
