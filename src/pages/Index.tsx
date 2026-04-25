@@ -25,26 +25,33 @@ export default function Index() {
 
   const articles = sampleArticles;
 
+  const getTopicKey = (article: (typeof articles)[number]) => {
+    const title = article.title.toLowerCase();
+
+    if (title.includes("met gala 2026")) return "met-gala-2026";
+    if (title.includes("avatar 3")) return "avatar-3";
+    if (title.includes("spring 2026") && title.includes("fashion")) return "spring-2026-fashion";
+    if (title.includes("israel") && title.includes("lebanon")) return "israel-lebanon";
+    if (title.includes("anthropic") || title.includes("claude")) return "anthropic-claude";
+    if (title.includes("reliance") && (title.includes("jio") || title.includes("ai") || title.includes("battery"))) {
+      return "reliance-ai";
+    }
+
+    return article.url.toLowerCase();
+  };
+
   const filteredArticles = useMemo(() => {
     const list = filter === "all" ? articles : articles.filter((a) => a.category === filter);
-    const priorityByUrl = new Map([
-      ["met-gala-2026-deepika-padukone-ranveer-singh-guest-list-leak", 0],
-      ["avatar-3-teaser-cinemacon-2026-james-cameron-december-release", 1],
-      ["ginny-wedss-sunny-2-110-crore-four-days-janhvi-varun", 2],
-      ["alia-bhatt-alleged-leaked-charity-audio-online-backlash-april-2026", 3],
-      ["mission-impossible-9-greenlit-tom-cruise-2027-stunt", 4],
-      ["late-spring-2026-effortless-edge-fashion-trend", 5],
-      ["cannes-2026-deepika-padukone-the-unseen-india-entry", 6],
-    ]);
+    const seenTopics = new Set<string>();
 
-    return [...list].sort((a, b) => {
-      const priorityA = priorityByUrl.get(a.url) ?? Number.MAX_SAFE_INTEGER;
-      const priorityB = priorityByUrl.get(b.url) ?? Number.MAX_SAFE_INTEGER;
-
-      if (priorityA !== priorityB) return priorityA - priorityB;
-      if (a.pinned !== b.pinned) return Number(Boolean(b.pinned)) - Number(Boolean(a.pinned));
-      return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime();
-    });
+    return [...list]
+      .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+      .filter((article) => {
+        const topicKey = getTopicKey(article);
+        if (seenTopics.has(topicKey)) return false;
+        seenTopics.add(topicKey);
+        return true;
+      });
   }, [articles, filter]);
 
   return (
