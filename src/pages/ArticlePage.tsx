@@ -89,7 +89,7 @@ export default function ArticlePage() {
       ? article.image.startsWith("http")
         ? article.image
         : `${SITE_ORIGIN}${article.image}`
-      : `${SITE_ORIGIN}/logo.png`);
+      : `${SITE_ORIGIN}/og-default.png`);
 
   const webStoryUrlMap: Record<string, string> = {
     "kangana-ranaut-dhurandhar-2-madhavan-terrific-ajit-doval-film": "/web-stories/kangana-dhurandhar2-web-story.html",
