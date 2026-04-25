@@ -30,6 +30,11 @@ export default function Index() {
     const priorityByUrl = new Map([
       ["met-gala-2026-deepika-padukone-ranveer-singh-guest-list-leak", 0],
       ["avatar-3-teaser-cinemacon-2026-james-cameron-december-release", 1],
+      ["ginny-wedss-sunny-2-110-crore-four-days-janhvi-varun", 2],
+      ["alia-bhatt-alleged-leaked-charity-audio-online-backlash-april-2026", 3],
+      ["mission-impossible-9-greenlit-tom-cruise-2027-stunt", 4],
+      ["late-spring-2026-effortless-edge-fashion-trend", 5],
+      ["cannes-2026-deepika-padukone-the-unseen-india-entry", 6],
     ]);
 
     return [...list].sort((a, b) => {
