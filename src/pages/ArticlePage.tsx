@@ -3,6 +3,7 @@ import { useParams, Link, useNavigate } from "react-router-dom";
 import { ChevronLeft, Calendar, Share2, Check, Clock } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import { sampleArticles } from "@/data/sampleNews";
+import { buildNewsArticleSchema } from "@/lib/newsArticleSchema";
 import eventManagementThumbnail from "@/assets/event-management-delhi-thumbnail.webp";
 import metGalaImg1 from "@/assets/met-gala-2026-1.webp";
 import metGalaImg2 from "@/assets/met-gala-2026-2.webp";
@@ -75,6 +76,7 @@ export default function ArticlePage() {
 
   // Curated social-share image overrides (absolute URLs for OG/Twitter crawlers)
   const SITE_ORIGIN = "https://indianewsai.com";
+  const BRAND_NAME = "India News AI";
   const socialImageOverrides: Record<string, string> = {
     "met-gala-2026-deepika-padukone-ranveer-singh-guest-list-leak":
       `${SITE_ORIGIN}/og/met-gala-2026-deepika-ranveer.jpg`,
@@ -95,42 +97,16 @@ export default function ArticlePage() {
   };
   const webStoryUrl = slug ? webStoryUrlMap[slug] ?? null : null;
 
-  const articleJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "NewsArticle",
+  const canonicalArticleUrl = `${SITE_ORIGIN}/article/${article.url}`;
+  const publisherLogoUrl = `${SITE_ORIGIN}/favicon-512.png`;
+  const articleJsonLd = buildNewsArticleSchema({
     headline: article.title,
-    description: article.description,
-    image: article.image ? `https://indianewsai.com${article.image}` : undefined,
+    image: resolvedSocialImage,
     datePublished: article.publishedAt,
-    dateModified: article.publishedAt,
-    inLanguage: "en",
-    author: {
-      "@type": "Organization",
-      name: "IndiaNewsAi",
-      url: "https://indianewsai.com",
-    },
-    publisher: {
-      "@type": "NewsMediaOrganization",
-      name: "IndiaNewsAi",
-      url: "https://indianewsai.com",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://indianewsai.com/logo.png",
-      },
-    },
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": `https://indianewsai.com/article/${article.url}`,
-    },
-    isAccessibleForFree: true,
-    isPartOf: {
-      "@type": ["CreativeWork", "Product"],
-      name: "India News AI",
-      productID: "CAowgZvGDA:openaccess",
-    },
-    articleSection: article.category,
-    keywords: article.category,
-  };
+    author: { type: "Organization", name: BRAND_NAME, url: SITE_ORIGIN },
+    publisher: { name: BRAND_NAME, url: SITE_ORIGIN, logoUrl: publisherLogoUrl },
+    mainEntityOfPageUrl: canonicalArticleUrl,
+  });
 
   const webStoryJsonLd = webStoryUrl
     ? {
@@ -140,18 +116,18 @@ export default function ArticlePage() {
         name: article.title,
         headline: article.title,
         description: article.description,
-        image: article.image ? `https://indianewsai.com${article.image}` : undefined,
+        image: resolvedSocialImage,
         datePublished: article.publishedAt,
         dateModified: article.publishedAt,
         inLanguage: "en",
-        author: { "@type": "Organization", name: "IndiaNewsAi", url: "https://indianewsai.com" },
+        author: { "@type": "Organization", name: BRAND_NAME, url: SITE_ORIGIN },
         publisher: {
           "@type": "NewsMediaOrganization",
-          name: "IndiaNewsAi",
-          url: "https://indianewsai.com",
-          logo: { "@type": "ImageObject", url: "https://indianewsai.com/logo.png" },
+          name: BRAND_NAME,
+          url: SITE_ORIGIN,
+          logo: { "@type": "ImageObject", url: publisherLogoUrl },
         },
-        isPartOf: { "@type": "WebPage", "@id": `https://indianewsai.com/article/${article.url}` },
+        isPartOf: { "@type": "WebPage", "@id": canonicalArticleUrl },
       }
     : null;
 
