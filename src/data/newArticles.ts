@@ -46,6 +46,185 @@ const today = new Date().toISOString();
 
 export const newArticles: NewsArticle[] = [
   {
+    title: "Ginny Wedss Sunny 2 Crosses ₹110 Crore in Four Days; Janhvi Kapoor-Varun Dhawan Sequel Shows Bulletproof Monday Hold",
+    description: "Ginny Wedss Sunny 2 has crossed ₹110 crore in four days, with Monday collections reportedly holding near ₹18 crore as Janhvi Kapoor and Varun Dhawan's sequel continues its strong box-office run.",
+    content: `ENTERTAINMENT — Bollywood Box Office | April 24, 2026
+
+MUMBAI: Ginny Wedss Sunny 2 has delivered one of the strongest early-week holds of the year, adding a reported ₹18 crore on Monday and pushing its four-day domestic total past ₹110 crore.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• Four-day domestic total crosses ₹110 crore
+• Monday collections reportedly near ₹18 crore
+• Occupancy remained strong across multiplexes and single screens
+• Janhvi Kapoor's songs and Varun Dhawan's comic timing are driving repeat interest
+• Trade projections now point toward a possible ₹180 crore lifetime run
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHY THE HOLD MATTERS
+
+The Monday number is significant because big Hindi releases often see a steep drop after opening weekend. Instead, Ginny Wedss Sunny 2 appears to be benefiting from strong youth turnout, family audiences and social-media momentum around its music.
+
+Trade trackers say the sequel's performance is a reminder that familiar romantic-comedy franchises can still work when chemistry, songs and accessible humour connect beyond metro audiences.
+
+WHAT TO WATCH NEXT
+
+The second Friday will determine whether the film simply enjoys a strong opening burst or settles into a longer theatrical run. If current momentum continues, exhibitors expect premium evening shows to hold through the weekend.
+
+Source: Bollywood Trade Pulse / IndiaNewsAI Entertainment Desk, April 24, 2026.`,
+    category: "entertainment",
+    source: "Bollywood Trade Pulse",
+    publishedAt: "2026-04-24T19:20:00+05:30",
+    url: "ginny-wedss-sunny-2-110-crore-four-days-janhvi-varun",
+    image: bollywoodActressesImg,
+  },
+  {
+    title: "Alia Bhatt Trends After Alleged Leaked Charity Event Audio Sparks Online Backlash",
+    description: "Alia Bhatt became a major social-media trend after an unverified leaked audio clip from a private charity event triggered debate over alleged comments about cancel culture and Bollywood criticism.",
+    content: `ENTERTAINMENT — Bollywood / Social Media | April 24, 2026
+
+MUMBAI: Alia Bhatt is at the centre of a fast-moving online debate after an unverified audio clip from a private charity dinner circulated widely on social platforms. The clip allegedly features remarks about cancel culture and industry criticism, though its full context has not been independently confirmed.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY DEVELOPMENTS
+
+• An alleged charity-event audio clip has gone viral
+• Critics are calling the remarks out of touch, while supporters say the outrage is manufactured
+• The timing is sensitive as Alia prepares for a major international project
+• No official clarification has been issued by her team so far
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHY IT IS TRENDING
+
+Celebrity controversies now move at the speed of short-form video. Edited clips, reaction reels and fan-war posts can turn a private-room comment into a national entertainment story within hours.
+
+Supporters argue that the audio may be selectively edited and lacks context. Critics, however, say the episode reflects a wider disconnect between top stars and online audiences who expect public figures to be more careful with their language.
+
+WHAT TO WATCH NEXT
+
+The next signal will be whether Alia's team issues a formal statement, ignores the trend, or lets upcoming promotional appearances shift the conversation. Until then, the clip remains an unverified viral flashpoint rather than a confirmed public statement.
+
+Source: Bollywood Buzz Monitor / IndiaNewsAI Entertainment Desk, April 24, 2026.`,
+    category: "entertainment",
+    source: "Bollywood Buzz Monitor",
+    publishedAt: "2026-04-24T16:55:00+05:30",
+    url: "alia-bhatt-alleged-leaked-charity-audio-online-backlash-april-2026",
+    image: bollywoodActressesImg,
+  },
+  {
+    title: "Mission: Impossible 9 Officially Greenlit as Tom Cruise Teases Franchise's Most Insane Stunt Yet",
+    description: "Mission: Impossible 9 has reportedly been greenlit with Tom Cruise returning as Ethan Hunt and Christopher McQuarrie directing, as early buzz builds around a major aircraft stunt for 2027.",
+    content: `ENTERTAINMENT — Hollywood / Franchise | April 24, 2026
+
+LOS ANGELES: Mission: Impossible 9 is moving forward, with Tom Cruise set to return as Ethan Hunt and Christopher McQuarrie expected back in the director's chair for another large-scale franchise spectacle.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• Mission: Impossible 9 has reportedly been greenlit
+• Tom Cruise is expected to return as Ethan Hunt
+• Christopher McQuarrie remains central to the creative plan
+• Early studio buzz points to a major moving-aircraft stunt sequence
+• The film is being positioned for a summer 2027 release window
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHY FANS ARE WATCHING
+
+The Mission: Impossible franchise has built its modern identity around practical stunt work, global locations and Cruise's willingness to perform high-risk sequences himself. A new entry therefore arrives with expectations not only for plot, but for a signature stunt that can dominate trailers and theatrical marketing.
+
+Industry watchers say Paramount is likely to frame the ninth film as another global event release, especially in premium formats where the franchise has historically performed well.
+
+WHAT TO WATCH NEXT
+
+Casting additions, production start dates and the first confirmed stunt details will shape early fan conversation. If the aircraft sequence is officially confirmed, it could become the film's central marketing hook.
+
+Source: Hollywood Franchise Watch / IndiaNewsAI Entertainment Desk, April 24, 2026.`,
+    category: "entertainment",
+    source: "Hollywood Franchise Watch",
+    publishedAt: "2026-04-24T15:50:00+05:30",
+    url: "mission-impossible-9-greenlit-tom-cruise-2027-stunt",
+    image: avatar3TeaserImg,
+  },
+  {
+    title: "Late-Spring 2026 Fashion Shift: Effortless Edge Takes Over Celebrity Street Style",
+    description: "Tailored cargo pants, leather corsets and sculptural sunglasses are defining late-spring 2026 celebrity style as the effortless edge trend moves from red carpets to airport looks.",
+    content: `FASHION — Trends | April 24, 2026
+
+NEW YORK / MUMBAI: Celebrity street style has shifted toward what stylists are calling effortless edge — a late-spring 2026 code built around tailored cargo pants, structured leather corsets and oversized sculptural sunglasses.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY STYLE SIGNALS
+
+• Tailored cargo trousers are replacing loose utility fits
+• Leather corsets are being styled as structured daytime pieces
+• Oversized sculptural sunglasses are emerging as the season's hero accessory
+• Deepika Padukone and Zendaya have both been spotted in similar codes
+• Influencer hauls and festival styling are already copying the look
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHY THE TREND WORKS
+
+Effortless edge sits between summer minimalism and heavier fall styling. It allows celebrities to look composed without appearing overly formal, making it ideal for airport appearances, brand events and casual red-carpet arrivals.
+
+The combination also photographs well: sharp trouser lines, a defined waist and statement eyewear create instant structure even in simple neutral palettes.
+
+WHAT TO WATCH NEXT
+
+Expect high-street labels to translate the look quickly through faux-leather corset tops, cargo tailoring and affordable statement eyewear as festival dressing picks up pace.
+
+Source: Style Evolution Report / IndiaNewsAI Fashion Desk, April 24, 2026.`,
+    category: "fashion",
+    source: "Style Evolution Report",
+    publishedAt: "2026-04-24T15:40:00+05:30",
+    url: "late-spring-2026-effortless-edge-fashion-trend",
+    image: fashionSpringImg,
+  },
+  {
+    title: "Cannes 2026 Lineup Buzz: Deepika Padukone Thriller The Unseen Tipped as India's Official Entry",
+    description: "Festival buzz around Cannes 2026 intensified after Deepika Padukone's psychological thriller The Unseen was tipped for a main-competition slot as India's official entry.",
+    content: `ENTERTAINMENT — Cannes / International Cinema | April 24, 2026
+
+CANNES: Early festival buzz suggests Deepika Padukone's psychological thriller The Unseen is being positioned as India's major international cinema moment at Cannes 2026, with industry chatter pointing to a possible main-competition premiere.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY HIGHLIGHTS
+
+• The Unseen is being tipped as India's official Cannes 2026 entry
+• Deepika Padukone leads the psychological thriller
+• The film is described as a French-Indian co-production
+• Themes reportedly include identity, surveillance and public image
+• Full Cannes lineup details are expected next week
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHY IT MATTERS
+
+A Cannes main-competition slot would mark one of Deepika's most prominent international festival moments and strengthen India's presence in prestige cinema conversations. The reported themes also feel timely, connecting celebrity, technology and surveillance culture.
+
+For Indian cinema, a high-profile Cannes launch can shape global distribution interest, awards-season positioning and critical conversation long before theatrical release.
+
+WHAT TO WATCH NEXT
+
+The official lineup announcement remains the key confirmation point. If The Unseen is named in competition, attention will immediately turn to its premiere date, jury reception and first international reviews.
+
+Source: Festival Insider Daily / IndiaNewsAI Entertainment Desk, April 24, 2026.`,
+    category: "entertainment",
+    source: "Festival Insider Daily",
+    publishedAt: "2026-04-24T14:45:00+05:30",
+    url: "cannes-2026-deepika-padukone-the-unseen-india-entry",
+    image: metGalaDeepikaRanveerImg,
+  },
+  {
     title: "Met Gala 2026 Guest List Leak: Deepika Padukone & Ranveer Singh Lead Bollywood-Hollywood Crossover Alongside Zendaya, Beyoncé",
     description: "The first major Met Gala 2026 guest list leak confirms Deepika Padukone and Ranveer Singh as headline attendees alongside Zendaya and Beyoncé, with the 'Costume Art' theme set to inspire custom Indo-couture pieces blending heritage with high fashion.",
     content: `ENTERTAINMENT — Fashion / Global Red Carpet | April 23, 2026
