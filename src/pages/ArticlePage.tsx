@@ -83,12 +83,13 @@ export default function ArticlePage() {
     "avatar-3-teaser-cinemacon-2026-james-cameron-december-release":
       `${SITE_ORIGIN}/og/avatar-3-teaser-2026.jpg`,
   };
+  const articleImage = article.thumbnail || article.image;
   const resolvedSocialImage =
     (slug && socialImageOverrides[slug]) ||
-    (article.image
-      ? article.image.startsWith("http")
-        ? article.image
-        : `${SITE_ORIGIN}${article.image}`
+    (articleImage
+      ? articleImage.startsWith("http")
+        ? articleImage
+        : `${SITE_ORIGIN}${articleImage}`
       : `${SITE_ORIGIN}/og-default.png`);
 
   const webStoryUrlMap: Record<string, string> = {
@@ -217,7 +218,7 @@ export default function ArticlePage() {
           {/* Hero image */}
           <div className="relative w-full" style={{ maxHeight: "70vh", overflow: "hidden" }}>
             <img
-              src={article.image || metGalaImg4}
+              src={articleImage || metGalaImg4}
               alt={article.title}
               className="w-full object-cover"
               style={{ maxHeight: "70vh" }}
@@ -370,9 +371,9 @@ export default function ArticlePage() {
                 loading="eager"
               />
             )}
-            {!isEventArticle && article.image && (
+            {!isEventArticle && articleImage && (
               <img
-                src={article.image}
+                src={articleImage}
                 alt={`${article.title} — IndiaNewsAi`}
                 className="w-full rounded-sm mb-6 border border-paper-dark"
                 loading="eager"
