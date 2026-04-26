@@ -7,6 +7,7 @@ export interface NewsArticle {
   publishedAt: string;
   url: string;
   pinned?: boolean;
+  thumbnail?: string;
   image?: string;
   gallery?: string[];
 }

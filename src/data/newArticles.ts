@@ -42,6 +42,7 @@ import justinBieberCoachellaImg from "@/assets/justin-bieber-coachella-2026.jpg"
 import brockLesnarWrestlemaniaImg from "@/assets/brock-lesnar-wwe-retirement-wrestlemania-42.png";
 import metGalaDeepikaRanveerImg from "@/assets/met-gala-2026-deepika-ranveer.jpg";
 import avatar3TeaserImg from "@/assets/avatar-3-teaser-2026.jpg";
+import trumpDinnerThumbnail from "@/assets/trump-white-house-dinner-shooting-thumbnail.webp";
 const today = new Date().toISOString();
 
 export const newArticles: NewsArticle[] = [
@@ -69,6 +70,8 @@ Source: BBC / CBS reporting, April 26, 2026.`,
     source: "BBC / CBS",
     publishedAt: "2026-04-26T09:00:00+05:30",
     url: "trump-unharmed-shooting-white-house-correspondents-dinner",
+    thumbnail: trumpDinnerThumbnail,
+    image: trumpDinnerThumbnail,
   },
   {
     title: "Ginny Wedss Sunny 2 Crosses ₹110 Crore in Four Days; Janhvi Kapoor-Varun Dhawan Sequel Shows Bulletproof Monday Hold",

@@ -28,6 +28,7 @@ export default function NewsCard({ article, index, isHero, currentTime }: NewsCa
   const [copied, setCopied] = useState(false);
   const [galleryIndex, setGalleryIndex] = useState(0);
   const gallery = article.gallery;
+  const cardImage = article.thumbnail || article.image;
   const webStoryUrlMap: Record<string, string> = {
     "kangana-ranaut-dhurandhar-2-madhavan-terrific-ajit-doval-film": "/web-stories/kangana-dhurandhar2-web-story.html",
     "brock-lesnar-wwe-retirement-wrestlemania-42": "/web-stories/brock-lesnar-wwe-retirement-wrestlemania-42.html",
@@ -100,10 +101,10 @@ export default function NewsCard({ article, index, isHero, currentTime }: NewsCa
             ))}
           </div>
         </div>
-      ) : article.image ? (
+      ) : cardImage ? (
         <div className={`overflow-hidden ${isHero ? "md:w-2/5 min-h-[200px]" : "h-48"}`}>
           <img
-            src={article.image}
+            src={cardImage}
             alt={`${article.title} — IndiaNewsAi`}
             className="w-full h-full object-cover"
             loading={index < 3 ? "eager" : "lazy"}
