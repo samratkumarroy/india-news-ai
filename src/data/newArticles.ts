@@ -46,6 +46,31 @@ const today = new Date().toISOString();
 
 export const newArticles: NewsArticle[] = [
   {
+    title: "Trump unharmed after shooting disrupts White House Correspondents' Dinner",
+    description: "Gunshots disrupted the White House Correspondents' Dinner in Washington, DC. Trump was unharmed, a suspect was detained, and the motive remains unclear.",
+    content: `WORLD — Washington, DC | April 26, 2026
+
+WASHINGTON, DC: Gunshots disrupted the White House Correspondents' Dinner at the Washington Hilton on Saturday night, forcing a rapid security evacuation as Secret Service agents moved President Donald Trump and other attendees to safety. Trump was reported unharmed after the incident, while authorities said a suspect was taken into custody.
+
+The shooting reportedly began around 20:35 ET, shortly after guests had gathered for the annual dinner. According to BBC live reporting, attendees ducked under tables as security officers responded to the sound of shots and cleared the room. The event was abruptly halted, and the ballroom was later evacuated as law enforcement secured the area.
+
+BBC reporting said one Secret Service officer was shot at very close range but was protected by a bulletproof vest, preventing serious injury. Officials later said the incident was being investigated, while the motive for the attack remained unclear.
+
+US media identified the suspect as 31-year-old Cole Tomas Allen of Torrance, California, and reported that he was expected to be formally charged on Monday. CBS, the BBC's US partner, reported that Allen told authorities he was targeting Trump officials.
+
+Trump later said the suspected attacker had been apprehended and posted footage and images related to the incident on social media. The White House Correspondents' Association said the dinner would be rescheduled, while several world leaders and political figures sent messages of relief and support after the shooting.
+
+The White House Correspondents' Dinner is one of Washington's most high-profile annual events, typically bringing together journalists, government officials, diplomats and celebrities. This year's gathering ended in chaos after the gunfire, leaving attendees shaken but safe.
+
+The incident is now expected to intensify debate over security arrangements at elite political and media gatherings in the US capital. Investigators are reviewing venue access, protective protocols and the suspect's possible planning before formal charges are filed.
+
+Source: BBC / CBS reporting, April 26, 2026.`,
+    category: "world",
+    source: "BBC / CBS",
+    publishedAt: "2026-04-26T09:00:00+05:30",
+    url: "trump-unharmed-shooting-white-house-correspondents-dinner",
+  },
+  {
     title: "Ginny Wedss Sunny 2 Crosses ₹110 Crore in Four Days; Janhvi Kapoor-Varun Dhawan Sequel Shows Bulletproof Monday Hold",
     description: "Ginny Wedss Sunny 2 has crossed ₹110 crore in four days, with Monday collections reportedly holding near ₹18 crore as Janhvi Kapoor and Varun Dhawan's sequel continues its strong box-office run.",
     content: `ENTERTAINMENT — Bollywood Box Office | April 24, 2026
