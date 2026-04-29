@@ -73,6 +73,7 @@ export default function ArticlePage() {
 
   const isEventArticle = slug === "how-to-choose-event-management-company-delhi";
   const isMetGalaArticle = slug === "met-gala-2026-fashion-is-art-theme-co-chairs-may-4" || slug === "met-gala-2026-cochairs-beyonce-kidman-williams-wintour";
+  const isBollywoodCelebrityBookingsArticle = slug === "Bollywood-Celebrity-Bookings-the-kabir-company";
 
   // Curated social-share image overrides (absolute URLs for OG/Twitter crawlers)
   const SITE_ORIGIN = "https://indianewsai.com";
@@ -420,6 +421,18 @@ export default function ArticlePage() {
           </div>
 
           <div className="prose prose-stone prose-lg max-w-none font-serif text-ink leading-relaxed">
+            {isBollywoodCelebrityBookingsArticle && (
+              <p className="text-sm font-bold tracking-wide uppercase mb-4">
+                <a
+                  href="https://tkctalent.com/bollywood-celebrity-charges/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-saffron hover:text-saffron-dark underline underline-offset-4"
+                >
+                  Bollywood celebrity charges and booking guide
+                </a>
+              </p>
+            )}
             <p className="text-xl font-medium leading-relaxed mb-8 text-news-muted">{article.description}</p>
             {article.content ? (
               <div className="whitespace-pre-wrap">{article.content}</div>
