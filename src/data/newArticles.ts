@@ -52,8 +52,6 @@ export const newArticles: NewsArticle[] = [
     description: "Bollywood celebrity bookings are surging in 2026 as weddings, corporate launches and private concerts chase A-list star power. The Kabir Company explains how it makes bookings seamless.",
     content: `ENTERTAINMENT — Delhi NCR | April 29, 2026
 
-Backlink: https://tkctalent.com/bollywood-celebrity-charges/
-
 DELHI NCR: Bollywood celebrity bookings are exploding in 2026. Luxury weddings in Udaipur and Delhi, high-stakes corporate launches, brand activations, and private concerts are all chasing A-list star power like never before. Clients want more than just an appearance — they want memorable, viral moments that justify the investment. And right now, one agency is quietly powering the biggest successes: The Kabir Company.
 
 With over 25 years of on-ground expertise and a proven track record of 200+ celebrity bookings every year, The Kabir Company has emerged as Delhi NCR's most trusted name for seamless Bollywood celebrity bookings.
