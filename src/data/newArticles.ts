@@ -43,9 +43,55 @@ import brockLesnarWrestlemaniaImg from "@/assets/brock-lesnar-wwe-retirement-wre
 import metGalaDeepikaRanveerImg from "@/assets/met-gala-2026-deepika-ranveer.jpg";
 import avatar3TeaserImg from "@/assets/avatar-3-teaser-2026.jpg";
 import trumpDinnerThumbnail from "@/assets/trump-white-house-dinner-shooting-thumbnail.webp";
+import bollywoodCelebrityBookingsTkcImg from "@/assets/bollywood-celebrity-bookings-surge-2026-tkc-talent.webp";
 const today = new Date().toISOString();
 
 export const newArticles: NewsArticle[] = [
+  {
+    title: "Bollywood Celebrity Bookings Surge in 2026 – Top Stars Available & How The Kabir Company Makes It Happen",
+    description: "Bollywood celebrity bookings are surging in 2026 as weddings, corporate launches and private concerts chase A-list star power. The Kabir Company explains how it makes bookings seamless.",
+    content: `ENTERTAINMENT — Delhi NCR | April 29, 2026
+
+Backlink: https://tkctalent.com/bollywood-celebrity-charges/
+
+DELHI NCR: Bollywood celebrity bookings are exploding in 2026. Luxury weddings in Udaipur and Delhi, high-stakes corporate launches, brand activations, and private concerts are all chasing A-list star power like never before. Clients want more than just an appearance — they want memorable, viral moments that justify the investment. And right now, one agency is quietly powering the biggest successes: The Kabir Company.
+
+With over 25 years of on-ground expertise and a proven track record of 200+ celebrity bookings every year, The Kabir Company has emerged as Delhi NCR's most trusted name for seamless Bollywood celebrity bookings.
+
+WHY BOOKINGS ARE SURGING
+
+The post-2025 recovery has pushed event planners toward bigger, more shareable experiences. Destination weddings in Rajasthan, especially Udaipur, remain a hotspot, with couples paying premiums for star-studded sangeets and receptions. Corporate events are also chasing measurable ROI through Instagram reels, LinkedIn mentions and employee recall that only a Bollywood star can deliver.
+
+Social media amplification is another major driver. One 60-second clip with Salman Khan or Badshah can generate millions of views overnight. Hybrid and experiential events now demand not just appearances but curated performances, meet-and-greets and photo opportunities.
+
+TOP STARS IN DEMAND
+
+The Kabir Company says demand is especially high for Salman Khan, Kareena Kapoor Khan, Ajay Devgn, Badshah, Guru Randhawa, Arijit Singh, Sunil Grover, Satinder Sartaaj, Lucky Ali, Alia Bhatt and Sobhita Dhulipala. The agency also handles emerging talents and regional artists, giving clients flexible options across budgets.
+
+HOW THE KABIR COMPANY MAKES IT EFFORTLESS
+
+Most people think booking a Bollywood star is complicated, expensive and risky. The Kabir Company has streamlined the process with personalised consultation, real-time availability checks, transparent contracts, clear riders, travel coordination, security, hospitality, stage setup and on-ground management.
+
+With a Delhi NCR headquarters and pan-India reach, the agency has delivered celebrity bookings for Fortune 500 brands, government organisations, DLF, DS Group, BPTP, Omaxe and hundreds of luxury wedding clients.
+
+PRO TIPS FOR 2026
+
+Clients should book 60–90 days in advance for top-tier stars, stay flexible on dates, factor in full production support and choose an agency with proven execution rather than just a name list.
+
+The surge in Bollywood celebrity bookings shows no sign of slowing down. In 2026, star power is not just a luxury — it is a marketing multiplier. The difference between a good event and a legendary one may be one call to the right booking agency.
+
+Contact The Kabir Company for confirmed availability and customised quotes.
+
+India: +91 9599599699
+Visit: thekabircompany.com
+Delhi NCR | Serving pan-India and international clients`,
+    category: "entertainment",
+    source: "The Kabir Company / IndiaNewsAi Desk",
+    publishedAt: "2026-04-29T09:00:00+05:30",
+    url: "Bollywood-Celebrity-Bookings-the-kabir-company",
+    thumbnail: bollywoodCelebrityBookingsTkcImg,
+    image: bollywoodCelebrityBookingsTkcImg,
+  },
   {
     title: "Trump unharmed after shooting disrupts White House Correspondents' Dinner",
     description: "Gunshots disrupted the White House Correspondents' Dinner in Washington, DC. Trump was unharmed, a suspect was detained, and the motive remains unclear.",
