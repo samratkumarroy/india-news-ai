@@ -44,9 +44,143 @@ import metGalaDeepikaRanveerImg from "@/assets/met-gala-2026-deepika-ranveer.jpg
 import avatar3TeaserImg from "@/assets/avatar-3-teaser-2026.jpg";
 import trumpDinnerThumbnail from "@/assets/trump-white-house-dinner-shooting-thumbnail.webp";
 import bollywoodCelebrityBookingsTkcImg from "@/assets/bollywood-celebrity-bookings-surge-2026-tkc-talent.webp";
+import muskOpenAiTrialImg from "@/assets/musk-openai-trial-testimony-2026.webp";
+import meta25bBondImg from "@/assets/meta-25b-bond-ai-infrastructure-2026.webp";
+import pentagonAiDealImg from "@/assets/pentagon-openai-xai-classified-deal-2026.webp";
+import anthropicMythosWarningImg from "@/assets/anthropic-mythos-ai-warning-2026.webp";
 const today = new Date().toISOString();
 
 export const newArticles: NewsArticle[] = [
+  {
+    title: "Elon Musk Concludes Explosive OpenAI Testimony, Accuses Sam Altman of 'Stealing a Charity'",
+    description: "Elon Musk wrapped up his testimony in the OpenAI lawsuit on May 1, 2026, accusing Sam Altman of betraying the company's non-profit founding mission for commercial gain.",
+    content: `TECHNOLOGY — San Francisco | May 1, 2026
+
+SAN FRANCISCO: Elon Musk concluded his high-stakes testimony on Friday in the closely-watched lawsuit against OpenAI, delivering some of his sharpest accusations yet against CEO Sam Altman. Musk told the court that Altman and OpenAI's leadership had betrayed the company's original non-profit mission, accusing them of effectively trying to "steal a charity" for private commercial gain.
+
+KEY HIGHLIGHTS
+
+• Musk testified that he provided early funding and guidance with the explicit understanding that OpenAI would remain a non-profit dedicated to safe, open AI research.
+• He alleged that the conversion to a capped-profit structure and subsequent commercial deals — including a multi-billion-dollar partnership with Microsoft — represented a fundamental departure from those founding principles.
+• Musk argued that the foundation's assets, research and brand goodwill were redirected to benefit a small group of insiders.
+
+OPENAI'S DEFENCE
+
+OpenAI's legal team has rejected Musk's characterisation, insisting the restructure was necessary to attract the capital required to compete in frontier AI research. Lawyers for the company argued the non-profit parent still oversees the for-profit arm and that all governance changes were properly disclosed and approved.
+
+WHY IT MATTERS
+
+The case has become a flashpoint in the broader debate over AI governance, transparency and the role of non-profit oversight in companies developing increasingly powerful systems. A ruling against OpenAI could force structural changes at one of the world's most valuable AI labs and influence how future AI organisations are governed.
+
+WHAT'S NEXT
+
+The trial is expected to continue with testimony from current and former OpenAI executives, as well as independent witnesses on AI safety governance. A verdict is not expected for several weeks.
+
+Source: Reuters, Bloomberg, court filings — May 1, 2026.`,
+    category: "technology",
+    source: "Reuters / Bloomberg",
+    publishedAt: "2026-05-01T10:00:00+05:30",
+    url: "elon-musk-openai-trial-testimony-altman-charity",
+    thumbnail: muskOpenAiTrialImg,
+    image: muskOpenAiTrialImg,
+  },
+  {
+    title: "Meta Sells $25 Billion in Bonds to Supercharge AI Infrastructure Spending",
+    description: "Meta Platforms sold $25 billion in bonds on May 1, 2026 to fund a massive AI infrastructure build-out, even as Mark Zuckerberg signals more layoffs to absorb soaring capital expenditure.",
+    content: `TECHNOLOGY — Menlo Park | May 1, 2026
+
+MENLO PARK: Meta Platforms has sold $25 billion in corporate bonds, according to a regulatory filing, in one of the largest debt offerings of 2026 — and the clearest signal yet that the company is doubling down on artificial intelligence infrastructure.
+
+WHY META IS RAISING DEBT
+
+The proceeds will be used primarily to fund AI-focused capital expenditure: new data centres, custom AI accelerators, networking equipment, and energy contracts to power Meta's next generation of large models and Llama-powered consumer products. Capex guidance for 2026 has already been raised multiple times this year.
+
+ZUCKERBERG ON LAYOFFS
+
+In a company-wide town hall this week, CEO Mark Zuckerberg directly linked planned layoffs to the surge in AI spending, telling employees that disciplined cost management was essential to fund the AI roadmap. Multiple teams across recruiting, mid-management and non-AI product groups are expected to be affected.
+
+INVESTOR REACTION
+
+Bond markets absorbed the offering quickly, reflecting strong demand for high-grade tech paper despite rising "AI bubble" concerns flagged by Bloomberg this week. Equity investors, however, remain split: some applaud the aggressive AI investment, while others worry about returns on capital as Nvidia GPU prices and data-centre power costs continue to climb.
+
+THE BIGGER PICTURE
+
+Meta joins Microsoft, Google and Amazon in tapping debt and cash flow to finance an unprecedented AI build-out. Combined hyperscaler AI capex for 2026 is now tracking well above $400 billion globally.
+
+Source: Reuters, Bloomberg, Meta SEC filings — May 1, 2026.`,
+    category: "technology",
+    source: "Reuters / Bloomberg",
+    publishedAt: "2026-05-01T09:30:00+05:30",
+    url: "meta-25-billion-bond-sale-ai-infrastructure-2026",
+    thumbnail: meta25bBondImg,
+    image: meta25bBondImg,
+  },
+  {
+    title: "Pentagon Signs Landmark AI Deals with OpenAI and Elon Musk's xAI for Classified Networks",
+    description: "The U.S. Pentagon has reached agreements with OpenAI, xAI and other leading AI firms to deploy advanced AI on classified defence networks, marking a major shift in U.S. national security AI strategy.",
+    content: `WORLD — Washington, DC | May 1, 2026
+
+WASHINGTON: The U.S. Department of Defense has finalised agreements with several leading AI companies — including OpenAI and Elon Musk's xAI — to deploy advanced AI systems on classified Pentagon networks, officials confirmed on Friday.
+
+WHAT THE DEALS COVER
+
+• Secure deployment of frontier large language models inside Pentagon-controlled classified environments.
+• AI tools for intelligence analysis, logistics optimisation, cyber defence and decision-support for commanders.
+• Strict data isolation, on-premise inference and continuous red-teaming requirements.
+
+WHY THIS MATTERS
+
+The agreements represent one of the most significant expansions of commercial AI into U.S. national security to date. Until now, frontier models from companies like OpenAI and xAI were largely accessible only through public cloud APIs — unsuitable for classified work. The new deals create dedicated, air-gapped versions of these models for defence and intelligence use.
+
+INDUSTRY IMPACT
+
+For OpenAI, the contract deepens its existing federal footprint. For xAI, it is a breakthrough that places Elon Musk's AI venture squarely inside the U.S. defence-tech ecosystem alongside Anthropic, Palantir and traditional primes like Lockheed Martin and Northrop Grumman.
+
+CONCERNS RAISED
+
+Civil liberties groups and AI safety researchers have warned that classified deployment limits external oversight of how powerful models are used in military contexts. The Pentagon says all systems will operate under existing law-of-war and human-in-the-loop policies.
+
+Source: Reuters, Bloomberg, U.S. DoD briefings — May 1, 2026.`,
+    category: "world",
+    source: "Reuters / Bloomberg",
+    publishedAt: "2026-05-01T09:00:00+05:30",
+    url: "pentagon-ai-deals-openai-xai-classified-networks-2026",
+    thumbnail: pentagonAiDealImg,
+    image: pentagonAiDealImg,
+  },
+  {
+    title: "Anthropic's 'Mythos' AI Triggers Global Alarm as Regulators Probe Hacking Capabilities",
+    description: "Anthropic's new Mythos model has alarmed regulators and intelligence agencies worldwide on May 1, 2026, after evaluations suggested it can autonomously hack systems — fuelling debate over AI access controls.",
+    content: `TECHNOLOGY — San Francisco / London | May 1, 2026
+
+SAN FRANCISCO: Anthropic's newly unveiled "Mythos" AI model has set off a global wave of concern, with regulators and intelligence agencies in the U.S., UK and EU launching reviews after early evaluations suggested the system can autonomously discover vulnerabilities and execute multi-step cyber-intrusions.
+
+WHAT IS MYTHOS?
+
+Mythos is Anthropic's most capable model to date, designed for advanced agentic workflows — long-horizon reasoning, tool use, and complex software engineering. Internal red-team reports, parts of which have been shared with regulators, indicate the model performed at expert-human level on offensive cyber benchmarks during pre-release testing.
+
+WHY GOVERNMENTS ARE WORRIED
+
+• The UK AI Safety Institute and the U.S. AI Safety Institute are conducting joint evaluations.
+• Intelligence agencies are studying whether Mythos-class models could materially lower the barrier to sophisticated cyberattacks.
+• EU regulators are examining whether the model triggers the AI Act's "systemic risk" obligations.
+
+ACCESS CONTROL DEBATE
+
+The findings have intensified an already fierce debate inside the AI community: should the most capable models be gated behind strict access controls, vetted enterprise customers and government oversight — or remain broadly available to support research and competition?
+
+ANTHROPIC'S RESPONSE
+
+Anthropic says Mythos has been deployed under its strictest "ASL-4-style" safety policy, with mandatory misuse monitoring, KYC for API access, and automated refusal of clearly malicious requests. The company maintains that responsible deployment of frontier capabilities is safer than ceding the space to less cautious developers.
+
+Source: Reuters, The Guardian, Bloomberg — May 1, 2026.`,
+    category: "technology",
+    source: "Reuters / The Guardian",
+    publishedAt: "2026-05-01T08:30:00+05:30",
+    url: "anthropic-mythos-ai-hacking-regulators-alarm-2026",
+    thumbnail: anthropicMythosWarningImg,
+    image: anthropicMythosWarningImg,
+  },
   {
     title: "Bollywood Celebrity Bookings Surge in 2026 – Top Stars Available & How The Kabir Company Makes It Happen",
     description: "Bollywood celebrity bookings are surging in 2026 as weddings, corporate launches and private concerts chase A-list star power. The Kabir Company explains how it makes bookings seamless.",
