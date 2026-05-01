@@ -3,6 +3,42 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://indianewsai.com/article/elon-musk-openai-trial-testimony-altman-charity</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://indianewsai.com/assets/musk-openai-trial-testimony-2026.webp</image:loc>
+      <image:title>Elon Musk OpenAI Trial Testimony May 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/meta-25-billion-bond-sale-ai-infrastructure-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://indianewsai.com/assets/meta-25b-bond-ai-infrastructure-2026.webp</image:loc>
+      <image:title>Meta $25 Billion Bond Sale for AI Infrastructure</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/pentagon-ai-deals-openai-xai-classified-networks-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://indianewsai.com/assets/pentagon-openai-xai-classified-deal-2026.webp</image:loc>
+      <image:title>Pentagon AI Deals with OpenAI and xAI</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/anthropic-mythos-ai-hacking-regulators-alarm-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://indianewsai.com/assets/anthropic-mythos-ai-warning-2026.webp</image:loc>
+      <image:title>Anthropic Mythos AI Triggers Global Alarm</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://indianewsai.com/article/kangana-ranaut-dhurandhar-2-madhavan-terrific-ajit-doval-film</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
