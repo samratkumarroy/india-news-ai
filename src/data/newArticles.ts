@@ -48,9 +48,109 @@ import muskOpenAiTrialImg from "@/assets/musk-openai-trial-testimony-2026.webp";
 import meta25bBondImg from "@/assets/meta-25b-bond-ai-infrastructure-2026.webp";
 import pentagonAiDealImg from "@/assets/pentagon-openai-xai-classified-deal-2026.webp";
 import anthropicMythosWarningImg from "@/assets/anthropic-mythos-ai-warning-2026.webp";
+import assemblyElectionResultsImg from "@/assets/assembly-election-results-may-2026.webp";
+import trumpIranPeaceImg from "@/assets/trump-iran-peace-proposal-may-2026.webp";
+import delhiVivekViharFireImg from "@/assets/delhi-vivek-vihar-fire-may-2026.webp";
+import rajasthanRoyalsAcquisitionImg from "@/assets/rajasthan-royals-mittal-poonawalla-2026.webp";
+import canadaKhalistaniThreatImg from "@/assets/canada-csis-khalistani-threat-2026.webp";
 const today = new Date().toISOString();
 
 export const newArticles: NewsArticle[] = [
+  {
+    title: "Assembly Election Results 2026: Counting Begins for 824 Seats Across Five States",
+    description: "Vote counting has begun on May 4, 2026 for high-stakes assembly elections in West Bengal, Tamil Nadu, Assam, Kerala and Puducherry, with early trends expected by mid-morning.",
+    content: `POLITICS — New Delhi | May 4, 2026
+
+Counting of votes for the 2026 assembly elections began at 8 AM on Monday across five states and union territories — West Bengal, Tamil Nadu, Assam, Kerala and Puducherry — covering a combined 824 seats. The Election Commission of India said early trends are expected by mid-morning, with final results likely by evening.
+
+In West Bengal, the contest is being watched closely as the Trinamool Congress, BJP and the Congress-Left alliance battle for 294 seats. Tamil Nadu's 234-seat assembly will decide the fate of the DMK-led front and the AIADMK-BJP combine, while Assam (126), Kerala (140) and Puducherry (30) round out the high-stakes counting day.
+
+Security has been tightened at all 824 counting centres, with central forces deployed and CCTV monitoring in place. The ECI has confirmed that postal ballots will be counted first, followed by EVM tallies in 20 rounds across most constituencies.
+
+Political parties across states have set up war rooms, and leaders from the BJP, Congress, TMC, DMK, AIADMK, Left Front and regional outfits are tracking constituency-wise trends in real time. The results will reshape the political landscape ahead of the 2029 general elections.`,
+    category: "politics",
+    source: "The Hindu / Economic Times",
+    publishedAt: "2026-05-04T08:30:00+05:30",
+    url: "assembly-election-results-2026-counting-five-states",
+    thumbnail: assemblyElectionResultsImg,
+    image: assemblyElectionResultsImg,
+  },
+  {
+    title: "Trump Reviews Iran's New Peace Proposal, Warns Strikes Could Resume If Tehran 'Misbehaves'",
+    description: "US President Donald Trump is reviewing a fresh peace proposal from Tehran to end the paused West Asia conflict, but has warned military strikes could resume if Iran steps out of line.",
+    content: `WORLD — Washington | May 4, 2026
+
+US President Donald Trump confirmed on Sunday that he is reviewing a new peace proposal sent by Tehran aimed at formally ending the paused conflict in West Asia. Speaking to reporters at the White House, Trump said the proposal "has some interesting elements" but cautioned that American military strikes could resume "if Iran misbehaves."
+
+The conflict, which saw US and Israeli strikes on Iranian nuclear and military targets earlier this year, has been on a fragile pause for several weeks. Iranian officials, working through Omani and Qatari mediators, are understood to have offered enhanced inspections of nuclear facilities in exchange for sanctions relief and a written non-aggression assurance.
+
+Trump said he had discussed the proposal with Israeli Prime Minister and his national security team, and that any final agreement would require "verifiable, irreversible" curbs on Iran's nuclear program. He added that the Strait of Hormuz must remain open to international shipping as a non-negotiable condition.
+
+Markets responded cautiously to the news, with Brent crude easing slightly while Asian indices opened mixed on Monday.`,
+    category: "world",
+    source: "The Hindu",
+    publishedAt: "2026-05-04T07:45:00+05:30",
+    url: "trump-iran-peace-proposal-strikes-warning-may-2026",
+    thumbnail: trumpIranPeaceImg,
+    image: trumpIranPeaceImg,
+  },
+  {
+    title: "Delhi Fire: Nine Killed in Vivek Vihar Residential Building Blaze, PM Modi Announces Ex-Gratia",
+    description: "A massive fire in a residential building in east Delhi's Vivek Vihar has claimed nine lives. PM Modi has announced ₹2 lakh ex-gratia for the families of the deceased.",
+    content: `BREAKING — New Delhi | May 4, 2026
+
+A devastating fire that broke out in a multi-storey residential building in east Delhi's Vivek Vihar has killed nine people and injured several others, officials confirmed on Monday morning. The blaze, which began late on Sunday night, took fire crews several hours to bring under control.
+
+Delhi Fire Service officials said 22 fire tenders were rushed to the spot, and rescue operations continued through the night. Most of the victims are believed to have died of suffocation, with the building's narrow staircase hampering escape. Several residents were rescued from upper floors using ladders and ropes.
+
+Prime Minister Narendra Modi expressed grief over the tragedy and announced an ex-gratia of ₹2 lakh from the PMNRF for the families of those who lost their lives, and ₹50,000 for the injured. Delhi's Lieutenant Governor and Chief Minister have ordered a magisterial inquiry into the cause of the fire, with initial reports pointing to a short circuit in a basement parking area.
+
+Local authorities have begun an audit of fire-safety compliance in residential buildings across east Delhi.`,
+    category: "breaking",
+    source: "India Today / News24",
+    publishedAt: "2026-05-04T07:00:00+05:30",
+    url: "delhi-vivek-vihar-fire-nine-killed-pm-modi-ex-gratia",
+    thumbnail: delhiVivekViharFireImg,
+    image: delhiVivekViharFireImg,
+  },
+  {
+    title: "Lakshmi Mittal, Adar Poonawalla Acquire Rajasthan Royals in ₹15,600 Crore IPL Deal",
+    description: "Industrialist Lakshmi Mittal and billionaire Adar Poonawalla have finalised a majority stake purchase of IPL franchise Rajasthan Royals for approximately ₹15,600 crore ($1.88 billion).",
+    content: `BUSINESS — Mumbai | May 4, 2026
+
+In one of the largest sports franchise transactions in Indian history, steel magnate Lakshmi Mittal and Serum Institute CEO Adar Poonawalla have finalised the acquisition of a majority stake in IPL team Rajasthan Royals for approximately ₹15,600 crore (roughly $1.88 billion).
+
+According to people familiar with the matter, the consortium will hold a controlling interest, with the remaining stake retained by existing investors. The deal values Rajasthan Royals as one of the most expensive IPL franchises ever sold and reflects the league's surging media-rights revenue and global brand pull.
+
+The Royals, founded in 2008 and the inaugural IPL champions, have built a strong analytics-led identity under their current management. The new owners are expected to retain the team's core management while expanding its women's IPL presence and international academy footprint.
+
+The BCCI is reviewing the transaction for regulatory approval. If cleared, it would mark Mittal's most prominent India-facing investment in years and deepen Poonawalla's growing portfolio in sports, entertainment and aviation.`,
+    category: "breaking",
+    source: "The Hindu",
+    publishedAt: "2026-05-04T06:30:00+05:30",
+    url: "mittal-poonawalla-rajasthan-royals-ipl-acquisition-2026",
+    thumbnail: rajasthanRoyalsAcquisitionImg,
+    image: rajasthanRoyalsAcquisitionImg,
+  },
+  {
+    title: "Canada's CSIS Designates Khalistani Extremists a 'National Security Threat'",
+    description: "The Canadian Security Intelligence Service has officially designated Khalistani extremists as a national security threat, sparking diplomatic and security discussions with India.",
+    content: `WORLD — Ottawa | May 4, 2026
+
+The Canadian Security Intelligence Service (CSIS) has officially designated Khalistani extremism as a "national security threat" in its latest public threat assessment, a significant shift in Ottawa's posture on the issue and one closely watched by New Delhi.
+
+The CSIS report, released over the weekend, lists religiously and politically motivated violent extremism — including a specific reference to Khalistani extremist networks operating on Canadian soil — among the principal threats to Canada's national security. Officials said the designation will allow expanded intelligence-sharing, surveillance authorities and disruption operations.
+
+Indian officials welcomed the move, with the Ministry of External Affairs calling it a "long-overdue recognition" of concerns New Delhi has raised for years. Sikh community organisations in Canada offered mixed reactions, with mainstream bodies supporting action against violence while warning against any broad-brush profiling of the wider community.
+
+The development comes as India and Canada attempt to gradually rebuild diplomatic ties strained by allegations and counter-allegations over the past two years. Analysts say the CSIS designation could form the basis of a more cooperative security dialogue between the two countries in the coming months.`,
+    category: "world",
+    source: "Indian Express",
+    publishedAt: "2026-05-04T06:00:00+05:30",
+    url: "canada-csis-khalistani-extremists-national-security-threat-2026",
+    thumbnail: canadaKhalistaniThreatImg,
+    image: canadaKhalistaniThreatImg,
+  },
   {
     title: "Elon Musk Concludes Explosive OpenAI Testimony, Accuses Sam Altman of 'Stealing a Charity'",
     description: "Elon Musk wrapped up his testimony in the OpenAI lawsuit on May 1, 2026, accusing Sam Altman of betraying the company's non-profit founding mission for commercial gain.",
