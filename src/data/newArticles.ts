@@ -53,9 +53,109 @@ import trumpIranPeaceImg from "@/assets/trump-iran-peace-proposal-may-2026.webp"
 import delhiVivekViharFireImg from "@/assets/delhi-vivek-vihar-fire-may-2026.webp";
 import rajasthanRoyalsAcquisitionImg from "@/assets/rajasthan-royals-mittal-poonawalla-2026.webp";
 import canadaKhalistaniThreatImg from "@/assets/canada-csis-khalistani-threat-2026.webp";
+import bjpWestBengalVictoryImg from "@/assets/bjp-west-bengal-victory-2026.webp";
+import vijayTvkTamilNaduImg from "@/assets/vijay-tvk-tamil-nadu-2026.webp";
+import ukraineDroneMoscowImg from "@/assets/ukraine-drone-moscow-may-2026.webp";
+import giulianiCriticalImg from "@/assets/giuliani-critical-condition-2026.webp";
+import byjuInsolvencyImg from "@/assets/byju-supreme-court-insolvency-2026.webp";
 const today = new Date().toISOString();
 
 export const newArticles: NewsArticle[] = [
+  {
+    title: "West Bengal Election Results 2026: BJP Stuns TMC, Crosses 170-Seat Mark to End Mamata Banerjee's 15-Year Rule",
+    description: "Early counting trends on May 4, 2026 show the BJP crossing the 170-seat mark in West Bengal, ending Mamata Banerjee's 15-year Trinamool Congress government in a historic political shift.",
+    content: `POLITICS — Kolkata | May 4, 2026
+
+In one of the most consequential political verdicts of the decade, the Bharatiya Janata Party has stormed past the 170-seat mark in West Bengal, ending Chief Minister Mamata Banerjee's 15-year Trinamool Congress rule, according to early counting trends released by the Election Commission on Monday.
+
+Counting began at 8 AM across all 294 constituencies, and within the first three hours, BJP candidates were leading or had won in over 170 seats — well past the 148-seat majority mark in the state assembly. The Trinamool Congress was trailing in around 90 seats, while the Congress-Left alliance was reduced to a marginal presence.
+
+BJP workers erupted in celebration outside the party's state headquarters in Kolkata, with sweets distributed and the party flag hoisted across district offices. Senior BJP leaders credited the verdict to a sustained campaign on issues of post-poll violence, infiltration, industrial stagnation and central welfare delivery.
+
+Mamata Banerjee, who has not yet conceded, was reported to be in consultations with her core team at her Kalighat residence. Analysts said the result reshapes the national opposition landscape and gives the BJP a major boost ahead of the 2029 general elections.`,
+    category: "politics",
+    source: "BBC / Times of India / News18",
+    publishedAt: "2026-05-04T11:30:00+05:30",
+    url: "west-bengal-election-results-2026-bjp-victory-mamata-banerjee",
+    thumbnail: bjpWestBengalVictoryImg,
+    image: bjpWestBengalVictoryImg,
+  },
+  {
+    title: "Tamil Nadu Election Results 2026: Vijay's TVK Leads in Over 100 Seats, Reshapes State Politics",
+    description: "Actor-politician Vijay's Tamilaga Vettri Kazhagam (TVK) is leading in over 100 of Tamil Nadu's 234 assembly seats, mounting a serious challenge to the incumbent DMK-led government.",
+    content: `POLITICS — Chennai | May 4, 2026
+
+Tamil Nadu's political landscape is being dramatically rewritten as actor-politician Vijay's Tamilaga Vettri Kazhagam (TVK) has surged to leads in over 100 of the state's 234 assembly seats, according to early trends released by the Election Commission on Monday morning.
+
+The DMK-led Secular Progressive Alliance, which entered counting day as the incumbent, was leading in around 80 seats, while the AIADMK-BJP combine was ahead in roughly 40 constituencies. Independents and smaller parties accounted for the rest.
+
+TVK supporters gathered in massive numbers outside the party headquarters in Chennai, waving the party's red-and-yellow flags and chanting Vijay's name. The actor, who entered politics formally in 2024, has built his campaign around anti-corruption, youth employment, women's safety and a generational change in Tamil Nadu politics.
+
+Political observers said the trends — if they hold — would mark the most significant electoral upset in Tamil Nadu since 1967, breaking the decades-long Dravidian binary between the DMK and AIADMK. Final results are expected by Monday evening.`,
+    category: "politics",
+    source: "Times of India / The Hindu",
+    publishedAt: "2026-05-04T11:00:00+05:30",
+    url: "tamil-nadu-election-results-2026-vijay-tvk-leads",
+    thumbnail: vijayTvkTamilNaduImg,
+    image: vijayTvkTamilNaduImg,
+  },
+  {
+    title: "Ukrainian Drone Strikes Moscow High-Rise Ahead of Victory Day, Strait of Hormuz Tensions Push Oil Higher",
+    description: "A Ukrainian drone struck a high-rise building in Moscow ahead of Russia's Victory Day celebrations, while rising tensions in the Strait of Hormuz are pushing global oil prices higher.",
+    content: `WORLD — Moscow / Tehran | May 4, 2026
+
+A Ukrainian drone struck a high-rise residential building in Moscow in the early hours of Monday, just days before Russia's annual Victory Day parade on May 9, Russian emergency services confirmed. Officials said the strike caused damage to upper floors and a small fire, with at least four people injured. Air defences engaged multiple drones over the Moscow region overnight.
+
+The strike — among the deepest into the Russian capital since the conflict began — comes as Kyiv signals it intends to keep pressure on Russian command and logistics targets despite ongoing diplomatic contacts. Russian state media accused Ukraine of trying to "disrupt" Victory Day celebrations.
+
+Separately, tensions in the Strait of Hormuz have escalated, with reports of Iranian naval vessels harassing commercial shipping in the strategic waterway. Brent crude rose more than 2 percent in early Asian trading on fears of a supply disruption through the chokepoint that handles roughly a fifth of the world's seaborne oil.
+
+Western governments have called for restraint, while India and China — both major oil importers — are closely monitoring the situation. The Indian government said it has contingency plans in place to ensure crude supply security.`,
+    category: "world",
+    source: "BBC / NDTV World",
+    publishedAt: "2026-05-04T09:45:00+05:30",
+    url: "ukraine-drone-moscow-strait-of-hormuz-tensions-may-2026",
+    thumbnail: ukraineDroneMoscowImg,
+    image: ukraineDroneMoscowImg,
+  },
+  {
+    title: "Rudy Giuliani in Critical Condition: Former New York Mayor and Trump Ally Hospitalised",
+    description: "Rudy Giuliani, the former Mayor of New York and longtime Donald Trump ally, has been hospitalised in critical condition, according to people familiar with his treatment.",
+    content: `WORLD — New York | May 4, 2026
+
+Rudy Giuliani, the former Mayor of New York City and longtime ally of US President Donald Trump, is in critical condition in a hospital, according to people familiar with his treatment. The 81-year-old was admitted over the weekend after his condition deteriorated rapidly.
+
+Family members and aides have not publicly disclosed the underlying cause of his hospitalisation. A statement issued by his team late on Sunday said only that Giuliani was "receiving the best possible care" and asked for privacy and prayers.
+
+Giuliani, who rose to international prominence as Mayor of New York during the September 11 attacks, served as one of President Trump's most prominent personal lawyers and advisers in subsequent years. He has faced multiple legal challenges over the past few years related to his post-2020 election work.
+
+President Trump, asked about the situation by reporters, said Giuliani was "a great American" and that he was praying for his recovery. Updates on Giuliani's condition are expected through the day.`,
+    category: "world",
+    source: "Business Standard / India Today",
+    publishedAt: "2026-05-04T09:00:00+05:30",
+    url: "rudy-giuliani-critical-condition-hospitalised-may-2026",
+    thumbnail: giulianiCriticalImg,
+    image: giulianiCriticalImg,
+  },
+  {
+    title: "Supreme Court Dismisses Byju Raveendran's Plea, Clears Path for Byju's Insolvency Inquiry; BHEL Surges 7%",
+    description: "The Supreme Court has dismissed Byju Raveendran's plea, allowing the insolvency inquiry into Byju's to proceed. Separately, BHEL shares surged 7 percent after strong Q4 results.",
+    content: `BUSINESS — New Delhi | May 4, 2026
+
+The Supreme Court on Monday dismissed a plea filed by Byju Raveendran, founder of the embattled edtech company Byju's, clearing the path for the insolvency inquiry against Think & Learn Pvt Ltd to proceed. The bench held that there were "no grounds" to interfere with the lower tribunal's order admitting the insolvency proceedings.
+
+The decision is a significant setback for Raveendran, who has fought a sustained legal battle to retain control over the once-valued $22-billion startup. The insolvency resolution professional will now be empowered to take charge of operations, examine creditor claims and explore a resolution plan or liquidation. Lenders, including a consortium of US-based term-loan holders, welcomed the ruling.
+
+In separate market-moving news, shares of state-run Bharat Heavy Electricals Ltd (BHEL) surged about 7 percent on Monday after the company reported a sharp jump in fourth-quarter profit and revenue, supported by strong execution in its power and industrial segments and a record order book.
+
+The benchmark indices opened mixed but turned positive in mid-session as capital-goods and PSU stocks rallied on the back of BHEL's results and broader optimism around the government's infrastructure capex pipeline.`,
+    category: "breaking",
+    source: "Business Standard / Times of India",
+    publishedAt: "2026-05-04T08:45:00+05:30",
+    url: "byju-raveendran-supreme-court-insolvency-bhel-q4-may-2026",
+    thumbnail: byjuInsolvencyImg,
+    image: byjuInsolvencyImg,
+  },
   {
     title: "Assembly Election Results 2026: Counting Begins for 824 Seats Across Five States",
     description: "Vote counting has begun on May 4, 2026 for high-stakes assembly elections in West Bengal, Tamil Nadu, Assam, Kerala and Puducherry, with early trends expected by mid-morning.",
