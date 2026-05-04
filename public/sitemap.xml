@@ -3,6 +3,51 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://indianewsai.com/article/west-bengal-election-results-2026-bjp-victory-mamata-banerjee</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://indianewsai.com/assets/bjp-west-bengal-victory-2026.webp</image:loc>
+      <image:title>BJP Historic Victory in West Bengal 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/tamil-nadu-election-results-2026-vijay-tvk-leads</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://indianewsai.com/assets/vijay-tvk-tamil-nadu-2026.webp</image:loc>
+      <image:title>Vijay TVK Leads Tamil Nadu 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/ukraine-drone-moscow-strait-of-hormuz-tensions-may-2026</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://indianewsai.com/assets/ukraine-drone-moscow-may-2026.webp</image:loc>
+      <image:title>Ukrainian Drone Strikes Moscow May 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/rudy-giuliani-critical-condition-hospitalised-may-2026</loc>
+    <changefreq>hourly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://indianewsai.com/assets/giuliani-critical-condition-2026.webp</image:loc>
+      <image:title>Rudy Giuliani in Critical Condition May 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://indianewsai.com/article/byju-raveendran-supreme-court-insolvency-bhel-q4-may-2026</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://indianewsai.com/assets/byju-supreme-court-insolvency-2026.webp</image:loc>
+      <image:title>Supreme Court Dismisses Byju Raveendran Plea</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://indianewsai.com/article/assembly-election-results-2026-counting-five-states</loc>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
